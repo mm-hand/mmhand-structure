@@ -81,7 +81,7 @@ git add 文件夹/文件名.f3d
 git commit -m "Update: Adjust motor mounting hole diameter"
 
 # 推送到远程仓库
-git push
+git push origin
 ```
 
 ---
