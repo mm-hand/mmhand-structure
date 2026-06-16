@@ -7,9 +7,9 @@
 
 <link name="base_link">
   <inertial>
-    <origin xyz="-0.056388 0.035487 -0.006944" rpy="0.0 0.0 0.0"/>
-    <mass value="1.4221532414616935"/>
-    <inertia ixx="0.001326" iyy="0.001083" izz="0.001765" ixy="0.00022" iyz="3.5e-05" ixz="0.000187"/>
+    <origin xyz="0.007458 0.002004 -0.015455" rpy="0.0 0.0 0.0"/>
+    <mass value="0.12254939339104491"/>
+    <inertia ixx="9.8e-05" iyy="5.4e-05" izz="4.8e-05" ixy="-0.0" iyz="5e-06" ixz="0.0"/>
   </inertial>
   <visual>
     <origin xyz="-0.0 -0.0 -0.0" rpy="0.0 0.0 0.0"/>
@@ -22,109 +22,25 @@
     <origin xyz="-0.0 -0.0 -0.0" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/base_link.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-  </collision>
-</link>
-
-<link name="base_link_1_finger_base_1">
-  <inertial>
-    <origin xyz="-0.013507 -0.001274 0.000961" rpy="0.0 0.0 0.0"/>
-    <mass value="0.06850087468328578"/>
-    <inertia ixx="5e-06" iyy="6e-06" izz="6e-06" ixy="0.0" iyz="0.0" ixz="-1e-06"/>
-  </inertial>
-  <visual>
-    <origin xyz="0.00494 0.0 0.0101" rpy="0.0 0.0 0.0"/>
-    <geometry>
-      <mesh filename="../meshes/base_link_1_finger_base_1.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-    <material name="silver"/>
-  </visual>
-  <collision>
-    <origin xyz="0.00494 0.0 0.0101" rpy="0.0 0.0 0.0"/>
-    <geometry>
-      <mesh filename="../meshes/base_link_1_finger_base_1.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-  </collision>
-</link>
-
-<link name="base_link_1_finger_base_2">
-  <inertial>
-    <origin xyz="-0.013507 -0.001274 0.000961" rpy="0.0 0.0 0.0"/>
-    <mass value="0.06850087468328578"/>
-    <inertia ixx="5e-06" iyy="6e-06" izz="6e-06" ixy="0.0" iyz="0.0" ixz="-1e-06"/>
-  </inertial>
-  <visual>
-    <origin xyz="0.00494 -0.024 0.0101" rpy="0.0 0.0 0.0"/>
-    <geometry>
-      <mesh filename="../meshes/base_link_1_finger_base_2.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-    <material name="silver"/>
-  </visual>
-  <collision>
-    <origin xyz="0.00494 -0.024 0.0101" rpy="0.0 0.0 0.0"/>
-    <geometry>
-      <mesh filename="../meshes/base_link_1_finger_base_2.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-  </collision>
-</link>
-
-<link name="base_link_1_finger_base_3">
-  <inertial>
-    <origin xyz="-0.013507 -0.001274 0.000961" rpy="0.0 0.0 0.0"/>
-    <mass value="0.06850087468328578"/>
-    <inertia ixx="5e-06" iyy="6e-06" izz="6e-06" ixy="0.0" iyz="0.0" ixz="-1e-06"/>
-  </inertial>
-  <visual>
-    <origin xyz="0.00494 -0.048 0.0101" rpy="0.0 0.0 0.0"/>
-    <geometry>
-      <mesh filename="../meshes/base_link_1_finger_base_3.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-    <material name="silver"/>
-  </visual>
-  <collision>
-    <origin xyz="0.00494 -0.048 0.0101" rpy="0.0 0.0 0.0"/>
-    <geometry>
-      <mesh filename="../meshes/base_link_1_finger_base_3.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-  </collision>
-</link>
-
-<link name="base_link_1_finger_base_4">
-  <inertial>
-    <origin xyz="-0.013507 -0.001274 0.000961" rpy="0.0 0.0 0.0"/>
-    <mass value="0.06850087468328578"/>
-    <inertia ixx="5e-06" iyy="6e-06" izz="6e-06" ixy="0.0" iyz="0.0" ixz="-1e-06"/>
-  </inertial>
-  <visual>
-    <origin xyz="0.020417 -0.071992 0.010072" rpy="0.0 0.0 0.0"/>
-    <geometry>
-      <mesh filename="../meshes/base_link_1_finger_base_4.stl" scale="0.001 0.001 0.001"/>
-    </geometry>
-    <material name="silver"/>
-  </visual>
-  <collision>
-    <origin xyz="0.020417 -0.071992 0.010072" rpy="0.0 0.0 0.0"/>
-    <geometry>
-      <mesh filename="../meshes/base_link_1_finger_base_4.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
 <link name="mmhand_finger_1_abduction_adduction_link_1">
   <inertial>
-    <origin xyz="0.006269 -6.6e-05 0.008877" rpy="0.0 0.0 0.0"/>
-    <mass value="0.02334621180805085"/>
+    <origin xyz="0.006281 -2.2e-05 0.008881" rpy="0.0 0.0 0.0"/>
+    <mass value="0.023248968991619146"/>
     <inertia ixx="1e-06" iyy="1e-06" izz="1e-06" ixy="0.0" iyz="0.0" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="0.005001 0.0 0.01985" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.094 0.040324 0.053643" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_finger_1_abduction_adduction_link_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.005001 0.0 0.01985" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.094 0.040324 0.053643" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_finger_1_abduction_adduction_link_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -133,19 +49,19 @@
 
 <link name="mmhand_finger_1_proximal_phalanx_1">
   <inertial>
-    <origin xyz="0.016707 0.00664 -1.4e-05" rpy="0.0 0.0 0.0"/>
-    <mass value="0.05336249966856906"/>
-    <inertia ixx="3e-06" iyy="1e-05" izz="1e-05" ixy="1e-06" iyz="-0.0" ixz="0.0"/>
+    <origin xyz="0.017432 0.006511 -2.3e-05" rpy="0.0 0.0 0.0"/>
+    <mass value="0.049196091250661385"/>
+    <inertia ixx="2e-06" iyy="9e-06" izz="9e-06" ixy="0.0" iyz="-0.0" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="-0.007725 0.0055 0.011482" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.106725 0.045824 0.045275" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_finger_1_proximal_phalanx_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.007725 0.0055 0.011482" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.106725 0.045824 0.045275" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_finger_1_proximal_phalanx_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -155,18 +71,18 @@
 <link name="mmhand_finger_1_distal_phalanx_1">
   <inertial>
     <origin xyz="0.01311 0.005012 -0.000294" rpy="0.0 0.0 0.0"/>
-    <mass value="0.044366991688042604"/>
+    <mass value="0.0443669832442395"/>
     <inertia ixx="2e-06" iyy="5e-06" izz="6e-06" ixy="-0.0" iyz="0.0" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="-0.046857 0.00395 0.011542" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.145858 0.044274 0.045335" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_finger_1_distal_phalanx_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.046857 0.00395 0.011542" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.145858 0.044274 0.045335" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_finger_1_distal_phalanx_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -176,39 +92,144 @@
 <link name="mmhand_finger_1_fingertip_1">
   <inertial>
     <origin xyz="0.014388 0.007432 -0.00086" rpy="0.0 0.0 0.0"/>
-    <mass value="0.04181801696065014"/>
+    <mass value="0.0418180165297926"/>
     <inertia ixx="1e-06" iyy="5e-06" izz="5e-06" ixy="-0.0" iyz="-0.0" ixz="1e-06"/>
   </inertial>
   <visual>
-    <origin xyz="-0.075857 0.007145 0.011547" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.174858 0.047469 0.04534" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_finger_1_fingertip_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.075857 0.007145 0.011547" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.174858 0.047469 0.04534" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_finger_1_fingertip_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
-<link name="mmhand_thumb_1_thumb_base_1">
+<link name="palm_1">
   <inertial>
-    <origin xyz="0.000171 0.001092 -0.019158" rpy="0.0 0.0 0.0"/>
-    <mass value="0.0982697057384507"/>
-    <inertia ixx="1.5e-05" iyy="1.5e-05" izz="7e-06" ixy="-1e-06" iyz="1e-06" ixz="0.0"/>
+    <origin xyz="-0.051391 0.033334 -0.008163" rpy="0.0 0.0 0.0"/>
+    <mass value="0.8466660286347141"/>
+    <inertia ixx="0.000774" iyy="0.000536" izz="0.001025" ixy="0.000109" iyz="5.7e-05" ixz="3.7e-05"/>
   </inertial>
   <visual>
-    <origin xyz="0.052122 0.000887 -0.00335" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.099 0.040324 0.033543" rpy="0.0 0.0 0.0"/>
+    <geometry>
+      <mesh filename="../meshes/palm_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.099 0.040324 0.033543" rpy="0.0 0.0 0.0"/>
+    <geometry>
+      <mesh filename="../meshes/palm_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="palm_1_finger_base_1">
+  <inertial>
+    <origin xyz="0.085455 -0.041605 -0.032586" rpy="0.0 0.0 0.0"/>
+    <mass value="0.06850088183255826"/>
+    <inertia ixx="5e-06" iyy="6e-06" izz="6e-06" ixy="0.0" iyz="0.0" ixz="-1e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.004901 -8e-06 0.010346" rpy="0.0 0.0 0.0"/>
+    <geometry>
+      <mesh filename="../meshes/palm_1_finger_base_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.004901 -8e-06 0.010346" rpy="0.0 0.0 0.0"/>
+    <geometry>
+      <mesh filename="../meshes/palm_1_finger_base_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="palm_1_finger_base_2">
+  <inertial>
+    <origin xyz="0.085455 -0.041605 -0.032586" rpy="0.0 0.0 0.0"/>
+    <mass value="0.06850088183255826"/>
+    <inertia ixx="5e-06" iyy="6e-06" izz="6e-06" ixy="0.0" iyz="0.0" ixz="-1e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.004901 -0.024008 0.010346" rpy="0.0 0.0 0.0"/>
+    <geometry>
+      <mesh filename="../meshes/palm_1_finger_base_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.004901 -0.024008 0.010346" rpy="0.0 0.0 0.0"/>
+    <geometry>
+      <mesh filename="../meshes/palm_1_finger_base_2.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="palm_1_finger_base_3">
+  <inertial>
+    <origin xyz="0.085455 -0.041605 -0.032586" rpy="0.0 0.0 0.0"/>
+    <mass value="0.06850088183255826"/>
+    <inertia ixx="5e-06" iyy="6e-06" izz="6e-06" ixy="0.0" iyz="0.0" ixz="-1e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.004901 -0.048008 0.010346" rpy="0.0 0.0 0.0"/>
+    <geometry>
+      <mesh filename="../meshes/palm_1_finger_base_3.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.004901 -0.048008 0.010346" rpy="0.0 0.0 0.0"/>
+    <geometry>
+      <mesh filename="../meshes/palm_1_finger_base_3.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="palm_1_finger_base_4">
+  <inertial>
+    <origin xyz="0.085455 -0.041605 -0.032586" rpy="0.0 0.0 0.0"/>
+    <mass value="0.06850088183255826"/>
+    <inertia ixx="5e-06" iyy="6e-06" izz="6e-06" ixy="0.0" iyz="0.0" ixz="-1e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.020378 -0.072 0.010318" rpy="0.0 0.0 0.0"/>
+    <geometry>
+      <mesh filename="../meshes/palm_1_finger_base_4.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.020378 -0.072 0.010318" rpy="0.0 0.0 0.0"/>
+    <geometry>
+      <mesh filename="../meshes/palm_1_finger_base_4.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="mmhand_thumb_1_thumb_base_1">
+  <inertial>
+    <origin xyz="7.2e-05 -0.000646 -0.021782" rpy="0.0 0.0 0.0"/>
+    <mass value="0.10024384807466069"/>
+    <inertia ixx="1.8e-05" iyy="1.9e-05" izz="7e-06" ixy="-0.0" iyz="-0.0" ixz="-1e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.046902 0.041185 0.024743" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_thumb_1_thumb_base_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.052122 0.000887 -0.00335" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.046902 0.041185 0.024743" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_thumb_1_thumb_base_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -217,19 +238,19 @@
 
 <link name="mmhand_thumb_1_mmhand_finger_5_abduction_adduction_link_1">
   <inertial>
-    <origin xyz="-0.00975 -0.004265 -0.0022" rpy="0.0 0.0 0.0"/>
-    <mass value="0.02334621180805085"/>
-    <inertia ixx="1e-06" iyy="1e-06" izz="1e-06" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
+    <origin xyz="-0.010547 0.000628 -0.002585" rpy="0.0 0.0 0.0"/>
+    <mass value="0.023248968991619146"/>
+    <inertia ixx="1e-06" iyy="1e-06" izz="1e-06" ixy="0.0" iyz="0.0" ixz="-0.0"/>
   </inertial>
   <visual>
-    <origin xyz="0.044328 0.000798 0.038708" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.0533 0.042291 0.071074" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_thumb_1_mmhand_finger_5_abduction_adduction_link_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.044328 0.000798 0.038708" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.0533 0.042291 0.071074" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_thumb_1_mmhand_finger_5_abduction_adduction_link_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -238,19 +259,19 @@
 
 <link name="mmhand_thumb_1_mmhand_finger_5_proximal_phalanx_1">
   <inertial>
-    <origin xyz="-0.002238 -0.013013 -0.012201" rpy="0.0 0.0 0.0"/>
-    <mass value="0.05336249966856906"/>
-    <inertia ixx="1e-05" iyy="9e-06" izz="4e-06" ixy="-1e-06" iyz="-2e-06" ixz="-2e-06"/>
+    <origin xyz="-0.006591 -0.005225 -0.016599" rpy="0.0 0.0 0.0"/>
+    <mass value="0.049196091250661385"/>
+    <inertia ixx="9e-06" iyy="9e-06" izz="3e-06" ixy="0.0" iyz="1e-06" ixz="-2e-06"/>
   </inertial>
   <visual>
-    <origin xyz="0.057018 0.00292 0.04854" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.041119 0.03574 0.079494" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_thumb_1_mmhand_finger_5_proximal_phalanx_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.057018 0.00292 0.04854" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.041119 0.03574 0.079494" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_thumb_1_mmhand_finger_5_proximal_phalanx_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -259,19 +280,19 @@
 
 <link name="mmhand_thumb_1_mmhand_finger_5_distal_phalanx_1">
   <inertial>
-    <origin xyz="-0.001561 -0.009983 -0.009745" rpy="0.0 0.0 0.0"/>
-    <mass value="0.044366991688042604"/>
-    <inertia ixx="6e-06" iyy="5e-06" izz="3e-06" ixy="-0.0" iyz="-1e-06" ixz="-1e-06"/>
+    <origin xyz="-0.004704 -0.004049 -0.012592" rpy="0.0 0.0 0.0"/>
+    <mass value="0.0443669832442395"/>
+    <inertia ixx="5e-06" iyy="5e-06" izz="3e-06" ixy="0.0" iyz="0.0" ixz="-1e-06"/>
   </inertial>
   <visual>
-    <origin xyz="0.066671 0.021006 0.081908" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.026882 0.034439 0.115955" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_thumb_1_mmhand_finger_5_distal_phalanx_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.066671 0.021006 0.081908" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.026882 0.034439 0.115955" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_thumb_1_mmhand_finger_5_distal_phalanx_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -280,19 +301,19 @@
 
 <link name="mmhand_thumb_1_mmhand_finger_5_fingertip_1">
   <inertial>
-    <origin xyz="-0.000611 -0.012567 -0.010232" rpy="0.0 0.0 0.0"/>
-    <mass value="0.04181801696065014"/>
-    <inertia ixx="5e-06" iyy="4e-06" izz="2e-06" ixy="-0.0" iyz="-1e-06" ixz="-0.0"/>
+    <origin xyz="-0.004744 -0.006379 -0.014134" rpy="0.0 0.0 0.0"/>
+    <mass value="0.0418180165297926"/>
+    <inertia ixx="5e-06" iyy="5e-06" izz="1e-06" ixy="0.0" iyz="0.0" ixz="-1e-06"/>
   </inertial>
   <visual>
-    <origin xyz="0.075236 0.030572 0.108106" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.016479 0.029144 0.142693" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_thumb_1_mmhand_finger_5_fingertip_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.075236 0.030572 0.108106" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.016479 0.029144 0.142693" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_thumb_1_mmhand_finger_5_fingertip_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -301,19 +322,19 @@
 
 <link name="mmhand_finger_2_abduction_adduction_link_1">
   <inertial>
-    <origin xyz="0.006269 -6.6e-05 0.008877" rpy="0.0 0.0 0.0"/>
-    <mass value="0.02334621180805085"/>
+    <origin xyz="0.006281 -2.2e-05 0.008881" rpy="0.0 0.0 0.0"/>
+    <mass value="0.023248968991619146"/>
     <inertia ixx="1e-06" iyy="1e-06" izz="1e-06" ixy="0.0" iyz="0.0" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="0.005001 -0.024 0.01985" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.094 0.016324 0.053643" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_finger_2_abduction_adduction_link_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.005001 -0.024 0.01985" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.094 0.016324 0.053643" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_finger_2_abduction_adduction_link_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -322,19 +343,19 @@
 
 <link name="mmhand_finger_2_proximal_phalanx_1">
   <inertial>
-    <origin xyz="0.016707 0.00664 -1.4e-05" rpy="0.0 0.0 0.0"/>
-    <mass value="0.05336249966856906"/>
-    <inertia ixx="3e-06" iyy="1e-05" izz="1e-05" ixy="1e-06" iyz="-0.0" ixz="0.0"/>
+    <origin xyz="0.017432 0.006511 -2.3e-05" rpy="0.0 0.0 0.0"/>
+    <mass value="0.049196091250661385"/>
+    <inertia ixx="2e-06" iyy="9e-06" izz="9e-06" ixy="0.0" iyz="-0.0" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="-0.007725 -0.0185 0.011482" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.106725 0.021824 0.045275" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_finger_2_proximal_phalanx_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.007725 -0.0185 0.011482" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.106725 0.021824 0.045275" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_finger_2_proximal_phalanx_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -344,18 +365,18 @@
 <link name="mmhand_finger_2_distal_phalanx_1">
   <inertial>
     <origin xyz="0.01311 0.005012 -0.000294" rpy="0.0 0.0 0.0"/>
-    <mass value="0.044366991688042604"/>
+    <mass value="0.0443669832442395"/>
     <inertia ixx="2e-06" iyy="5e-06" izz="6e-06" ixy="-0.0" iyz="0.0" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="-0.046857 -0.02005 0.011542" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.145858 0.020274 0.045335" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_finger_2_distal_phalanx_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.046857 -0.02005 0.011542" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.145858 0.020274 0.045335" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_finger_2_distal_phalanx_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -365,18 +386,18 @@
 <link name="mmhand_finger_2_fingertip_1">
   <inertial>
     <origin xyz="0.014388 0.007432 -0.00086" rpy="0.0 0.0 0.0"/>
-    <mass value="0.04181801696065014"/>
+    <mass value="0.0418180165297926"/>
     <inertia ixx="1e-06" iyy="5e-06" izz="5e-06" ixy="-0.0" iyz="-0.0" ixz="1e-06"/>
   </inertial>
   <visual>
-    <origin xyz="-0.075857 -0.016855 0.011547" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.174858 0.023469 0.04534" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_finger_2_fingertip_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.075857 -0.016855 0.011547" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.174858 0.023469 0.04534" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_finger_2_fingertip_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -385,19 +406,19 @@
 
 <link name="mmhand_finger_3_abduction_adduction_link_1">
   <inertial>
-    <origin xyz="0.006269 -6.6e-05 0.008877" rpy="0.0 0.0 0.0"/>
-    <mass value="0.02334621180805085"/>
+    <origin xyz="0.006281 -2.2e-05 0.008881" rpy="0.0 0.0 0.0"/>
+    <mass value="0.023248968991619146"/>
     <inertia ixx="1e-06" iyy="1e-06" izz="1e-06" ixy="0.0" iyz="0.0" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="0.005001 -0.048 0.01985" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.094 -0.007676 0.053643" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_finger_3_abduction_adduction_link_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.005001 -0.048 0.01985" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.094 -0.007676 0.053643" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_finger_3_abduction_adduction_link_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -406,19 +427,19 @@
 
 <link name="mmhand_finger_3_proximal_phalanx_1">
   <inertial>
-    <origin xyz="0.016707 0.00664 -1.4e-05" rpy="0.0 0.0 0.0"/>
-    <mass value="0.05336249966856906"/>
-    <inertia ixx="3e-06" iyy="1e-05" izz="1e-05" ixy="1e-06" iyz="-0.0" ixz="0.0"/>
+    <origin xyz="0.017432 0.006511 -2.3e-05" rpy="0.0 0.0 0.0"/>
+    <mass value="0.049196091250661385"/>
+    <inertia ixx="2e-06" iyy="9e-06" izz="9e-06" ixy="0.0" iyz="-0.0" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="-0.007725 -0.0425 0.011482" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.106725 -0.002176 0.045275" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_finger_3_proximal_phalanx_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.007725 -0.0425 0.011482" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.106725 -0.002176 0.045275" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_finger_3_proximal_phalanx_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -428,18 +449,18 @@
 <link name="mmhand_finger_3_distal_phalanx_1">
   <inertial>
     <origin xyz="0.01311 0.005012 -0.000294" rpy="0.0 0.0 0.0"/>
-    <mass value="0.044366991688042604"/>
+    <mass value="0.0443669832442395"/>
     <inertia ixx="2e-06" iyy="5e-06" izz="6e-06" ixy="-0.0" iyz="0.0" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="-0.046857 -0.04405 0.011542" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.145858 -0.003726 0.045335" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_finger_3_distal_phalanx_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.046857 -0.04405 0.011542" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.145858 -0.003726 0.045335" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_finger_3_distal_phalanx_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -449,18 +470,18 @@
 <link name="mmhand_finger_3_fingertip_1">
   <inertial>
     <origin xyz="0.014388 0.007432 -0.00086" rpy="0.0 0.0 0.0"/>
-    <mass value="0.04181801696065014"/>
+    <mass value="0.0418180165297926"/>
     <inertia ixx="1e-06" iyy="5e-06" izz="5e-06" ixy="-0.0" iyz="-0.0" ixz="1e-06"/>
   </inertial>
   <visual>
-    <origin xyz="-0.075857 -0.040855 0.011547" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.174858 -0.000531 0.04534" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_finger_3_fingertip_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.075857 -0.040855 0.011547" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.174858 -0.000531 0.04534" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_finger_3_fingertip_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -469,19 +490,19 @@
 
 <link name="mmhand_finger_4_abduction_adduction_link_1">
   <inertial>
-    <origin xyz="0.006269 -6.6e-05 0.008877" rpy="0.0 0.0 0.0"/>
-    <mass value="0.02334621180805085"/>
+    <origin xyz="0.006281 -2.2e-05 0.008881" rpy="0.0 0.0 0.0"/>
+    <mass value="0.023248968991619146"/>
     <inertia ixx="1e-06" iyy="1e-06" izz="1e-06" ixy="0.0" iyz="0.0" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="0.020478 -0.071992 0.019822" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.078523 -0.031668 0.053615" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_finger_4_abduction_adduction_link_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.020478 -0.071992 0.019822" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.078523 -0.031668 0.053615" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_finger_4_abduction_adduction_link_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -490,19 +511,19 @@
 
 <link name="mmhand_finger_4_proximal_phalanx_1">
   <inertial>
-    <origin xyz="0.016707 0.00664 -1.4e-05" rpy="0.0 0.0 0.0"/>
-    <mass value="0.05336249966856906"/>
-    <inertia ixx="3e-06" iyy="1e-05" izz="1e-05" ixy="1e-06" iyz="-0.0" ixz="0.0"/>
+    <origin xyz="0.017432 0.006511 -2.3e-05" rpy="0.0 0.0 0.0"/>
+    <mass value="0.049196091250661385"/>
+    <inertia ixx="2e-06" iyy="9e-06" izz="9e-06" ixy="0.0" iyz="-0.0" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="0.007753 -0.066492 0.011454" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.091248 -0.026168 0.045247" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_finger_4_proximal_phalanx_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.007753 -0.066492 0.011454" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.091248 -0.026168 0.045247" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_finger_4_proximal_phalanx_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -512,18 +533,18 @@
 <link name="mmhand_finger_4_distal_phalanx_1">
   <inertial>
     <origin xyz="0.01311 0.005012 -0.000294" rpy="0.0 0.0 0.0"/>
-    <mass value="0.044366991688042604"/>
+    <mass value="0.0443669832442395"/>
     <inertia ixx="2e-06" iyy="5e-06" izz="6e-06" ixy="-0.0" iyz="0.0" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="-0.031379 -0.068042 0.011514" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.13038 -0.027718 0.045307" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_finger_4_distal_phalanx_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.031379 -0.068042 0.011514" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.13038 -0.027718 0.045307" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_finger_4_distal_phalanx_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -533,62 +554,62 @@
 <link name="mmhand_finger_4_fingertip_1">
   <inertial>
     <origin xyz="0.014388 0.007432 -0.00086" rpy="0.0 0.0 0.0"/>
-    <mass value="0.04181801696065014"/>
+    <mass value="0.0418180165297926"/>
     <inertia ixx="1e-06" iyy="5e-06" izz="5e-06" ixy="-0.0" iyz="-0.0" ixz="1e-06"/>
   </inertial>
   <visual>
-    <origin xyz="-0.060379 -0.064847 0.011519" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.15938 -0.024523 0.045312" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_finger_4_fingertip_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.060379 -0.064847 0.011519" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.15938 -0.024523 0.045312" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_finger_4_fingertip_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
-<joint name="middle_aa_joint" type="revolute">
-  <origin xyz="-6.1e-05 0.0 -0.00975" rpy="0.0 -0.0 0.0"/>
-  <parent link="base_link_1_finger_base_2"/>
-  <child link="mmhand_finger_2_abduction_adduction_link_1"/>
-  <axis xyz="-0.0 -0.0 -1.0"/>
-  <limit upper="0.401426" lower="-0.418879" effort="100" velocity="100"/>
-</joint>
-
-<joint name="ring_aa_joint" type="revolute">
-  <origin xyz="-6.1e-05 0.0 -0.00975" rpy="0.0 -0.0 0.0"/>
-  <parent link="base_link_1_finger_base_3"/>
-  <child link="mmhand_finger_3_abduction_adduction_link_1"/>
-  <axis xyz="-0.0 -0.0 -1.0"/>
-  <limit upper="0.366519" lower="-0.890118" effort="100" velocity="100"/>
-</joint>
-
-<joint name="little_aa_joint" type="revolute">
-  <origin xyz="-6.1e-05 0.0 -0.00975" rpy="0.0 -0.0 0.0"/>
-  <parent link="base_link_1_finger_base_4"/>
-  <child link="mmhand_finger_4_abduction_adduction_link_1"/>
-  <axis xyz="-0.0 -0.0 -1.0"/>
-  <limit upper="0.191986" lower="-0.785398" effort="100" velocity="100"/>
+<joint name="thumb_cmc1_joint" type="revolute">
+  <origin xyz="-0.052098 -0.000861 0.0088" rpy="0.0 -0.0 0.0"/>
+  <parent link="palm_1"/>
+  <child link="mmhand_thumb_1_thumb_base_1"/>
+  <axis xyz="0.0 0.0 -1.0"/>
+  <limit upper="0.017453" lower="-1.396263" effort="100" velocity="100"/>
 </joint>
 
 <joint name="index_aa_joint" type="revolute">
-  <origin xyz="-6.1e-05 0.0 -0.00975" rpy="0.0 -0.0 0.0"/>
-  <parent link="base_link_1_finger_base_1"/>
+  <origin xyz="0.098901 -0.040332 -0.043297" rpy="0.0 -0.0 0.0"/>
+  <parent link="palm_1_finger_base_1"/>
   <child link="mmhand_finger_1_abduction_adduction_link_1"/>
   <axis xyz="-0.0 -0.0 -1.0"/>
-  <limit upper="0.523599" lower="-0.191986" effort="100" velocity="100"/>
+  <limit upper="0.610865" lower="-0.506145" effort="100" velocity="100"/>
 </joint>
 
-<joint name="thumb_cmc1_joint" type="revolute">
-  <origin xyz="-0.052122 -0.000887 0.00335" rpy="0.0 -0.0 0.0"/>
-  <parent link="base_link"/>
-  <child link="mmhand_thumb_1_thumb_base_1"/>
+<joint name="middle_aa_joint" type="revolute">
+  <origin xyz="0.098901 -0.040332 -0.043297" rpy="0.0 -0.0 0.0"/>
+  <parent link="palm_1_finger_base_2"/>
+  <child link="mmhand_finger_2_abduction_adduction_link_1"/>
   <axis xyz="-0.0 -0.0 -1.0"/>
-  <limit upper="0.349066" lower="-1.064651" effort="100" velocity="100"/>
+  <limit upper="0.593412" lower="-0.523599" effort="100" velocity="100"/>
+</joint>
+
+<joint name="ring_aa_joint" type="revolute">
+  <origin xyz="0.098901 -0.040332 -0.043297" rpy="0.0 -0.0 0.0"/>
+  <parent link="palm_1_finger_base_3"/>
+  <child link="mmhand_finger_3_abduction_adduction_link_1"/>
+  <axis xyz="-0.0 -0.0 -1.0"/>
+  <limit upper="0.506145" lower="-0.802851" effort="100" velocity="100"/>
+</joint>
+
+<joint name="little_aa_joint" type="revolute">
+  <origin xyz="0.098901 -0.040332 -0.043297" rpy="0.0 -0.0 0.0"/>
+  <parent link="palm_1_finger_base_4"/>
+  <child link="mmhand_finger_4_abduction_adduction_link_1"/>
+  <axis xyz="-0.0 -0.0 -1.0"/>
+  <limit upper="0.331613" lower="-0.802851" effort="100" velocity="100"/>
 </joint>
 
 <joint name="mmhand_finger_1_proximal_phalanx_1_mcp_fe_joint" type="revolute">
@@ -596,55 +617,55 @@
   <parent link="mmhand_finger_1_abduction_adduction_link_1"/>
   <child link="mmhand_finger_1_proximal_phalanx_1"/>
   <axis xyz="-0.0 -1.0 0.0"/>
-  <limit upper="0.0" lower="-1.570796" effort="100" velocity="100"/>
+  <limit upper="0.244346" lower="-1.570796" effort="100" velocity="100"/>
 </joint>
 
 <joint name="mmhand_finger_1_distal_phalanx_1_pip_joint" type="revolute">
   <origin xyz="0.039132 0.00155 -6e-05" rpy="0.0 -0.0 0.0"/>
   <parent link="mmhand_finger_1_proximal_phalanx_1"/>
   <child link="mmhand_finger_1_distal_phalanx_1"/>
-  <axis xyz="-0.0 -1.0 0.0"/>
-  <limit upper="0.0" lower="-1.53589" effort="100" velocity="100"/>
+  <axis xyz="0.0 -1.0 0.0"/>
+  <limit upper="0.15708" lower="-1.53589" effort="100" velocity="100"/>
 </joint>
 
 <joint name="mmhand_finger_1_fingertip_1_dip_joint" type="revolute">
   <origin xyz="0.029 -0.003195 -5e-06" rpy="0.0 -0.0 0.0"/>
   <parent link="mmhand_finger_1_distal_phalanx_1"/>
   <child link="mmhand_finger_1_fingertip_1"/>
-  <axis xyz="-0.0 -1.0 -0.0"/>
-  <limit upper="0.0" lower="-1.570796" effort="100" velocity="100"/>
+  <axis xyz="0.0 -1.0 0.0"/>
+  <limit upper="0.20944" lower="-1.570796" effort="100" velocity="100"/>
 </joint>
 
 <joint name="thumb_aa_joint" type="revolute">
-  <origin xyz="0.007795 8.9e-05 -0.042059" rpy="0.0 -0.0 0.0"/>
+  <origin xyz="0.006398 -0.001106 -0.046331" rpy="0.0 -0.0 0.0"/>
   <parent link="mmhand_thumb_1_thumb_base_1"/>
   <child link="mmhand_thumb_1_mmhand_finger_5_abduction_adduction_link_1"/>
-  <axis xyz="-0.911998 -0.185211 0.366"/>
-  <limit upper="0.907571" lower="-0.610865" effort="100" velocity="100"/>
+  <axis xyz="0.930615 -0.016852 -0.365612"/>
+  <limit upper="1.745329" lower="0.750492" effort="100" velocity="100"/>
 </joint>
 
 <joint name="mmhand_thumb_1_mmhand_finger_5_proximal_phalanx_1_mcp_fe_joint" type="revolute">
-  <origin xyz="-0.01269 -0.002122 -0.009832" rpy="0.0 -0.0 0.0"/>
+  <origin xyz="-0.012181 0.006551 -0.00842" rpy="0.0 -0.0 0.0"/>
   <parent link="mmhand_thumb_1_mmhand_finger_5_abduction_adduction_link_1"/>
   <child link="mmhand_thumb_1_mmhand_finger_5_proximal_phalanx_1"/>
-  <axis xyz="-0.316764 0.884884 -0.341526"/>
-  <limit upper="0.0" lower="-1.570796" effort="100" velocity="100"/>
+  <axis xyz="0.04225 0.997208 0.061578"/>
+  <limit upper="0.244346" lower="-1.570796" effort="100" velocity="100"/>
 </joint>
 
 <joint name="mmhand_thumb_1_mmhand_finger_5_distal_phalanx_1_pip_joint" type="revolute">
-  <origin xyz="-0.009653 -0.018086 -0.033369" rpy="0.0 -0.0 0.0"/>
+  <origin xyz="-0.014237 0.0013 -0.036461" rpy="0.0 -0.0 0.0"/>
   <parent link="mmhand_thumb_1_mmhand_finger_5_proximal_phalanx_1"/>
   <child link="mmhand_thumb_1_mmhand_finger_5_distal_phalanx_1"/>
-  <axis xyz="-0.316764 0.884884 -0.341526"/>
-  <limit upper="0.0" lower="-1.53589" effort="100" velocity="100"/>
+  <axis xyz="0.04225 0.997208 0.061578"/>
+  <limit upper="0.15708" lower="-1.53589" effort="100" velocity="100"/>
 </joint>
 
 <joint name="mmhand_thumb_1_mmhand_finger_5_fingertip_1_dip_joint" type="revolute">
-  <origin xyz="-0.008565 -0.009567 -0.026198" rpy="0.0 -0.0 0.0"/>
+  <origin xyz="-0.010403 0.005296 -0.026738" rpy="0.0 -0.0 0.0"/>
   <parent link="mmhand_thumb_1_mmhand_finger_5_distal_phalanx_1"/>
   <child link="mmhand_thumb_1_mmhand_finger_5_fingertip_1"/>
-  <axis xyz="-0.316764 0.884884 -0.341526"/>
-  <limit upper="0.0" lower="-1.570796" effort="100" velocity="100"/>
+  <axis xyz="0.04225 0.997208 0.061578"/>
+  <limit upper="0.20944" lower="-1.570796" effort="100" velocity="100"/>
 </joint>
 
 <joint name="mmhand_finger_2_proximal_phalanx_1_mcp_fe_joint" type="revolute">
@@ -652,23 +673,23 @@
   <parent link="mmhand_finger_2_abduction_adduction_link_1"/>
   <child link="mmhand_finger_2_proximal_phalanx_1"/>
   <axis xyz="-0.0 -1.0 0.0"/>
-  <limit upper="0.0" lower="-1.570796" effort="100" velocity="100"/>
+  <limit upper="0.244346" lower="-1.570796" effort="100" velocity="100"/>
 </joint>
 
 <joint name="mmhand_finger_2_distal_phalanx_1_pip_joint" type="revolute">
   <origin xyz="0.039132 0.00155 -6e-05" rpy="0.0 -0.0 0.0"/>
   <parent link="mmhand_finger_2_proximal_phalanx_1"/>
   <child link="mmhand_finger_2_distal_phalanx_1"/>
-  <axis xyz="-0.0 -1.0 0.0"/>
-  <limit upper="0.0" lower="-1.53589" effort="100" velocity="100"/>
+  <axis xyz="0.0 -1.0 0.0"/>
+  <limit upper="0.15708" lower="-1.53589" effort="100" velocity="100"/>
 </joint>
 
 <joint name="mmhand_finger_2_fingertip_1_dip_joint" type="revolute">
   <origin xyz="0.029 -0.003195 -5e-06" rpy="0.0 -0.0 0.0"/>
   <parent link="mmhand_finger_2_distal_phalanx_1"/>
   <child link="mmhand_finger_2_fingertip_1"/>
-  <axis xyz="-0.0 -1.0 -0.0"/>
-  <limit upper="0.0" lower="-1.570796" effort="100" velocity="100"/>
+  <axis xyz="0.0 -1.0 0.0"/>
+  <limit upper="0.20944" lower="-1.570796" effort="100" velocity="100"/>
 </joint>
 
 <joint name="mmhand_finger_3_proximal_phalanx_1_mcp_fe_joint" type="revolute">
@@ -676,23 +697,23 @@
   <parent link="mmhand_finger_3_abduction_adduction_link_1"/>
   <child link="mmhand_finger_3_proximal_phalanx_1"/>
   <axis xyz="-0.0 -1.0 0.0"/>
-  <limit upper="0.0" lower="-1.570796" effort="100" velocity="100"/>
+  <limit upper="0.244346" lower="-1.570796" effort="100" velocity="100"/>
 </joint>
 
 <joint name="mmhand_finger_3_distal_phalanx_1_pip_joint" type="revolute">
   <origin xyz="0.039132 0.00155 -6e-05" rpy="0.0 -0.0 0.0"/>
   <parent link="mmhand_finger_3_proximal_phalanx_1"/>
   <child link="mmhand_finger_3_distal_phalanx_1"/>
-  <axis xyz="-0.0 -1.0 0.0"/>
-  <limit upper="0.0" lower="-1.53589" effort="100" velocity="100"/>
+  <axis xyz="0.0 -1.0 0.0"/>
+  <limit upper="0.15708" lower="-1.53589" effort="100" velocity="100"/>
 </joint>
 
 <joint name="mmhand_finger_3_fingertip_1_dip_joint" type="revolute">
   <origin xyz="0.029 -0.003195 -5e-06" rpy="0.0 -0.0 0.0"/>
   <parent link="mmhand_finger_3_distal_phalanx_1"/>
   <child link="mmhand_finger_3_fingertip_1"/>
-  <axis xyz="-0.0 -1.0 -0.0"/>
-  <limit upper="0.0" lower="-1.570796" effort="100" velocity="100"/>
+  <axis xyz="0.0 -1.0 0.0"/>
+  <limit upper="0.20944" lower="-1.570796" effort="100" velocity="100"/>
 </joint>
 
 <joint name="mmhand_finger_4_proximal_phalanx_1_mcp_fe_joint" type="revolute">
@@ -700,47 +721,53 @@
   <parent link="mmhand_finger_4_abduction_adduction_link_1"/>
   <child link="mmhand_finger_4_proximal_phalanx_1"/>
   <axis xyz="-0.0 -1.0 0.0"/>
-  <limit upper="0.0" lower="-1.570796" effort="100" velocity="100"/>
+  <limit upper="0.244346" lower="-1.570796" effort="100" velocity="100"/>
 </joint>
 
 <joint name="mmhand_finger_4_distal_phalanx_1_pip_joint" type="revolute">
   <origin xyz="0.039132 0.00155 -6e-05" rpy="0.0 -0.0 0.0"/>
   <parent link="mmhand_finger_4_proximal_phalanx_1"/>
   <child link="mmhand_finger_4_distal_phalanx_1"/>
-  <axis xyz="-0.0 -1.0 0.0"/>
-  <limit upper="0.0" lower="-1.53589" effort="100" velocity="100"/>
+  <axis xyz="0.0 -1.0 0.0"/>
+  <limit upper="0.15708" lower="-1.53589" effort="100" velocity="100"/>
 </joint>
 
 <joint name="mmhand_finger_4_fingertip_1_dip_joint" type="revolute">
   <origin xyz="0.029 -0.003195 -5e-06" rpy="0.0 -0.0 0.0"/>
   <parent link="mmhand_finger_4_distal_phalanx_1"/>
   <child link="mmhand_finger_4_fingertip_1"/>
-  <axis xyz="-0.0 -1.0 -0.0"/>
-  <limit upper="0.0" lower="-1.570796" effort="100" velocity="100"/>
+  <axis xyz="0.0 -1.0 0.0"/>
+  <limit upper="0.20944" lower="-1.570796" effort="100" velocity="100"/>
 </joint>
 
-<joint name="base_link_1_finger_base_1_fixed_joint" type="fixed">
-  <origin xyz="-0.00494 -0.0 -0.0101" rpy="0.0 -0.0 0.0"/>
+<joint name="palm_1_fixed_joint" type="fixed">
+  <origin xyz="0.099 -0.040324 -0.033543" rpy="0.0 -0.0 0.0"/>
   <parent link="base_link"/>
-  <child link="base_link_1_finger_base_1"/>
+  <child link="palm_1"/>
 </joint>
 
-<joint name="base_link_1_finger_base_2_fixed_joint" type="fixed">
-  <origin xyz="-0.00494 0.024 -0.0101" rpy="0.0 -0.0 0.0"/>
-  <parent link="base_link"/>
-  <child link="base_link_1_finger_base_2"/>
+<joint name="palm_1_finger_base_1_fixed_joint" type="fixed">
+  <origin xyz="-0.103901 0.040332 0.023197" rpy="0.0 -0.0 0.0"/>
+  <parent link="palm_1"/>
+  <child link="palm_1_finger_base_1"/>
 </joint>
 
-<joint name="base_link_1_finger_base_3_fixed_joint" type="fixed">
-  <origin xyz="-0.00494 0.048 -0.0101" rpy="0.0 -0.0 0.0"/>
-  <parent link="base_link"/>
-  <child link="base_link_1_finger_base_3"/>
+<joint name="palm_1_finger_base_2_fixed_joint" type="fixed">
+  <origin xyz="-0.103901 0.064332 0.023197" rpy="0.0 -0.0 0.0"/>
+  <parent link="palm_1"/>
+  <child link="palm_1_finger_base_2"/>
 </joint>
 
-<joint name="base_link_1_finger_base_4_fixed_joint" type="fixed">
-  <origin xyz="-0.020417 0.071992 -0.010072" rpy="0.0 -0.0 0.0"/>
-  <parent link="base_link"/>
-  <child link="base_link_1_finger_base_4"/>
+<joint name="palm_1_finger_base_3_fixed_joint" type="fixed">
+  <origin xyz="-0.103901 0.088332 0.023197" rpy="0.0 -0.0 0.0"/>
+  <parent link="palm_1"/>
+  <child link="palm_1_finger_base_3"/>
+</joint>
+
+<joint name="palm_1_finger_base_4_fixed_joint" type="fixed">
+  <origin xyz="-0.119378 0.112324 0.023225" rpy="0.0 -0.0 0.0"/>
+  <parent link="palm_1"/>
+  <child link="palm_1_finger_base_4"/>
 </joint>
 
 </robot>
