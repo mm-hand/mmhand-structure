@@ -45,8 +45,8 @@ links:
   parent link: palm_1
   has mesh: True
   body count: 3
-  occurrence transform cm: [1.2852250844411514e-10, -1.0000000000000004, 4.524850004232472e-16, -0.490034953920059, 1.0000000000000056, 1.2852394570664254e-10, -1.0810037760766718e-15, 0.0007724281061749494, -1.3552527156586495e-20, -2.220581574646727e-16, 1.0000000000000033, -0.9845752651247088, 0.0, 0.0, 0.0, 1.0]
-  link frame transform cm: [1.0, 0.0, 0.0, -0.490034953920059, 0.0, 1.0, 0.0, 0.0007724281061749494, 0.0, 0.0, 1.0, -0.9845752651247088, 0.0, 0.0, 0.0, 1.0]
+  occurrence transform cm: [1.2852250844411514e-10, -1.0000000000000004, 4.524850004232472e-16, -0.49004556752990425, 1.0000000000000056, 1.2852394570664254e-10, -1.0810037760766718e-15, 0.0007830417117480337, -1.3552527156586495e-20, -2.220581574646727e-16, 1.0000000000000033, -0.9845752651241821, 0.0, 0.0, 0.0, 1.0]
+  link frame transform cm: [1.0, 0.0, 0.0, -0.49004556752990425, 0.0, 1.0, 0.0, 0.0007830417117480337, 0.0, 0.0, 1.0, -0.9845752651241821, 0.0, 0.0, 0.0, 1.0]
   link frame source: occurrence_translation_world_aligned
   visual origin xyz/rpy: [0.0049, -8e-06, 0.009846] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.085791, -0.041629, -0.032501] / [0.0, 0.0, 0.0]
@@ -63,12 +63,12 @@ links:
   parent link: palm_1
   has mesh: True
   body count: 3
-  occurrence transform cm: [1.0000000000000027, -4.224811606821954e-16, -1.2852502831834216e-10, 0.7786459832108612, -1.28523854108825e-10, 3.91613824701764e-16, -1.000000000000009, -0.012510622991382725, 7.345062368968601e-16, 1.0000000000000058, 1.4156156715600112e-15, -1.120000000067496, 0.0, 0.0, 0.0, 1.0]
-  link frame transform cm: [1.0, 0.0, 0.0, 9.406119393270517, 0.0, 1.0, 0.0, -4.03238981070001, 0.0, 0.0, 1.0, -3.3343111966452708, 0.0, 0.0, 0.0, 1.0]
-  link frame source: explicit_joint:Index_MCP_AA
-  visual origin xyz/rpy: [-0.094061, 0.040324, 0.033343] / [0.0, 0.0, 0.0]
-  inertial origin xyz/rpy: [0.006202, -2.8e-05, -0.010914] / [0.0, 0.0, 0.0]
-  collision primitives: [axis=[0.0, 0.0, 0.0]; filename=../meshes/palm_1_abduction_adduction_link_1.stl; note=; raw_axis=[0.0, 0.0, 0.0]; reason=visual mesh fallback; rpy=[0.0, 0.0, 0.0]; scale=0.001 0.001 0.001; size=(); smoothed_axis=; smoothing_group=; type=mesh; xyz=[-0.094061, 0.040324, 0.033343]]
+  occurrence transform cm: [1.0000000000000024, -4.224811606821951e-16, -1.2852519485179583e-10, 0.7786353696010231, -1.2852402064227866e-10, 3.9167132483783827e-16, -1.0000000000000089, -0.012500009385806088, 7.345062368968672e-16, 1.0000000000000058, 1.4156731716960857e-15, -1.1200000000669719, 0.0, 0.0, 0.0, 1.0]
+  link frame transform cm: [1.0, 0.0, 0.0, 0.7786353696010231, 0.0, 1.0, 0.0, -0.012500009385806088, 0.0, 0.0, 1.0, -1.1200000000669719, 0.0, 0.0, 0.0, 1.0]
+  link frame source: occurrence_translation_world_aligned
+  visual origin xyz/rpy: [-0.007786, 0.000125, 0.0112] / [0.0, 0.0, 0.0]
+  inertial origin xyz/rpy: [0.092476, -0.040227, -0.033057] / [0.0, 0.0, 0.0]
+  collision primitives: [axis=[0.0, 0.0, 0.0]; filename=../meshes/palm_1_abduction_adduction_link_1.stl; note=; raw_axis=[0.0, 0.0, 0.0]; reason=visual mesh fallback; rpy=[0.0, 0.0, 0.0]; scale=0.001 0.001 0.001; size=(); smoothed_axis=; smoothing_group=; type=mesh; xyz=[-0.007786, 0.000125, 0.0112]]
   expected mesh path: C:/Users/Win11/Documents/GitHub/structure/mmhand_description/meshes\palm_1_abduction_adduction_link_1.stl
   copied body count: 3
   exported mesh exists: True
@@ -81,8 +81,8 @@ links:
   parent link: palm_1
   has mesh: True
   body count: 3
-  occurrence transform cm: [1.2851826147330048e-10, -1.0000000000000002, 6.290767781298441e-10, -0.46004556693686816, 1.0000000000000098, 1.2852349543541484e-10, -1.2272219916595301e-15, 2.4007830416329825, -1.2246063538223861e-16, 6.290794263410839e-10, 0.9999999999999963, -0.984575266538426, 0.0, 0.0, 0.0, 1.0]
-  link frame transform cm: [1.0, 0.0, 0.0, -0.46004556693686816, 0.0, 1.0, 0.0, 2.4007830416329825, 0.0, 0.0, 1.0, -0.984575266538426, 0.0, 0.0, 0.0, 1.0]
+  occurrence transform cm: [1.4242322277311443e-08, -1.0000000000000013, 6.290676451969901e-10, -0.460045552338741, 1.0000000000000082, 1.4242327511315706e-08, 6.71929594619644e-11, 2.4007830113428614, -6.719431807570683e-11, 6.290704068767624e-10, 0.9999999999999971, -0.9845752665496028, 0.0, 0.0, 0.0, 1.0]
+  link frame transform cm: [1.0, 0.0, 0.0, -0.460045552338741, 0.0, 1.0, 0.0, 2.4007830113428614, 0.0, 0.0, 1.0, -0.9845752665496028, 0.0, 0.0, 0.0, 1.0]
   link frame source: occurrence_translation_world_aligned
   visual origin xyz/rpy: [0.0046, -0.024008, 0.009846] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.085791, -0.041629, -0.032501] / [0.0, 0.0, 0.0]
@@ -135,12 +135,12 @@ links:
   parent link: palm_1
   has mesh: True
   body count: 3
-  occurrence transform cm: [1.000000000000003, 5.616474220441194e-10, -1.285198434121914e-10, 0.8086353701857334, -1.285213366931665e-10, 1.1772139795091476e-12, -1.000000000000007, 2.38749999053409, -5.616499064128062e-10, 1.0, 1.1745836372761478e-12, -1.1200000021934948, 0.0, 0.0, 0.0, 1.0]
-  link frame transform cm: [1.0, 0.0, 0.0, 9.436108780885668, 0.0, 1.0, 0.0, -1.6323791971731976, 0.0, 0.0, 1.0, -3.334311198056577, 0.0, 0.0, 0.0, 1.0]
-  link frame source: explicit_joint:Middle_MCP_AA
-  visual origin xyz/rpy: [-0.094361, 0.016324, 0.033343] / [0.0, 0.0, 0.0]
-  inertial origin xyz/rpy: [0.006202, -2.8e-05, -0.010914] / [0.0, 0.0, 0.0]
-  collision primitives: [axis=[0.0, 0.0, 0.0]; filename=../meshes/palm_1_abduction_adduction_link_2.stl; note=; raw_axis=[0.0, 0.0, 0.0]; reason=visual mesh fallback; rpy=[0.0, 0.0, 0.0]; scale=0.001 0.001 0.001; size=(); smoothed_axis=; smoothing_group=; type=mesh; xyz=[-0.094361, 0.016324, 0.033343]]
+  occurrence transform cm: [1.0000000000000044, 5.616382359185933e-10, -1.4242322249469915e-08, 0.8086353845963892, -1.4242323742703396e-08, 6.719443213707784e-11, -1.0000000000000053, 2.3874999423302983, -5.616406090370699e-10, 1.0000000000000013, 6.719180975017737e-11, -1.1200000022037817, 0.0, 0.0, 0.0, 1.0]
+  link frame transform cm: [1.0, 0.0, 0.0, 0.8086353845963892, 0.0, 1.0, 0.0, 2.3874999423302983, 0.0, 0.0, 1.0, -1.1200000022037817, 0.0, 0.0, 0.0, 1.0]
+  link frame source: occurrence_translation_world_aligned
+  visual origin xyz/rpy: [-0.008086, -0.023875, 0.0112] / [0.0, 0.0, 0.0]
+  inertial origin xyz/rpy: [0.092476, -0.040227, -0.033057] / [0.0, 0.0, 0.0]
+  collision primitives: [axis=[0.0, 0.0, 0.0]; filename=../meshes/palm_1_abduction_adduction_link_2.stl; note=; raw_axis=[0.0, 0.0, 0.0]; reason=visual mesh fallback; rpy=[0.0, 0.0, 0.0]; scale=0.001 0.001 0.001; size=(); smoothed_axis=; smoothing_group=; type=mesh; xyz=[-0.008086, -0.023875, 0.0112]]
   expected mesh path: C:/Users/Win11/Documents/GitHub/structure/mmhand_description/meshes\palm_1_abduction_adduction_link_2.stl
   copied body count: 3
   exported mesh exists: True
@@ -154,11 +154,11 @@ links:
   has mesh: True
   body count: 3
   occurrence transform cm: [0.9999999999999989, 6.290774365142775e-10, -1.2850538041006458e-10, 0.7786353691362926, -1.2850035964603744e-10, 8.32328455193933e-16, -0.9999999999999993, 4.787499990536356, -6.29076465476707e-10, 1.000000000000002, 1.1816312902104825e-15, -1.1200000023032959, 0.0, 0.0, 0.0, 1.0]
-  link frame transform cm: [1.0, 0.0, 0.0, 9.406108779913101, 0.0, 1.0, 0.0, 0.7676208028277021, 0.0, 0.0, 1.0, -3.334311198080559, 0.0, 0.0, 0.0, 1.0]
-  link frame source: explicit_joint:Ring_MCP_AA
-  visual origin xyz/rpy: [-0.094061, -0.007676, 0.033343] / [0.0, 0.0, 0.0]
-  inertial origin xyz/rpy: [0.006202, -2.8e-05, -0.010914] / [0.0, 0.0, 0.0]
-  collision primitives: [axis=[0.0, 0.0, 0.0]; filename=../meshes/palm_1_abduction_adduction_link_3.stl; note=; raw_axis=[0.0, 0.0, 0.0]; reason=visual mesh fallback; rpy=[0.0, 0.0, 0.0]; scale=0.001 0.001 0.001; size=(); smoothed_axis=; smoothing_group=; type=mesh; xyz=[-0.094061, -0.007676, 0.033343]]
+  link frame transform cm: [1.0, 0.0, 0.0, 0.7786353691362926, 0.0, 1.0, 0.0, 4.787499990536356, 0.0, 0.0, 1.0, -1.1200000023032959, 0.0, 0.0, 0.0, 1.0]
+  link frame source: occurrence_translation_world_aligned
+  visual origin xyz/rpy: [-0.007786, -0.047875, 0.0112] / [0.0, 0.0, 0.0]
+  inertial origin xyz/rpy: [0.092476, -0.040227, -0.033057] / [0.0, 0.0, 0.0]
+  collision primitives: [axis=[0.0, 0.0, 0.0]; filename=../meshes/palm_1_abduction_adduction_link_3.stl; note=; raw_axis=[0.0, 0.0, 0.0]; reason=visual mesh fallback; rpy=[0.0, 0.0, 0.0]; scale=0.001 0.001 0.001; size=(); smoothed_axis=; smoothing_group=; type=mesh; xyz=[-0.007786, -0.047875, 0.0112]]
   expected mesh path: C:/Users/Win11/Documents/GitHub/structure/mmhand_description/meshes\palm_1_abduction_adduction_link_3.stl
   copied body count: 3
   exported mesh exists: True
@@ -172,11 +172,11 @@ links:
   has mesh: True
   body count: 3
   occurrence transform cm: [0.999999999999996, 3.492193027101624e-10, 3.1934492320223704e-14, -0.7957199359369493, 3.749983135325162e-14, 1.8176649416388404e-16, -0.9999999999999967, 7.176582303287646, -3.4922167012065536e-10, 1.0000000000000275, -1.8784209214126042e-15, -1.1232335589460472, 0.0, 0.0, 0.0, 1.0]
-  link frame transform cm: [1.0, 0.0, 0.0, 7.8317534745192185, 0.0, 1.0, 0.0, 3.1567031154154246, 0.0, 0.0, 1.0, -3.3375447550794033, 0.0, 0.0, 0.0, 1.0]
-  link frame source: explicit_joint:Little_MCP_AA
-  visual origin xyz/rpy: [-0.078318, -0.031567, 0.033375] / [0.0, 0.0, 0.0]
-  inertial origin xyz/rpy: [0.006202, -2.8e-05, -0.010914] / [0.0, 0.0, 0.0]
-  collision primitives: [axis=[0.0, 0.0, 0.0]; filename=../meshes/palm_1_abduction_adduction_link_4.stl; note=; raw_axis=[0.0, 0.0, 0.0]; reason=visual mesh fallback; rpy=[0.0, 0.0, 0.0]; scale=0.001 0.001 0.001; size=(); smoothed_axis=; smoothing_group=; type=mesh; xyz=[-0.078318, -0.031567, 0.033375]]
+  link frame transform cm: [1.0, 0.0, 0.0, -0.7957199359369493, 0.0, 1.0, 0.0, 7.176582303287646, 0.0, 0.0, 1.0, -1.1232335589460472, 0.0, 0.0, 0.0, 1.0]
+  link frame source: occurrence_translation_world_aligned
+  visual origin xyz/rpy: [0.007957, -0.071766, 0.011232] / [0.0, 0.0, 0.0]
+  inertial origin xyz/rpy: [0.092476, -0.040227, -0.033057] / [0.0, 0.0, 0.0]
+  collision primitives: [axis=[0.0, 0.0, 0.0]; filename=../meshes/palm_1_abduction_adduction_link_4.stl; note=; raw_axis=[0.0, 0.0, 0.0]; reason=visual mesh fallback; rpy=[0.0, 0.0, 0.0]; scale=0.001 0.001 0.001; size=(); smoothed_axis=; smoothing_group=; type=mesh; xyz=[0.007957, -0.071766, 0.011232]]
   expected mesh path: C:/Users/Win11/Documents/GitHub/structure/mmhand_description/meshes\palm_1_abduction_adduction_link_4.stl
   copied body count: 3
   exported mesh exists: True
@@ -194,7 +194,7 @@ links:
   link frame source: explicit_joint:Thumb_CMC
   visual origin xyz/rpy: [-0.046902, 0.041185, 0.024743] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.000116, -6.2e-05, -0.022013] / [0.0, 0.0, 0.0]
-  collision primitives: [axis=[-0.005518324, 0.004218818, 0.999975875]; note=not smoothed: group too small; raw_axis=[-0.005518324, 0.004218818, 0.999975875]; reason=elongated round section; rpy=[-0.006488983, 0.002478767, 1.282958019]; size=(0.013214831, 0.038319646); smoothed_axis=; smoothing_group=; type=cylinder; xyz=[-0.000247591, -0.001711291, -0.026375172], axis=[0.0, 0.0, 0.0]; note=; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.013214831,); smoothed_axis=; smoothing_group=; type=sphere; xyz=[-0.000141861, -0.001792123, -0.045534533], axis=[0.0, 0.0, 0.0]; note=; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.013214831,); smoothed_axis=; smoothing_group=; type=sphere; xyz=[-0.000353321, -0.001630459, -0.007215811]]
+  collision primitives: [axis=[0.0, 0.0, 0.0]; filename=../meshes/mmhand_thumb_1_thumb_base_1.stl; note=; raw_axis=[0.0, 0.0, 0.0]; reason=visual mesh fallback; rpy=[0.0, 0.0, 0.0]; scale=0.001 0.001 0.001; size=(); smoothed_axis=; smoothing_group=; type=mesh; xyz=[-0.046902, 0.041185, 0.024743]]
   expected mesh path: C:/Users/Win11/Documents/GitHub/structure/mmhand_description/meshes\mmhand_thumb_1_thumb_base_1.stl
   copied body count: 4
   exported mesh exists: True
@@ -230,7 +230,7 @@ links:
   link frame source: explicit_joint:Thumb_MCP_FE
   visual origin xyz/rpy: [-0.053502, 0.046184, 0.084702] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.010121, -0.003399, -0.014951] / [0.0, 0.0, 0.0]
-  collision primitives: [axis=[0.0, 0.0, 0.0]; filename=../meshes/mmhand_thumb_1_finger_7_proximal_phalanx_1.stl; note=; raw_axis=[0.0, 0.0, 0.0]; reason=visual mesh fallback; rpy=[0.0, 0.0, 0.0]; scale=0.001 0.001 0.001; size=(); smoothed_axis=; smoothing_group=; type=mesh; xyz=[-0.053502, 0.046184, 0.084702]]
+  collision primitives: [axis=[-0.416235765, 0.120587122, 0.901225019]; note=axis and centerline smoothed in base frame; raw_axis=[-0.275528806, 0.210018444, 0.938070429]; reason=elongated round section; rpy=[-0.241167916, -0.381562192, 0.301740038]; size=(0.012429463, 0.02661133); smoothed_axis=-0.416235765 0.120587122 0.901225019; smoothing_group=chain_1; type=cylinder; xyz=[0.010379432, -0.005426463, -0.01335112], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.012429463,); smoothed_axis=-0.416235765 0.120587122 0.901225019; smoothing_group=chain_1; type=sphere; xyz=[0.015836995, -0.007007567, -0.02516772], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.012429463,); smoothed_axis=-0.416235765 0.120587122 0.901225019; smoothing_group=chain_1; type=sphere; xyz=[0.00492187, -0.00384536, -0.00153452]]
   expected mesh path: C:/Users/Win11/Documents/GitHub/structure/mmhand_description/meshes\mmhand_thumb_1_finger_7_proximal_phalanx_1.stl
   copied body count: 8
   exported mesh exists: True
@@ -248,7 +248,7 @@ links:
   link frame source: explicit_joint:PIP_Joint
   visual origin xyz/rpy: [-0.072601, 0.053626, 0.118037] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.007968, -0.002561, -0.012137] / [0.0, 0.0, 0.0]
-  collision primitives: [axis=[-0.486906553, 0.097423785, 0.868003811]; note=axis and centerline smoothed in base frame; raw_axis=[-0.484792117, 0.197097436, 0.852132152]; reason=elongated round section; rpy=[-0.128561345, -0.504891968, 0.06367149]; size=(0.009632076, 0.020109683); smoothed_axis=-0.486906553 0.097423785 0.868003811; smoothing_group=chain_1; type=cylinder; xyz=[0.007311045, -0.003642836, -0.011984554], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009632076,); smoothed_axis=-0.486906553 0.097423785 0.868003811; smoothing_group=chain_1; type=sphere; xyz=[0.012181866, -0.004617425, -0.020667722], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009632076,); smoothed_axis=-0.486906553 0.097423785 0.868003811; smoothing_group=chain_1; type=sphere; xyz=[0.002440224, -0.002668247, -0.003301386]]
+  collision primitives: [axis=[-0.416235765, 0.120587122, 0.901225019]; note=axis and centerline smoothed in base frame; raw_axis=[-0.484988172, 0.199286723, 0.851511172]; reason=elongated round section; rpy=[-0.174406899, -0.415021779, 0.129990189]; size=(0.009696902, 0.021832218); smoothed_axis=-0.416235765 0.120587122 0.901225019; smoothing_group=chain_1; type=cylinder; xyz=[0.006300344, -0.002335658, -0.012538044], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009696902,); smoothed_axis=-0.416235765 0.120587122 0.901225019; smoothing_group=chain_1; type=sphere; xyz=[0.010813595, -0.003643186, -0.02231004], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009696902,); smoothed_axis=-0.416235765 0.120587122 0.901225019; smoothing_group=chain_1; type=sphere; xyz=[0.001787094, -0.00102813, -0.002766048]]
   expected mesh path: C:/Users/Win11/Documents/GitHub/structure/mmhand_description/meshes\mmhand_thumb_1_finger_7_distal_phalanx_1.stl
   copied body count: 6
   exported mesh exists: True
@@ -266,7 +266,7 @@ links:
   link frame source: explicit_joint:DIP_Joint
   visual origin xyz/rpy: [-0.08315, 0.060186, 0.144589] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.011002, -0.001277, -0.010666] / [0.0, 0.0, 0.0]
-  collision primitives: [axis=[-0.486906553, 0.097423785, 0.868003811]; note=axis and centerline smoothed in base frame; raw_axis=[-0.484058818, -0.003242733, 0.875029454]; reason=elongated round section; rpy=[-0.46743852, 0.235885786, 1.806938934]; size=(0.009411244, 0.021886472); smoothed_axis=-0.486906553 0.097423785 0.868003811; smoothing_group=chain_1; type=cylinder; xyz=[0.011205737, 2.7934e-05, -0.011179658], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009411244,); smoothed_axis=-0.486906553 0.097423785 0.868003811; smoothing_group=chain_1; type=sphere; xyz=[0.016506919, -0.001032765, -0.020630026], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009411244,); smoothed_axis=-0.486906553 0.097423785 0.868003811; smoothing_group=chain_1; type=sphere; xyz=[0.005904555, 0.001088633, -0.00172929]]
+  collision primitives: [axis=[-0.416235765, 0.120587122, 0.901225019]; note=axis and centerline smoothed in base frame; raw_axis=[-0.472376681, -0.05212515, 0.879854101]; reason=elongated round section; rpy=[-0.422740939, 0.153642783, 1.6167159]; size=(0.009354292, 0.021400347); smoothed_axis=-0.416235765 0.120587122 0.901225019; smoothing_group=chain_1; type=cylinder; xyz=[0.008156077, 0.000631392, -0.0128428], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009354292,); smoothed_axis=-0.416235765 0.120587122 0.901225019; smoothing_group=chain_1; type=sphere; xyz=[0.012535409, -0.000637338, -0.022324838], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009354292,); smoothed_axis=-0.416235765 0.120587122 0.901225019; smoothing_group=chain_1; type=sphere; xyz=[0.003776745, 0.001900123, -0.003360762]]
   expected mesh path: C:/Users/Win11/Documents/GitHub/structure/mmhand_description/meshes\mmhand_thumb_1_finger_7_fingertip_1.stl
   copied body count: 2
   exported mesh exists: True
@@ -279,12 +279,12 @@ links:
   parent link: None
   has mesh: True
   body count: 8
-  occurrence transform cm: [1.0000000000000075, 1.0714944172405505e-08, -5.590693217611509e-16, 0.0061220608829363485, -1.0714942332456825e-08, 1.0000000000000075, -2.8789710608437095e-10, 0.022439498393455253, 8.573199869765363e-16, 2.8789683145596066e-10, 1.0000000000000089, 0.05320388008611751, 0.0, 0.0, 0.0, 1.0]
-  link frame transform cm: [1.0, 0.0, 0.0, 10.678643363958544, 0.0, 1.0, 0.0, -3.9823898199384735, 0.0, 0.0, 1.0, -4.474311198348666, 0.0, 0.0, 0.0, 1.0]
+  occurrence transform cm: [1.0000000000000075, 1.0714941574186495e-08, -4.36598839790336e-16, 0.006111447021598855, -1.0714939734237804e-08, 1.000000000000008, -2.878977443135323e-10, -0.012549888001002282, 7.34849498914655e-16, 2.87897469685122e-10, 1.000000000000009, 0.053203880087772465, 0.0, 0.0, 0.0, 1.0]
+  link frame transform cm: [1.0, 0.0, 0.0, 10.67863275009722, 0.0, 1.0, 0.0, -4.017379206332903, 0.0, 0.0, 1.0, -4.474311198347016, 0.0, 0.0, 0.0, 1.0]
   link frame source: explicit_joint:Index_MCP_FE
-  visual origin xyz/rpy: [-0.106786, 0.039824, 0.044743] / [0.0, 0.0, 0.0]
+  visual origin xyz/rpy: [-0.106786, 0.040174, 0.044743] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.018327, 0.001266, 0.000218] / [0.0, 0.0, 0.0]
-  collision primitives: [axis=[0.0, 0.0, 0.0]; filename=../meshes/finger_1_proximal_phalanx_1.stl; note=; raw_axis=[0.0, 0.0, 0.0]; reason=visual mesh fallback; rpy=[0.0, 0.0, 0.0]; scale=0.001 0.001 0.001; size=(); smoothed_axis=; smoothing_group=; type=mesh; xyz=[-0.106786, 0.039824, 0.044743]]
+  collision primitives: [axis=[-0.993500672, 0.069115808, 0.090440149]; note=axis and centerline smoothed in base frame; raw_axis=[-0.973540105, 0.226146404, 0.032824797]; reason=elongated round section; rpy=[-1.4801247, 0.048685166, 1.505765002]; size=(0.01249884, 0.026532505); smoothed_axis=-0.993500672 0.069115808 0.090440149; smoothing_group=chain_2; type=cylinder; xyz=[0.017483199, 0.001682927, 0.002625273], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.01249884,); smoothed_axis=-0.993500672 0.069115808 0.090440149; smoothing_group=chain_2; type=sphere; xyz=[0.030476227, 0.000779029, 0.001442494], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.01249884,); smoothed_axis=-0.993500672 0.069115808 0.090440149; smoothing_group=chain_2; type=sphere; xyz=[0.00449017, 0.002586825, 0.003808052]]
   expected mesh path: C:/Users/Win11/Documents/GitHub/structure/mmhand_description/meshes\finger_1_proximal_phalanx_1.stl
   copied body count: 8
   exported mesh exists: True
@@ -297,12 +297,12 @@ links:
   parent link: None
   has mesh: True
   body count: 6
-  occurrence transform cm: [1.0000000000000049, 1.4306591207744613e-08, -2.4364199948901514e-16, 0.006122075186280633, -1.430659251372644e-08, 1.000000000000006, 3.243719268880563e-11, 0.022439568656249888, 8.609616642667051e-16, -3.243751923694745e-11, 1.0000000000000135, 0.053203878645962564, 0.0, 0.0, 0.0, 1.0]
-  link frame transform cm: [1.0, 0.0, 0.0, 14.591879468869832, 0.0, 1.0, 0.0, -3.9959398213403268, 0.0, 0.0, 1.0, -4.480265915535779, 0.0, 0.0, 0.0, 1.0]
+  occurrence transform cm: [1.0000000000000047, 1.4306588609525605e-08, -1.2117151835022765e-16, 0.0061114613249425844, -1.4306589915507418e-08, 1.0000000000000064, 3.2436554459644266e-11, -0.012549817738207646, 7.384911739126591e-16, -3.2436881034891146e-11, 1.0000000000000138, 0.05320387864761864, 0.0, 0.0, 0.0, 1.0]
+  link frame transform cm: [1.0, 0.0, 0.0, 14.5918688550085, 0.0, 1.0, 0.0, -4.030929207734746, 0.0, 0.0, 1.0, -4.480265915534129, 0.0, 0.0, 0.0, 1.0]
   link frame source: explicit_joint:PIP_Joint
-  visual origin xyz/rpy: [-0.145919, 0.039959, 0.044803] / [0.0, 0.0, 0.0]
+  visual origin xyz/rpy: [-0.145919, 0.040309, 0.044803] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.014717, 0.000861, -4.1e-05] / [0.0, 0.0, 0.0]
-  collision primitives: [axis=[-0.995480012, -0.011536254, 0.094268023]; note=axis and centerline smoothed in base frame; raw_axis=[-0.999966328, 0.007049853, -0.004200338]; reason=elongated round section; rpy=[1.474909328, 0.175588391, -1.576008417]; size=(0.009672626, 0.020305256); smoothed_axis=-0.995480012 -0.011536254 0.094268023; smoothing_group=chain_2; type=cylinder; xyz=[0.014389297, -2.1925e-05, 0.00093548], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009672626,); smoothed_axis=-0.995480012 -0.011536254 0.094268023; smoothing_group=chain_2; type=sphere; xyz=[0.02444519, 9.4609e-05, -1.6773e-05], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009672626,); smoothed_axis=-0.995480012 -0.011536254 0.094268023; smoothing_group=chain_2; type=sphere; xyz=[0.004333403, -0.000138459, 0.001887733]]
+  collision primitives: [axis=[-0.993500672, 0.069115808, 0.090440149]; note=axis and centerline smoothed in base frame; raw_axis=[-0.999933657, 0.009647631, -0.006293227]; reason=elongated round section; rpy=[1.479629328, 0.11493013, -1.650735835]; size=(0.00964423, 0.022064604); smoothed_axis=-0.993500672 0.069115808 0.090440149; smoothing_group=chain_2; type=cylinder; xyz=[0.014195001, -0.000675178, -0.000578138], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.00964423,); smoothed_axis=-0.993500672 0.069115808 0.090440149; smoothing_group=chain_2; type=sphere; xyz=[0.025084711, -0.001432753, -0.001569448], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.00964423,); smoothed_axis=-0.993500672 0.069115808 0.090440149; smoothing_group=chain_2; type=sphere; xyz=[0.00330529, 8.2397e-05, 0.000413172]]
   expected mesh path: C:/Users/Win11/Documents/GitHub/structure/mmhand_description/meshes\finger_1_distal_phalanx_1.stl
   copied body count: 6
   exported mesh exists: True
@@ -315,12 +315,12 @@ links:
   parent link: None
   has mesh: True
   body count: 2
-  occurrence transform cm: [0.9999999999999786, 1.735126342592898e-08, 1.2631710280870927e-12, 0.006122087355694139, -1.7351263315083804e-08, 0.9999999973409477, 7.292536602056303e-05, 0.022700978392636628, 8.728853847393975e-16, -7.292536602082935e-05, 0.9999999973409238, 0.05289356301905174, 0.0, 0.0, 0.0, 1.0]
-  link frame transform cm: [1.0, 0.0, 0.0, 17.491876913231856, 0.0, 1.0, 0.0, -4.424439826782117, 0.0, 0.0, 1.0, -4.4807814205966645, 0.0, 0.0, 0.0, 1.0]
+  occurrence transform cm: [0.9999999999999787, 1.735126082770105e-08, 1.2632933090919178e-12, 0.006111473494357256, -1.735126071686479e-08, 0.9999999973409481, 7.292536601992484e-05, -0.01228840800182091, 7.504148924422612e-16, -7.292536602019115e-05, 0.999999997340924, 0.052893563020708356, 0.0, 0.0, 0.0, 1.0]
+  link frame transform cm: [1.0, 0.0, 0.0, 17.49186629937053, 0.0, 1.0, 0.0, -4.459429213176528, 0.0, 0.0, 1.0, -4.480781420595014, 0.0, 0.0, 0.0, 1.0]
   link frame source: explicit_joint:DIP_Joint
-  visual origin xyz/rpy: [-0.174919, 0.044244, 0.044808] / [0.0, 0.0, 0.0]
+  visual origin xyz/rpy: [-0.174919, 0.044594, 0.044808] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.014713, 0.004442, -0.000483] / [0.0, 0.0, 0.0]
-  collision primitives: [axis=[-0.995480012, -0.011536254, 0.094268023]; note=axis and centerline smoothed in base frame; raw_axis=[-0.980977586, -0.030006287, 0.191787898]; reason=elongated round section; rpy=[-0.59830844, 1.456461441, 2.551820056]; size=(0.009440525, 0.021715047); smoothed_axis=-0.995480012 -0.011536254 0.094268023; smoothing_group=chain_2; type=cylinder; xyz=[0.015044495, 0.004606739, -0.001867593], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009440525,); smoothed_axis=-0.995480012 -0.011536254 0.094268023; smoothing_group=chain_2; type=sphere; xyz=[0.025798568, 0.004731364, -0.002885961], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009440525,); smoothed_axis=-0.995480012 -0.011536254 0.094268023; smoothing_group=chain_2; type=sphere; xyz=[0.004290423, 0.004482114, -0.000849225]]
+  collision primitives: [axis=[-0.993500672, 0.069115808, 0.090440149]; note=axis and centerline smoothed in base frame; raw_axis=[-0.969926694, -0.031027692, 0.241411455]; reason=elongated round section; rpy=[-0.714875338, 1.450747661, 2.353683739]; size=(0.009419037, 0.021263813); smoothed_axis=-0.993500672 0.069115808 0.090440149; smoothing_group=chain_2; type=cylinder; xyz=[0.014802699, 0.001550077, -0.003268222], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009419037,); smoothed_axis=-0.993500672 0.069115808 0.090440149; smoothing_group=chain_2; type=sphere; xyz=[0.025189229, 0.000827507, -0.004213727], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009419037,); smoothed_axis=-0.993500672 0.069115808 0.090440149; smoothing_group=chain_2; type=sphere; xyz=[0.004416169, 0.002272647, -0.002322718]]
   expected mesh path: C:/Users/Win11/Documents/GitHub/structure/mmhand_description/meshes\finger_1_fingertip_1.stl
   copied body count: 2
   exported mesh exists: True
@@ -333,12 +333,12 @@ links:
   parent link: None
   has mesh: True
   body count: 8
-  occurrence transform cm: [1.0000000000000044, 1.0714939775064013e-08, 5.616473794860091e-10, 0.03611145011389408, -1.0714939683202181e-08, 1.0000000000000062, -2.8672609161354157e-10, -0.01254988801056589, -5.61649906070255e-10, 2.8672710789044795e-10, 1.0000000000000004, 0.05320388516826108, 0.0, 0.0, 0.0, 1.0]
-  link frame transform cm: [1.0, 0.0, 0.0, 10.708632750682105, 0.0, 1.0, 0.0, -1.6173792064129837, 0.0, 0.0, 1.0, -4.474311200473347, 0.0, 0.0, 0.0, 1.0]
+  occurrence transform cm: [-1.000000000000006, 1.776969876772646e-08, -5.616384342185195e-10, 21.381154180054224, 1.7769698859663022e-08, 1.000000000000004, -4.1993754803266056e-10, -0.012550240820410341, 5.616407997690426e-10, -4.1993858027446833e-10, -1.000000000000002, -9.001826284226027, 0.0, 0.0, 0.0, 1.0]
+  link frame transform cm: [1.0, 0.0, 0.0, 10.708632765480612, 0.0, 1.0, 0.0, -1.61737925461679, 0.0, 0.0, 1.0, -4.474311200485699, 0.0, 0.0, 0.0, 1.0]
   link frame source: explicit_joint:Middle_MCP_FE
   visual origin xyz/rpy: [-0.107086, 0.016174, 0.044743] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.018327, 0.001266, 0.000218] / [0.0, 0.0, 0.0]
-  collision primitives: [axis=[0.0, 0.0, 0.0]; filename=../meshes/finger_2_proximal_phalanx_1.stl; note=; raw_axis=[0.0, 0.0, 0.0]; reason=visual mesh fallback; rpy=[0.0, 0.0, 0.0]; scale=0.001 0.001 0.001; size=(); smoothed_axis=; smoothing_group=; type=mesh; xyz=[-0.107086, 0.016174, 0.044743]]
+  collision primitives: [axis=[0.069115818, 0.993500671, 0.090440151]; note=axis and centerline smoothed in base frame; raw_axis=[0.226146433, 0.973540099, 0.032824801]; reason=elongated round section; rpy=[-1.480124698, 0.048685162, -0.065031335]; size=(0.012498841, 0.026532511); smoothed_axis=0.069115818 0.993500671 0.090440151; smoothing_group=chain_3; type=cylinder; xyz=[-0.104961149, 0.010004314, 0.046014208], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.012498841,); smoothed_axis=0.069115818 0.993500671 0.090440151; smoothing_group=chain_3; type=sphere; xyz=[-0.105865048, -0.002988717, 0.044831429], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.012498841,); smoothed_axis=0.069115818 0.993500671 0.090440151; smoothing_group=chain_3; type=sphere; xyz=[-0.104057251, 0.022997346, 0.047196987]]
   expected mesh path: C:/Users/Win11/Documents/GitHub/structure/mmhand_description/meshes\finger_2_proximal_phalanx_1.stl
   copied body count: 8
   exported mesh exists: True
@@ -351,12 +351,12 @@ links:
   parent link: None
   has mesh: True
   body count: 6
-  occurrence transform cm: [1.0000000000000009, 1.4448191555693888e-08, 5.616473817038359e-10, 0.0361127763419207, -1.4448192434795764e-08, 1.0000000000000087, 3.3620099041428535e-11, -0.012549813123734488, -5.61649905907397e-10, -3.3619084946479015e-11, 1.0000000000000002, 0.05320388654610323, 0.0, 0.0, 0.0, 1.0]
-  link frame transform cm: [1.0, 0.0, 0.0, 14.62187016694568, 0.0, 1.0, 0.0, -1.6309292052562476, 0.0, 0.0, 1.0, -4.480265917040249, 0.0, 0.0, 0.0, 1.0]
+  occurrence transform cm: [-1.0000000000000016, 1.4036446987096627e-08, -5.616384205722713e-10, 21.38115285382623, 1.4036446108069328e-08, 1.0000000000000067, -9.959135735058913e-11, -0.012550165933539859, 5.6164084214619e-10, -9.959238745109863e-11, -1.000000000000002, -9.001826285603872, 0.0, 0.0, 0.0, 1.0]
+  link frame transform cm: [1.0, 0.0, 0.0, 14.621870181552918, 0.0, 1.0, 0.0, -1.6309293086911052, 0.0, 0.0, 1.0, -4.480265917051631, 0.0, 0.0, 0.0, 1.0]
   link frame source: explicit_joint:PIP_Joint
   visual origin xyz/rpy: [-0.146219, 0.016309, 0.044803] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.014717, 0.000861, -4.1e-05] / [0.0, 0.0, 0.0]
-  collision primitives: [axis=[-0.995480021, 0.011536037, 0.094267954]; note=axis and centerline smoothed in base frame; raw_axis=[-0.999966324, -0.007050294, -0.004200483]; reason=elongated round section; rpy=[1.474909388, -0.175588956, -1.565583976]; size=(0.009672625, 0.02030526); smoothed_axis=-0.995480021 0.011536037 0.094267954; smoothing_group=chain_3; type=cylinder; xyz=[-0.092654561, -2.1812e-05, -0.000815858], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009672625,); smoothed_axis=-0.995480021 0.011536037 0.094267954; smoothing_group=chain_3; type=sphere; xyz=[-0.082598666, -0.000138344, -0.001768111], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009672625,); smoothed_axis=-0.995480021 0.011536037 0.094267954; smoothing_group=chain_3; type=sphere; xyz=[-0.102710457, 9.472e-05, 0.000136395]]
+  collision primitives: [axis=[0.069115818, 0.993500671, 0.090440151]; note=axis and centerline smoothed in base frame; raw_axis=[0.009647633, 0.999933657, -0.006293226]; reason=elongated round section; rpy=[1.479629326, 0.11493013, 3.061653135]; size=(0.009644231, 0.022064603); smoothed_axis=0.069115818 0.993500671 0.090440151; smoothing_group=chain_3; type=cylinder; xyz=[-0.146587208, -0.025705493, 0.042810693], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009644231,); smoothed_axis=0.069115818 0.993500671 0.090440151; smoothing_group=chain_3; type=sphere; xyz=[-0.147344783, -0.036595202, 0.041819383], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009644231,); smoothed_axis=0.069115818 0.993500671 0.090440151; smoothing_group=chain_3; type=sphere; xyz=[-0.145829633, -0.014815782, 0.043802003]]
   expected mesh path: C:/Users/Win11/Documents/GitHub/structure/mmhand_description/meshes\finger_2_distal_phalanx_1.stl
   copied body count: 6
   exported mesh exists: True
@@ -369,12 +369,12 @@ links:
   parent link: None
   has mesh: True
   body count: 2
-  occurrence transform cm: [0.9999999999999933, 1.7492821921497648e-08, 5.629221448454178e-10, 0.03611278851086157, -1.7492862795533707e-08, 0.9999999973409537, 7.292536720344557e-05, -0.012288403387321623, -5.616499014836592e-10, -7.292536720243256e-05, 0.9999999973409426, 0.05289357091933127, 0.0, 0.0, 0.0, 1.0]
-  link frame transform cm: [1.0, 0.0, 0.0, 17.521867611246716, 0.0, 1.0, 0.0, -2.059429211108659, 0.0, 0.0, 1.0, -4.480781423729421, 0.0, 0.0, 0.0, 1.0]
+  occurrence transform cm: [-0.9999999999999943, 1.0991816544861485e-08, -5.608348645728491e-10, 21.381152841664647, 1.0991775747331208e-08, 0.9999999973409625, 7.292523399198938e-05, -0.012288756197087913, 5.616408427527862e-10, 7.29252339909606e-05, -0.999999997340953, -9.001515969977131, 0.0, 0.0, 0.0, 1.0]
+  link frame transform cm: [1.0, 0.0, 0.0, 17.521867619806283, 0.0, 1.0, 0.0, -2.059429355473548, 0.0, 0.0, 1.0, -4.480781423712459, 0.0, 0.0, 0.0, 1.0]
   link frame source: explicit_joint:DIP_Joint
   visual origin xyz/rpy: [-0.175219, 0.020594, 0.044808] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.014713, 0.004442, -0.000483] / [0.0, 0.0, 0.0]
-  collision primitives: [axis=[-0.995480021, 0.011536037, 0.094267954]; note=axis and centerline smoothed in base frame; raw_axis=[-0.980977585, 0.030006296, 0.191787904]; reason=elongated round section; rpy=[-0.598308416, -1.456461527, 0.589772787]; size=(0.009440523, 0.021715055); smoothed_axis=-0.995480021 0.011536037 0.094267954; smoothing_group=chain_3; type=cylinder; xyz=[-0.15130973, 0.004606845, 0.001997524], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009440523,); smoothed_axis=-0.995480021 0.011536037 0.094267954; smoothing_group=chain_3; type=sphere; xyz=[-0.140555653, 0.004482222, 0.000979156], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009440523,); smoothed_axis=-0.995480021 0.011536037 0.094267954; smoothing_group=chain_3; type=sphere; xyz=[-0.162063806, 0.004731468, 0.003015892]]
+  collision primitives: [axis=[0.069115818, 0.993500671, 0.090440151]; note=axis and centerline smoothed in base frame; raw_axis=[-0.031027693, 0.969926694, 0.241411456]; reason=elongated round section; rpy=[-0.714875226, 1.45074767, 0.782887514]; size=(0.009419039, 0.021263824); smoothed_axis=0.069115818 0.993500671 0.090440151; smoothing_group=chain_3; type=cylinder; xyz=[-0.17764693, -0.051028195, 0.040120605], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009419039,); smoothed_axis=0.069115818 0.993500671 0.090440151; smoothing_group=chain_3; type=sphere; xyz=[-0.1783695, -0.06141473, 0.0391751], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009419039,); smoothed_axis=0.069115818 0.993500671 0.090440151; smoothing_group=chain_3; type=sphere; xyz=[-0.17692436, -0.040641659, 0.04106611]]
   expected mesh path: C:/Users/Win11/Documents/GitHub/structure/mmhand_description/meshes\finger_2_fingertip_1.stl
   copied body count: 2
   exported mesh exists: True
@@ -392,7 +392,7 @@ links:
   link frame source: explicit_joint:Ring_MCP_FE
   visual origin xyz/rpy: [-0.106786, -0.007826, 0.044743] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.018327, 0.001266, 0.000218] / [0.0, 0.0, 0.0]
-  collision primitives: [axis=[0.0, 0.0, 0.0]; filename=../meshes/finger_3_proximal_phalanx_1.stl; note=; raw_axis=[0.0, 0.0, 0.0]; reason=visual mesh fallback; rpy=[0.0, 0.0, 0.0]; scale=0.001 0.001 0.001; size=(); smoothed_axis=; smoothing_group=; type=mesh; xyz=[-0.106786, -0.007826, 0.044743]]
+  collision primitives: [axis=[-0.993500667, 0.069115836, 0.090440174]; note=axis and centerline smoothed in base frame; raw_axis=[-0.973540098, 0.226146433, 0.032824824]; reason=elongated round section; rpy=[-1.480124675, 0.048685165, 1.505764974]; size=(0.01249884, 0.026532504); smoothed_axis=-0.993500667 0.069115836 0.090440174; smoothing_group=chain_4; type=cylinder; xyz=[0.017483199, 0.00168293, 0.002625276], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.01249884,); smoothed_axis=-0.993500667 0.069115836 0.090440174; smoothing_group=chain_4; type=sphere; xyz=[0.030476227, 0.000779031, 0.001442497], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.01249884,); smoothed_axis=-0.993500667 0.069115836 0.090440174; smoothing_group=chain_4; type=sphere; xyz=[0.004490171, 0.002586829, 0.003808055]]
   expected mesh path: C:/Users/Win11/Documents/GitHub/structure/mmhand_description/meshes\finger_3_proximal_phalanx_1.stl
   copied body count: 8
   exported mesh exists: True
@@ -410,7 +410,7 @@ links:
   link frame source: explicit_joint:PIP_Joint
   visual origin xyz/rpy: [-0.145919, -0.007691, 0.044803] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.014717, 0.000861, -4.1e-05] / [0.0, 0.0, 0.0]
-  collision primitives: [axis=[-0.995480042, -0.01153329, 0.094268074]; note=axis and centerline smoothed in base frame; raw_axis=[-0.999966287, 0.007055742, -0.004200249]; reason=elongated round section; rpy=[1.474908936, 0.175608298, -1.576013348]; size=(0.009672633, 0.020305245); smoothed_axis=-0.995480042 -0.01153329 0.094268074; smoothing_group=chain_4; type=cylinder; xyz=[0.014389232, -2.1741e-05, 0.000935458], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009672633,); smoothed_axis=-0.995480042 -0.01153329 0.094268074; smoothing_group=chain_4; type=sphere; xyz=[0.024445119, 9.4763e-05, -1.6795e-05], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009672633,); smoothed_axis=-0.995480042 -0.01153329 0.094268074; smoothing_group=chain_4; type=sphere; xyz=[0.004333344, -0.000138245, 0.001887711]]
+  collision primitives: [axis=[-0.993500667, 0.069115836, 0.090440174]; note=axis and centerline smoothed in base frame; raw_axis=[-0.999933657, 0.009647686, -0.006293175]; reason=elongated round section; rpy=[1.479629302, 0.114930183, -1.650735872]; size=(0.00964423, 0.022064602); smoothed_axis=-0.993500667 0.069115836 0.090440174; smoothing_group=chain_4; type=cylinder; xyz=[0.014195017, -0.000675178, -0.000578138], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.00964423,); smoothed_axis=-0.993500667 0.069115836 0.090440174; smoothing_group=chain_4; type=sphere; xyz=[0.025084726, -0.001432753, -0.001569448], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.00964423,); smoothed_axis=-0.993500667 0.069115836 0.090440174; smoothing_group=chain_4; type=sphere; xyz=[0.003305306, 8.2397e-05, 0.000413172]]
   expected mesh path: C:/Users/Win11/Documents/GitHub/structure/mmhand_description/meshes\finger_3_distal_phalanx_1.stl
   copied body count: 6
   exported mesh exists: True
@@ -428,7 +428,7 @@ links:
   link frame source: explicit_joint:DIP_Joint
   visual origin xyz/rpy: [-0.174919, -0.003406, 0.044808] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.014713, 0.004442, -0.000483] / [0.0, 0.0, 0.0]
-  collision primitives: [axis=[-0.995480042, -0.01153329, 0.094268074]; note=axis and centerline smoothed in base frame; raw_axis=[-0.980977586, -0.030006277, 0.191787901]; reason=elongated round section; rpy=[-0.598304733, 1.456461669, 2.551820806]; size=(0.009440524, 0.021715049); smoothed_axis=-0.995480042 -0.01153329 0.094268074; smoothing_group=chain_4; type=cylinder; xyz=[0.015044402, 0.004606833, -0.001867614], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009440524,); smoothed_axis=-0.995480042 -0.01153329 0.094268074; smoothing_group=chain_4; type=sphere; xyz=[0.025798477, 0.004731426, -0.002885983], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009440524,); smoothed_axis=-0.995480042 -0.01153329 0.094268074; smoothing_group=chain_4; type=sphere; xyz=[0.004290329, 0.00448224, -0.000849246]]
+  collision primitives: [axis=[-0.993500667, 0.069115836, 0.090440174]; note=axis and centerline smoothed in base frame; raw_axis=[-0.969926695, -0.03102769, 0.241411451]; reason=elongated round section; rpy=[-0.714875324, 1.450747629, 2.353683722]; size=(0.009419038, 0.021263825); smoothed_axis=-0.993500667 0.069115836 0.090440174; smoothing_group=chain_4; type=cylinder; xyz=[0.014802707, 0.001550076, -0.003268223], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009419038,); smoothed_axis=-0.993500667 0.069115836 0.090440174; smoothing_group=chain_4; type=sphere; xyz=[0.025189243, 0.000827506, -0.004213729], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009419038,); smoothed_axis=-0.993500667 0.069115836 0.090440174; smoothing_group=chain_4; type=sphere; xyz=[0.004416171, 0.002272646, -0.002322718]]
   expected mesh path: C:/Users/Win11/Documents/GitHub/structure/mmhand_description/meshes\finger_3_fingertip_1.stl
   copied body count: 2
   exported mesh exists: True
@@ -446,7 +446,7 @@ links:
   link frame source: explicit_joint:Little_MCP_FE
   visual origin xyz/rpy: [-0.091043, -0.031717, 0.044775] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.018327, 0.001266, 0.000218] / [0.0, 0.0, 0.0]
-  collision primitives: [axis=[0.0, 0.0, 0.0]; filename=../meshes/finger_4_proximal_phalanx_1.stl; note=; raw_axis=[0.0, 0.0, 0.0]; reason=visual mesh fallback; rpy=[0.0, 0.0, 0.0]; scale=0.001 0.001 0.001; size=(); smoothed_axis=; smoothing_group=; type=mesh; xyz=[-0.091043, -0.031717, 0.044775]]
+  collision primitives: [axis=[-0.993500672, 0.069115804, 0.090440149]; note=axis and centerline smoothed in base frame; raw_axis=[-0.97354011, 0.226146384, 0.032824794]; reason=elongated round section; rpy=[-1.4801247, 0.048685215, 1.50576501]; size=(0.012498842, 0.026532509); smoothed_axis=-0.993500672 0.069115804 0.090440149; smoothing_group=chain_5; type=cylinder; xyz=[0.017482658, 0.001682797, 0.002624999], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.012498842,); smoothed_axis=-0.993500672 0.069115804 0.090440149; smoothing_group=chain_5; type=sphere; xyz=[0.030475689, 0.000778899, 0.001442221], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.012498842,); smoothed_axis=-0.993500672 0.069115804 0.090440149; smoothing_group=chain_5; type=sphere; xyz=[0.004489627, 0.002586696, 0.003807778]]
   expected mesh path: C:/Users/Win11/Documents/GitHub/structure/mmhand_description/meshes\finger_4_proximal_phalanx_1.stl
   copied body count: 8
   exported mesh exists: True
@@ -464,7 +464,7 @@ links:
   link frame source: explicit_joint:PIP_Joint
   visual origin xyz/rpy: [-0.130175, -0.031582, 0.044835] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.014717, 0.000861, -4.1e-05] / [0.0, 0.0, 0.0]
-  collision primitives: [axis=[-0.995480013, -0.011536254, 0.094268011]; note=axis and centerline smoothed in base frame; raw_axis=[-0.999966328, 0.007049841, -0.004200368]; reason=elongated round section; rpy=[1.474909341, 0.175588392, -1.576008415]; size=(0.009672626, 0.020305257); smoothed_axis=-0.995480013 -0.011536254 0.094268011; smoothing_group=chain_5; type=cylinder; xyz=[0.014389648, -2.1995e-05, 0.000935145], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009672626,); smoothed_axis=-0.995480013 -0.011536254 0.094268011; smoothing_group=chain_5; type=sphere; xyz=[0.024445541, 9.4539e-05, -1.7108e-05], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009672626,); smoothed_axis=-0.995480013 -0.011536254 0.094268011; smoothing_group=chain_5; type=sphere; xyz=[0.004333753, -0.000138529, 0.001887399]]
+  collision primitives: [axis=[-0.993500672, 0.069115804, 0.090440149]; note=axis and centerline smoothed in base frame; raw_axis=[-0.999933657, 0.009647638, -0.006293225]; reason=elongated round section; rpy=[1.479629329, 0.114930129, -1.650735832]; size=(0.009644232, 0.022064602); smoothed_axis=-0.993500672 0.069115804 0.090440149; smoothing_group=chain_5; type=cylinder; xyz=[0.014195455, -0.000675378, -0.000578504], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009644232,); smoothed_axis=-0.993500672 0.069115804 0.090440149; smoothing_group=chain_5; type=sphere; xyz=[0.025085164, -0.001432953, -0.001569814], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009644232,); smoothed_axis=-0.993500672 0.069115804 0.090440149; smoothing_group=chain_5; type=sphere; xyz=[0.003305744, 8.2197e-05, 0.000412806]]
   expected mesh path: C:/Users/Win11/Documents/GitHub/structure/mmhand_description/meshes\finger_4_distal_phalanx_1.stl
   copied body count: 6
   exported mesh exists: True
@@ -482,7 +482,7 @@ links:
   link frame source: explicit_joint:DIP_Joint
   visual origin xyz/rpy: [-0.159175, -0.027297, 0.04484] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.014713, 0.004442, -0.000483] / [0.0, 0.0, 0.0]
-  collision primitives: [axis=[-0.995480013, -0.011536254, 0.094268011]; note=axis and centerline smoothed in base frame; raw_axis=[-0.980977586, -0.030006275, 0.191787903]; reason=elongated round section; rpy=[-0.598308782, 1.456461429, 2.551819713]; size=(0.009440522, 0.021715053); smoothed_axis=-0.995480013 -0.011536254 0.094268011; smoothing_group=chain_5; type=cylinder; xyz=[0.015044843, 0.004606668, -0.001867927], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009440522,); smoothed_axis=-0.995480013 -0.011536254 0.094268011; smoothing_group=chain_5; type=sphere; xyz=[0.025798919, 0.004731293, -0.002886295], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009440522,); smoothed_axis=-0.995480013 -0.011536254 0.094268011; smoothing_group=chain_5; type=sphere; xyz=[0.004290768, 0.004482043, -0.000849559]]
+  collision primitives: [axis=[-0.993500672, 0.069115804, 0.090440149]; note=axis and centerline smoothed in base frame; raw_axis=[-0.969926694, -0.031027689, 0.241411456]; reason=elongated round section; rpy=[-0.71487551, 1.450747643, 2.353683569]; size=(0.00941904, 0.021263821); smoothed_axis=-0.993500672 0.069115804 0.090440149; smoothing_group=chain_5; type=cylinder; xyz=[0.014803156, 0.001549877, -0.003268589], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.00941904,); smoothed_axis=-0.993500672 0.069115804 0.090440149; smoothing_group=chain_5; type=sphere; xyz=[0.02518969, 0.000827307, -0.004214094], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.00941904,); smoothed_axis=-0.993500672 0.069115804 0.090440149; smoothing_group=chain_5; type=sphere; xyz=[0.004416622, 0.002272447, -0.002323084]]
   expected mesh path: C:/Users/Win11/Documents/GitHub/structure/mmhand_description/meshes\finger_4_fingertip_1.stl
   copied body count: 2
   exported mesh exists: True
@@ -509,46 +509,6 @@ joints:
   selection reason: selected Fusion joint translation; link frame axes stay aligned with base_link
   warning: 
 
-- joint: Index_MCP_FE
-  source: fusion_joint
-  parent link: palm_1_abduction_adduction_link_1
-  child link: finger_1_proximal_phalanx_1
-  type: revolute
-  occurrenceOne: finger:1+proximal_phalanx:1
-  occurrenceTwo: palm:1+abduction_adduction_link:1
-  raw origin one cm: [10.678643363958537, -3.9823898199384717, -4.474311198348663]
-  raw origin two cm: [10.678643363958553, -3.9823898199384815, -4.474311198348664]
-  raw axis: [7.185423191618839e-09, 1.0000000000000095, -3.242567636373241e-11]
-  selected candidate: geometry_one_transform
-  candidate error cm: 9.900301382973689e-15
-  joint frame transform cm: [-1.0000000000000075, -4.331724040585496e-16, 7.185424639158177e-09, 10.678643363958544, 7.185422799209497e-09, 3.242540168045458e-11, 1.0000000000000075, -3.9823898199384735, -7.347408600038889e-16, 1.0000000000000089, -3.242567630886921e-11, -4.474311198348666, 0.0, 0.0, 0.0, 1.0]
-  selected link frame transform cm: [1.0, 0.0, 0.0, 10.678643363958544, 0.0, 1.0, 0.0, -3.9823898199384735, 0.0, 0.0, 1.0, -4.474311198348666, 0.0, 0.0, 0.0, 1.0]
-  final URDF origin xyz/rpy: [0.012725, 0.0005, -0.0114] / [0.0, -0.0, 0.0]
-  exported axis: [0.0, 1.0, -0.0]
-  origin candidates: geometry_one_transform=[-1.0000000000000075, -4.331724040585496e-16, 7.185424639158177e-09, 10.678643363958544, 7.185422799209497e-09, 3.242540168045458e-11, 1.0000000000000075, -3.9823898199384735, -7.347408600038889e-16, 1.0000000000000089, -3.242567630886921e-11, -4.474311198348666, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[-1.0000000000000027, -4.2247699334157896e-16, 7.185423191618839e-09, 10.678643363958551, 7.18542189250928e-09, 3.242476338419331e-11, 1.0000000000000095, -3.98238981993848, -7.3473506158125e-16, 1.0000000000000062, -3.242567636373241e-11, -4.474311198348664, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[1.0000000000000075, 1.0714944172405505e-08, -5.590693217611509e-16, 10.68476538217047, -1.0714942332456825e-08, 1.0000000000000075, -2.8789710608437095e-10, -3.9599504346779533, 8.573199869765363e-16, 2.8789683145596066e-10, 1.0000000000000089, -4.421107319409094, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[1.0000000000000027, -4.224811606821954e-16, -1.2852502831834216e-10, 11.457289347744506, -1.28523854108825e-10, 3.91613824701764e-16, -1.000000000000009, 4.46180057398486, 7.345062368968601e-16, 1.0000000000000058, 1.4156156715600112e-15, -5.102389820005999, 0.0, 0.0, 0.0, 1.0]
-  selection reason: selected Fusion joint translation; link frame axes stay aligned with base_link
-  warning: 
-
-- joint: Middle_MCP_FE
-  source: fusion_joint
-  parent link: palm_1_abduction_adduction_link_2
-  child link: finger_2_proximal_phalanx_1
-  type: revolute
-  occurrenceOne: finger:2+proximal_phalanx:1
-  occurrenceTwo: palm:1+abduction_adduction_link:2
-  raw origin one cm: [10.678643363958539, -3.9823898199384717, -4.474311198348664]
-  raw origin two cm: [10.678643363707064, -4.017389819938478, -4.47431119834753]
-  raw axis: [7.185418006694481e-09, 1.0000000000000075, -3.3598848348848204e-11]
-  selected candidate: geometry_one_transform
-  candidate error cm: 2.0829547441197472e-13
-  joint frame transform cm: [-1.0000000000000044, 5.61647505382541e-10, 7.185420241636787e-09, 10.708632750682105, 7.185420149954858e-09, 3.359641613773102e-11, 1.0000000000000062, -1.6173792064129837, 5.61650028653895e-10, 1.0000000000000004, -3.3595397878469343e-11, -4.474311200473347, 0.0, 0.0, 0.0, 1.0]
-  selected link frame transform cm: [1.0, 0.0, 0.0, 10.708632750682105, 0.0, 1.0, 0.0, -1.6173792064129837, 0.0, 0.0, 1.0, -4.474311200473347, 0.0, 0.0, 0.0, 1.0]
-  final URDF origin xyz/rpy: [0.012725, 0.00015, -0.0114] / [0.0, -0.0, 0.0]
-  exported axis: [0.0, 1.0, -0.0]
-  origin candidates: geometry_one_transform=[-1.0000000000000044, 5.61647505382541e-10, 7.185420241636787e-09, 10.708632750682105, 7.185420149954858e-09, 3.359641613773102e-11, 1.0000000000000062, -1.6173792064129837, 5.61650028653895e-10, 1.0000000000000004, -3.3595397878469343e-11, -4.474311200473347, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[-1.000000000000003, 5.616474220482866e-10, 7.185418006694481e-09, 10.708632750682018, 7.1854193750936075e-09, 3.3601585749877776e-11, 1.0000000000000075, -1.6173792064130026, 5.616499061757027e-10, 1.0000000000000004, -3.3598848348848204e-11, -4.474311200473536, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[1.0000000000000044, 1.0714939775064013e-08, 5.616473794860091e-10, 10.71475476888843, -1.0714939683202181e-08, 1.0000000000000062, -2.8672609161354157e-10, -3.99493982108718, -5.61649906070255e-10, 2.8672710789044795e-10, 1.0000000000000004, -4.421107320319923, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[1.000000000000003, 5.616474220441194e-10, -1.285198434121914e-10, 11.48727873221151, -1.285213366931665e-10, 1.1772139795091476e-12, -1.000000000000007, 6.861811187504488, -5.616499064128062e-10, 1.0, 1.1745836372761478e-12, -5.1373898281348875, 0.0, 0.0, 0.0, 1.0]
-  selection reason: selected Fusion joint translation; link frame axes stay aligned with base_link
-  warning: 
-
 - joint: Ring_MCP_FE
   source: fusion_joint
   parent link: palm_1_abduction_adduction_link_3
@@ -556,16 +516,16 @@ joints:
   type: revolute
   occurrenceOne: finger:3+proximal_phalanx:1
   occurrenceTwo: palm:1+abduction_adduction_link:3
-  raw origin one cm: [10.678643363958537, -3.9823898199384717, -4.474311198348663]
-  raw origin two cm: [10.678643363707064, -4.017389819938478, -4.47431119834753]
+  raw origin one cm: [10.678632750097217, -4.017379206332901, -4.474311198347015]
+  raw origin two cm: [10.678632750097224, -4.017379206332901, -4.474311198347009]
   raw axis: [7.185403543690138e-09, 0.9999999999999998, -3.242544681868469e-11]
   selected candidate: geometry_one_transform
   candidate error cm: 6.355861800421539e-09
   joint frame transform cm: [1.0000000000000002, -6.290785236133386e-10, 7.185405881450509e-09, 10.678632743339968, -7.18540258834933e-09, -3.241705409622152e-11, 1.000000000000008, 0.7826207935892393, -6.290763902299103e-10, -1.0000000000000029, -3.241739959307168e-11, -4.474311201478371, 0.0, 0.0, 0.0, 1.0]
   selected link frame transform cm: [1.0, 0.0, 0.0, 10.678632743339968, 0.0, 1.0, 0.0, 0.7826207935892393, 0.0, 0.0, 1.0, -4.474311201478371, 0.0, 0.0, 0.0, 1.0]
-  final URDF origin xyz/rpy: [0.012725, 0.00015, -0.0114] / [0.0, -0.0, 0.0]
+  final URDF origin xyz/rpy: [0.099, -0.040049, -0.033543] / [0.0, -0.0, 0.0]
   exported axis: [0.0, 1.0, -0.0]
-  origin candidates: geometry_one_transform=[1.0000000000000002, -6.290785236133386e-10, 7.185405881450509e-09, 10.678632743339968, -7.18540258834933e-09, -3.241705409622152e-11, 1.000000000000008, 0.7826207935892393, -6.290763902299103e-10, -1.0000000000000029, -3.241739959307168e-11, -4.474311201478371, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[-0.9999999999999989, 6.290774365184442e-10, 7.185403543690138e-09, 10.678632749632493, 7.1853983980464235e-09, 3.242520409882358e-11, 0.9999999999999998, 0.7826207935892647, 6.290764652478842e-10, 1.0000000000000024, -3.242544681868469e-11, -4.474311200583329, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[1.0000000000000002, 1.071492541489932e-08, 6.290785201814913e-10, 10.684754761549872, -1.071492212159666e-08, 1.000000000000008, -2.879054536550525e-10, -3.9949398211767595, -6.29076390115108e-10, 2.879051059378633e-10, 1.0000000000000029, -4.4211073212569305, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[0.9999999999999989, 6.290774365142775e-10, -1.2850538041006458e-10, 11.457278730891067, -1.2850035964603744e-10, 8.32328455193933e-16, -0.9999999999999993, 9.261811187511672, -6.29076465476707e-10, 1.000000000000002, 1.1816312902104825e-15, -5.137389828959471, 0.0, 0.0, 0.0, 1.0]
+  origin candidates: geometry_one_transform=[1.0000000000000002, -6.290785236133386e-10, 7.185405881450509e-09, 10.678632743339968, -7.18540258834933e-09, -3.241705409622152e-11, 1.000000000000008, 0.7826207935892393, -6.290763902299103e-10, -1.0000000000000029, -3.241739959307168e-11, -4.474311201478371, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[-0.9999999999999989, 6.290774365184442e-10, 7.185403543690138e-09, 10.678632749632493, 7.1853983980464235e-09, 3.242520409882358e-11, 0.9999999999999998, 0.7826207935892647, 6.290764652478842e-10, 1.0000000000000024, -3.242544681868469e-11, -4.474311200583329, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[1.0000000000000002, 1.071492541489932e-08, 6.290785201814913e-10, 10.684744147313642, -1.071492212159666e-08, 1.000000000000008, -2.879054536550525e-10, -4.029929207571075, -6.29076390115108e-10, 2.879051059378633e-10, 1.0000000000000029, -4.4211073212653496, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[0.9999999999999989, 6.290774365142775e-10, -1.2850538041006458e-10, 11.457268117281235, -1.2850035964603744e-10, 8.32328455193933e-16, -0.9999999999999993, 9.261811187511151, -6.29076465476707e-10, 1.000000000000002, 1.1816312902104825e-15, -5.137379215353887, 0.0, 0.0, 0.0, 1.0]
   selection reason: selected Fusion joint translation; link frame axes stay aligned with base_link
   warning: 
 
@@ -576,96 +536,56 @@ joints:
   type: revolute
   occurrenceOne: finger:4+proximal_phalanx:1
   occurrenceTwo: palm:1+abduction_adduction_link:4
-  raw origin one cm: [10.678643363958537, -3.9823898199384717, -4.474311198348663]
-  raw origin two cm: [10.678643363707064, -4.017389819938478, -4.47431119834753]
+  raw origin one cm: [10.678632750097217, -4.017379206332901, -4.474311198347015]
+  raw origin two cm: [10.678632750097224, -4.017379206332901, -4.474311198347009]
   raw axis: [7.056866228796807e-09, 0.9999999999999971, -3.24223847915671e-11]
   selected candidate: geometry_one_transform
   candidate error cm: 2.458782837272316e-13
   joint frame transform cm: [1.0000000000000113, -3.492208001075702e-10, 7.05686578956576e-09, 9.104277444555851, -7.056866263711329e-09, -3.2422056130707695e-11, 1.0000000000000104, 3.1717031063404946, -3.4922159123569054e-10, -1.0000000000000204, -3.242025040624071e-11, -4.477544757225884, 0.0, 0.0, 0.0, 1.0]
   selected link frame transform cm: [1.0, 0.0, 0.0, 9.104277444555851, 0.0, 1.0, 0.0, 3.1717031063404946, 0.0, 0.0, 1.0, -4.477544757225884, 0.0, 0.0, 0.0, 1.0]
-  final URDF origin xyz/rpy: [0.012725, 0.00015, -0.0114] / [0.0, -0.0, 0.0]
+  final URDF origin xyz/rpy: [0.099, -0.040049, -0.033543] / [0.0, -0.0, 0.0]
   exported axis: [0.0, 1.0, -0.0]
-  origin candidates: geometry_one_transform=[1.0000000000000113, -3.492208001075702e-10, 7.05686578956576e-09, 9.104277444555851, -7.056866263711329e-09, -3.2422056130707695e-11, 1.0000000000000104, 3.1717031063404946, -3.4922159123569054e-10, -1.0000000000000204, -3.242025040624071e-11, -4.477544757225884, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[-0.999999999999996, 3.4921930271016137e-10, 7.056866228796807e-09, 9.104277444555716, 7.056860538569014e-09, 3.242455353686242e-11, 0.9999999999999971, 3.1717031063405554, 3.492216698918541e-10, 1.000000000000028, -3.24223847915671e-11, -4.47754475722608, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[1.0000000000000113, 1.0586385322924965e-08, 3.4922079671689715e-10, 10.660399462747815, -1.0586385796958667e-08, 1.0000000000000104, -2.879004516205671e-10, -4.005857508424905, -3.492215911208782e-10, 2.879022561124529e-10, 1.0000000000000204, -4.424340877002068, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[0.999999999999996, 3.492193027101624e-10, 3.1934492320223704e-14, 9.882923426366979, 3.749983135325162e-14, 1.8176649416388404e-16, -0.9999999999999967, 11.650893501635561, -3.4922167012065536e-10, 1.0000000000000275, -1.8784209214126042e-15, -5.140623382613841, 0.0, 0.0, 0.0, 1.0]
+  origin candidates: geometry_one_transform=[1.0000000000000113, -3.492208001075702e-10, 7.05686578956576e-09, 9.104277444555851, -7.056866263711329e-09, -3.2422056130707695e-11, 1.0000000000000104, 3.1717031063404946, -3.4922159123569054e-10, -1.0000000000000204, -3.242025040624071e-11, -4.477544757225884, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[-0.999999999999996, 3.4921930271016137e-10, 7.056866228796807e-09, 9.104277444555716, 7.056860538569014e-09, 3.242455353686242e-11, 0.9999999999999971, 3.1717031063405554, 3.492216698918541e-10, 1.000000000000028, -3.24223847915671e-11, -4.47754475722608, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[1.0000000000000113, 1.0586385322924965e-08, 3.4922079671689715e-10, 10.660388848516082, -1.0586385796958667e-08, 1.0000000000000104, -2.879004516205671e-10, -4.0408468948192215, -3.492215911208782e-10, 2.879022561124529e-10, 1.0000000000000204, -4.42434087701049, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[0.999999999999996, 3.492193027101624e-10, 3.1934492320223704e-14, 9.882912812757143, 3.749983135325162e-14, 1.8176649416388404e-16, -0.9999999999999967, 11.65089350163504, -3.4922167012065536e-10, 1.0000000000000275, -1.8784209214126042e-15, -5.140612769008261, 0.0, 0.0, 0.0, 1.0]
   selection reason: selected Fusion joint translation; link frame axes stay aligned with base_link
   warning: 
 
-- joint: Ring_MCP_AA
+- joint: Index_MCP_FE
   source: fusion_joint
-  parent link: palm_1_finger_base_3
-  child link: palm_1_abduction_adduction_link_3
+  parent link: palm_1_abduction_adduction_link_1
+  child link: finger_1_proximal_phalanx_1
   type: revolute
-  occurrenceOne: palm:1+abduction_adduction_link:3
-  occurrenceTwo: palm:1+finger_base:3
-  raw origin one cm: [9.406119393270517, -4.03238981070001, -3.3343111966452703]
-  raw origin two cm: [9.406119393270524, -4.032389810700006, -3.334311196645271]
-  raw axis: [-6.290780021873205e-10, 1.2683178221067565e-15, -1.0000000000000027]
+  occurrenceOne: finger:1+proximal_phalanx:1
+  occurrenceTwo: palm:1+abduction_adduction_link:1
+  raw origin one cm: [10.678632750097217, -4.017379206332901, -4.474311198347015]
+  raw origin two cm: [10.678632750097224, -4.017379206332901, -4.474311198347009]
+  raw axis: [7.185423358152291e-09, 1.0000000000000093, -3.242567642123255e-11]
   selected candidate: geometry_one_transform
-  candidate error cm: 3.923660740106592e-15
-  joint frame transform cm: [0.5877852523964355, 0.809016994299413, -6.290780862975594e-10, 9.406108779913101, 0.8090169942994166, -0.5877852523964319, 1.2698051138577591e-15, 0.7676208028277021, -3.697607666003155e-10, -5.089346833326354e-10, -1.0000000000000024, -3.334311198080559, 0.0, 0.0, 0.0, 1.0]
-  selected link frame transform cm: [1.0, 0.0, 0.0, 9.406108779913101, 0.0, 1.0, 0.0, 0.7676208028277021, 0.0, 0.0, 1.0, -3.334311198080559, 0.0, 0.0, 0.0, 1.0]
-  final URDF origin xyz/rpy: [0.098962, -0.040332, -0.023497] / [0.0, -0.0, 0.0]
-  exported axis: [-0.0, 0.0, -1.0]
-  origin candidates: geometry_one_transform=[0.5877852523964355, 0.809016994299413, -6.290780862975594e-10, 9.406108779913101, 0.8090169942994166, -0.5877852523964319, 1.2698051138577591e-15, 0.7676208028277021, -3.697607666003155e-10, -5.089346833326354e-10, -1.0000000000000024, -3.334311198080559, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[1.2850340292338902e-10, 0.9999999999999988, -6.290780021873205e-10, 9.406108779913097, 1.000000000000008, -1.2850554477482935e-10, 1.2683178221067565e-15, 0.7676208028277011, -2.530256820038046e-17, -6.290770088141851e-10, -1.0000000000000027, -3.3343111980805578, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[0.9999999999999989, 6.290774365142775e-10, -1.2850538041006458e-10, 10.18475476029859, -1.2850035964603744e-10, 8.32328455193933e-16, -0.9999999999999993, 8.12181118597293, -6.29076465476707e-10, 1.000000000000002, 1.1816312902104825e-15, -5.152389818920485, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[1.2850343067896463e-10, -0.9999999999999988, 6.290782270508511e-10, 3.542344241901736, 1.0000000000000075, 1.2850569743049518e-10, -6.388593539695375e-16, 14.206902434386294, -1.2244708285508235e-16, 6.290772336777153e-10, 1.0000000000000022, -4.318886465744377, 0.0, 0.0, 0.0, 1.0]
+  candidate error cm: 1.2434497875801753e-14
+  joint frame transform cm: [1.0000000000000075, 4.33166602834739e-16, 7.185422040939167e-09, 10.67863275009722, -7.185420200990474e-09, -3.242476345129425e-11, 1.000000000000008, -4.017379206332903, 7.347350541093864e-16, -1.000000000000009, -3.242503807970744e-11, -4.474311198347016, 0.0, 0.0, 0.0, 1.0]
+  selected link frame transform cm: [1.0, 0.0, 0.0, 10.67863275009722, 0.0, 1.0, 0.0, -4.017379206332903, 0.0, 0.0, 1.0, -4.474311198347016, 0.0, 0.0, 0.0, 1.0]
+  final URDF origin xyz/rpy: [0.099, -0.040049, -0.033543] / [0.0, -0.0, 0.0]
+  exported axis: [0.0, 1.0, -0.0]
+  origin candidates: geometry_one_transform=[1.0000000000000075, 4.33166602834739e-16, 7.185422040939167e-09, 10.67863275009722, -7.185420200990474e-09, -3.242476345129425e-11, 1.000000000000008, -4.017379206332903, 7.347350541093864e-16, -1.000000000000009, -3.242503807970744e-11, -4.474311198347016, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[-1.0000000000000024, -4.2247699333617896e-16, 7.185423358152291e-09, 10.678632750097226, 7.185422059042733e-09, 3.242476344169344e-11, 1.0000000000000093, -4.017379206332899, -7.347350615816628e-16, 1.0000000000000062, -3.242567642123255e-11, -4.474311198347006, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[1.0000000000000075, 1.0714941574186495e-08, -4.36598839790336e-16, 10.684744154072915, -1.0714939734237804e-08, 1.000000000000008, -2.878977443135323e-10, -4.029929207466698, 7.34849498914655e-16, 2.87897469685122e-10, 1.000000000000009, -4.421107319415869, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[1.0000000000000024, -4.224811606821951e-16, -1.2852519485179583e-10, 11.457268120273337, -1.2852402064227866e-10, 3.9167132483783827e-16, -1.0000000000000089, 4.461811187588781, 7.345062368968672e-16, 1.0000000000000058, 1.4156731716960857e-15, -5.137379206399894, 0.0, 0.0, 0.0, 1.0]
   selection reason: selected Fusion joint translation; link frame axes stay aligned with base_link
   warning: 
 
-- joint: Middle_MCP_AA
+- joint: Middle_MCP_FE
   source: fusion_joint
-  parent link: palm_1_finger_base_2
-  child link: palm_1_abduction_adduction_link_2
+  parent link: palm_1_abduction_adduction_link_2
+  child link: finger_2_proximal_phalanx_1
   type: revolute
-  occurrenceOne: palm:1+abduction_adduction_link:2
-  occurrenceTwo: palm:1+finger_base:2
-  raw origin one cm: [9.406119393270517, -4.03238981070001, -3.3343111966452703]
-  raw origin two cm: [9.406119393270524, -4.032389810700006, -3.334311196645271]
-  raw axis: [-6.290765532663134e-10, 1.8566804597967468e-15, -0.9999999999999968]
+  occurrenceOne: finger:2+proximal_phalanx:1
+  occurrenceTwo: palm:1+abduction_adduction_link:2
+  raw origin one cm: [10.678632750097218, -4.017379206332901, -4.474311198347016]
+  raw origin two cm: [10.678632750097224, -4.017379206332901, -4.474311198347009]
+  raw axis: [2.1299220412752215e-08, 1.0000000000000058, -9.961607446168389e-11]
   selected candidate: geometry_one_transform
-  candidate error cm: 4.440892098500626e-16
-  joint frame transform cm: [0.5150380750202187, 0.8571673006359224, -5.616480718274013e-10, 9.436108780885668, 0.8571673006359255, -0.5150380750202223, -1.1751118459400862e-12, -1.6323791971731976, -2.9027568909308087e-10, -4.808246757566174e-10, -1.0000000000000004, -3.334311198056577, 0.0, 0.0, 0.0, 1.0]
-  selected link frame transform cm: [1.0, 0.0, 0.0, 9.436108780885668, 0.0, 1.0, 0.0, -1.6323791971731976, 0.0, 0.0, 1.0, -3.334311198056577, 0.0, 0.0, 0.0, 1.0]
-  final URDF origin xyz/rpy: [0.098962, -0.040332, -0.023497] / [0.0, -0.0, 0.0]
-  exported axis: [-0.0, 0.0, -1.0]
-  origin candidates: geometry_one_transform=[0.5150380750202187, 0.8571673006359224, -5.616480718274013e-10, 9.436108780885668, 0.8571673006359255, -0.5150380750202223, -1.1751118459400862e-12, -1.6323791971731976, -2.9027568909308087e-10, -4.808246757566174e-10, -1.0000000000000004, -3.334311198056577, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[1.2851823371772486e-10, 1.0000000000000002, -6.290765532663134e-10, 9.436108780885668, 1.0000000000000102, -1.28523342779749e-10, 1.8566804597967468e-15, -1.632379197173198, -2.531612072753653e-17, -6.290792014775537e-10, -0.9999999999999968, -3.334311198056577, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[1.000000000000003, 5.616474220441194e-10, -1.285198434121914e-10, 10.214754761620021, -1.285213366931665e-10, 1.1772139795091476e-12, -1.000000000000007, 5.72181118596575, -5.616499064128062e-10, 1.0, 1.1745836372761478e-12, -5.152389818180367, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[1.2851826147330048e-10, -1.0000000000000002, 6.290767781298441e-10, 3.5723442428744585, 1.0000000000000098, 1.2852349543541484e-10, -1.2272219916595301e-15, 11.806902434385345, -1.2246063538223861e-16, 6.290794263410839e-10, 0.9999999999999963, -4.318886465720379, 0.0, 0.0, 0.0, 1.0]
-  selection reason: selected Fusion joint translation; link frame axes stay aligned with base_link
-  warning: 
-
-- joint: Index_MCP_AA
-  source: fusion_joint
-  parent link: palm_1_finger_base_1
-  child link: palm_1_abduction_adduction_link_1
-  type: revolute
-  occurrenceOne: palm:1+abduction_adduction_link:1
-  occurrenceTwo: palm:1+finger_base:1
-  raw origin one cm: [9.406119393270517, -4.03238981070001, -3.3343111966452703]
-  raw origin two cm: [9.406119393270524, -4.032389810700006, -3.334311196645271]
-  raw axis: [-2.276214697761643e-16, 1.7104622443099177e-15, -1.0000000000000038]
-  selected candidate: geometry_one_transform
-  candidate error cm: 7.95651227888113e-15
-  joint frame transform cm: [0.39073112860758263, 0.9205048534022241, -2.2730212128710785e-16, 9.406119393270517, 0.920504853402231, -0.39073112860758413, 1.7105197444459963e-15, -4.03238981070001, 1.4170268028107326e-15, -2.336358914007547e-16, -1.0000000000000062, -3.3343111966452708, 0.0, 0.0, 0.0, 1.0]
-  selected link frame transform cm: [1.0, 0.0, 0.0, 9.406119393270517, 0.0, 1.0, 0.0, -4.03238981070001, 0.0, 0.0, 1.0, -3.3343111966452708, 0.0, 0.0, 0.0, 1.0]
-  final URDF origin xyz/rpy: [0.098962, -0.040332, -0.023497] / [0.0, -0.0, 0.0]
-  exported axis: [-0.0, 0.0, -1.0]
-  origin candidates: geometry_one_transform=[0.39073112860758263, 0.9205048534022241, -2.2730212128710785e-16, 9.406119393270517, 0.920504853402231, -0.39073112860758413, 1.7105197444459963e-15, -4.03238981070001, 1.4170268028107326e-15, -2.336358914007547e-16, -1.0000000000000062, -3.3343111966452708, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[1.2852248068853953e-10, 1.0000000000000004, -2.276214697761643e-16, 9.406119393270524, 1.000000000000006, -1.285237930509767e-10, 1.7104622443099177e-15, -4.032389810700006, 9.713096212754514e-17, 4.469216880165879e-16, -1.0000000000000038, -3.3343111966452703, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[1.0000000000000027, -4.224811606821954e-16, -1.2852502831834216e-10, 10.184765376909947, -1.28523854108825e-10, 3.91613824701764e-16, -1.000000000000009, 3.3218005724450057, 7.345062368968601e-16, 1.0000000000000058, 1.4156156715600112e-15, -5.1523898107675254, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[1.2852250844411514e-10, -1.0000000000000004, 4.524850004232472e-16, 3.542354857988845, 1.0000000000000056, 1.2852394570664254e-10, -1.0810037760766718e-15, 9.406891820858494, -1.3552527156586495e-20, -2.220581574646727e-16, 1.0000000000000033, -4.31888646176999, 0.0, 0.0, 0.0, 1.0]
-  selection reason: selected Fusion joint translation; link frame axes stay aligned with base_link
-  warning: 
-
-- joint: Little_MCP_AA
-  source: fusion_joint
-  parent link: palm_1_finger_base_4
-  child link: palm_1_abduction_adduction_link_4
-  type: revolute
-  occurrenceOne: palm:1+abduction_adduction_link:4
-  occurrenceTwo: palm:1+finger_base:4
-  raw origin one cm: [9.406119393270517, -4.03238981070001, -3.3343111966452703]
-  raw origin two cm: [9.406119393270524, -4.032389810700006, -3.334311196645271]
-  raw axis: [-3.492199616368745e-10, 1.9205535203122057e-15, -1.0000000000000027]
-  selected candidate: geometry_one_transform
-  candidate error cm: 1.3322676295501878e-15
-  joint frame transform cm: [0.5877852522924449, 0.809016994374963, -3.4921995249344465e-10, 7.8317534745192185, 0.8090169943749672, -0.587785252292441, 1.9203670748470026e-15, 3.1567031154154246, -2.0526376947245728e-10, -2.825291965858276e-10, -1.000000000000028, -3.3375447550794033, 0.0, 0.0, 0.0, 1.0]
-  selected link frame transform cm: [1.0, 0.0, 0.0, 7.8317534745192185, 0.0, 1.0, 0.0, 3.1567031154154246, 0.0, 0.0, 1.0, -3.3375447550794033, 0.0, 0.0, 0.0, 1.0]
-  final URDF origin xyz/rpy: [0.098962, -0.040332, -0.023497] / [0.0, -0.0, 0.0]
-  exported axis: [-0.0, 0.0, -1.0]
-  origin candidates: geometry_one_transform=[0.5877852522924449, 0.809016994374963, -3.4921995249344465e-10, 7.8317534745192185, 0.8090169943749672, -0.587785252292441, 1.9203670748470026e-15, 3.1567031154154246, -2.0526376947245728e-10, -2.825291965858276e-10, -1.000000000000028, -3.3375447550794033, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[-3.441774732417863e-14, 1.0000000000000016, -3.492199616368745e-10, 7.831753474519219, 1.0000000000000078, 3.585511786716808e-14, 1.9205535203122057e-15, 3.1567031154154237, -2.5302568200379498e-17, -3.492227666311604e-10, -1.0000000000000027, -3.3375447550794037, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[0.999999999999996, 3.492193027101624e-10, 3.1934492320223704e-14, 8.610399455925235, 3.749983135325162e-14, 1.8176649416388404e-16, -0.9999999999999967, 10.510893499933257, -3.4922167012065536e-10, 1.0000000000000275, -1.8784209214126042e-15, -5.155623372930982, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[-3.4389991748563e-14, -1.0000000000000016, 3.492201865004051e-10, 1.9679889365129988, 1.0000000000000073, -3.570246220128695e-14, -1.2910950521033605e-15, 16.595984747492835, -1.2244708285508136e-16, 3.492229914946908e-10, 1.0000000000000022, -4.322120021613666, 0.0, 0.0, 0.0, 1.0]
+  candidate error cm: 2.014326437394131e-13
+  joint frame transform cm: [1.0000000000000069, -5.616294592321125e-10, 2.1299222384972675e-08, 10.708632765480612, -2.1299222293327962e-08, -9.961708474437659e-11, 1.0000000000000062, -1.61737925461679, -5.616312141095562e-10, -1.000000000000002, -9.961607443139579e-11, -4.474311200485699, 0.0, 0.0, 0.0, 1.0]
+  selected link frame transform cm: [1.0, 0.0, 0.0, 10.708632765480612, 0.0, 1.0, 0.0, -1.61737925461679, 0.0, 0.0, 1.0, -4.474311200485699, 0.0, 0.0, 0.0, 1.0]
+  final URDF origin xyz/rpy: [0.099, -0.040049, -0.033543] / [0.0, -0.0, 0.0]
+  exported axis: [0.0, 1.0, -0.0]
+  origin candidates: geometry_one_transform=[1.0000000000000069, -5.616294592321125e-10, 2.1299222384972675e-08, 10.708632765480612, -2.1299222293327962e-08, -9.961708474437659e-11, 1.0000000000000062, -1.61737925461679, -5.616312141095562e-10, -1.000000000000002, -9.961607443139579e-11, -4.474311200485699, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[-1.0000000000000044, 5.616382363803915e-10, 2.1299220412752215e-08, 10.708632765480804, 2.1299221781103832e-08, 9.961880390744645e-11, 1.0000000000000058, -1.6173792546167938, 5.61640608334091e-10, 1.0000000000000018, -9.961607446168389e-11, -4.474311200485638, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[-1.000000000000006, 1.776969876772646e-08, -5.616384342185195e-10, 10.702521361082269, 1.7769698859663022e-08, 1.000000000000004, -4.1993754803266056e-10, -4.029929255518308, 5.616407997690426e-10, -4.1993858027446833e-10, -1.000000000000002, -4.527515078194393, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[1.0000000000000044, 5.616382359185933e-10, -1.4242322249469915e-08, 11.487268196161928, -1.4242323742703396e-08, 6.719443213707784e-11, -1.0000000000000053, 6.861810988318841, -5.616406090370699e-10, 1.0000000000000013, 6.719180975017737e-11, -5.137379214834878, 0.0, 0.0, 0.0, 1.0]
   selection reason: selected Fusion joint translation; link frame axes stay aligned with base_link
   warning: 
 
@@ -696,7 +616,7 @@ joints:
   type: revolute
   occurrenceOne: mmhand-thumb:1+finger:7+proximal_phalanx:1
   occurrenceTwo: mmhand-thumb:1+thumb_abduction_adduction_link:1
-  raw origin one cm: [10.678643370251192, -3.9823898199384717, -4.474311197453417]
+  raw origin one cm: [10.678632756389867, -4.017379206332901, -4.474311197451769]
   raw origin two cm: [5.35021394349993, -4.618350942786451, -8.470222709437783]
   raw axis: [0.8627248478752729, 0.24095513012285488, 0.4445744730931464]
   selected candidate: geometry_one_transform
@@ -705,7 +625,7 @@ joints:
   selected link frame transform cm: [1.0, 0.0, 0.0, 5.3502139434999245, 0.0, 1.0, 0.0, -4.618350942786451, 0.0, 0.0, 1.0, -8.470222709437778, 0.0, 0.0, 0.0, 1.0]
   final URDF origin xyz/rpy: [0.005694, 0.007003, -0.014507] / [0.0, -0.0, 0.0]
   exported axis: [0.862725, 0.240955, 0.444574]
-  origin candidates: geometry_one_transform=[-0.11995763730191839, -0.4912392513953881, 0.8627248478752789, 5.3502139434999245, 0.9515972940888802, 0.19079626608012384, 0.2409551301229065, -4.618350942786451, -0.2829712973706233, 0.8498710388866875, 0.4445744730931249, -8.470222709437778, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[-0.11995763730192432, -0.49123925139540886, 0.8627248478752729, 5.350213943499931, 0.9515972940889271, 0.19079626608013892, 0.24095513012285488, -4.618350942786483, -0.28297129737063753, 0.8498710388867181, 0.4445744730931464, -8.47022270943777, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[0.983821980882335, -0.15121310806417654, -0.09606719462073646, 11.197107796833466, -0.0026140608310683943, 0.5240682746875467, -0.8516722433847115, -12.418090538812116, 0.17912977591313778, 0.8381449990398975, 0.5151946078577524, -4.533429862969603, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[0.10091671642478167, -0.6032621450691023, 0.7911324798494264, -2.5778394164737755, -0.6416923100298559, -0.647149616118175, -0.4116167557408801, 3.443811809532499, 0.760293887647853, -0.4661246171194009, -0.4524168937171524, 13.823605085706754, 0.0, 0.0, 0.0, 1.0]
+  origin candidates: geometry_one_transform=[-0.11995763730191839, -0.4912392513953881, 0.8627248478752789, 5.3502139434999245, 0.9515972940888802, 0.19079626608012384, 0.2409551301229065, -4.618350942786451, -0.2829712973706233, 0.8498710388866875, 0.4445744730931249, -8.470222709437778, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[-0.11995763730192432, -0.49123925139540886, 0.8627248478752729, 5.350213943499931, 0.9515972940889271, 0.19079626608013892, 0.24095513012285488, -4.618350942786483, -0.28297129737063753, 0.8498710388867181, 0.4445744730931464, -8.47022270943777, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[0.983821980882335, -0.15121310806417654, -0.09606719462073646, 11.202388208549193, -0.0026140608310683943, 0.5240682746875467, -0.8516722433847115, -12.436427338428345, 0.17912977591313778, 0.8381449990398975, 0.5151946078577524, -4.56275794345332, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[0.10091671642478167, -0.6032621450691023, 0.7911324798494264, -2.5778394164737755, -0.6416923100298559, -0.647149616118175, -0.4116167557408801, 3.443811809532499, 0.760293887647853, -0.4661246171194009, -0.4524168937171524, 13.823605085706754, 0.0, 0.0, 0.0, 1.0]
   selection reason: selected Fusion joint translation; link frame axes stay aligned with base_link
   warning: 
 
@@ -716,8 +636,8 @@ joints:
   type: revolute
   occurrenceOne: mmhand-thumb:1+finger:7+fingertip:1
   occurrenceTwo: mmhand-thumb:1+finger:7+distal_phalanx:1
-  raw origin one cm: [17.49187691323186, -4.424439826782116, -4.4807814205966645]
-  raw origin two cm: [17.491876913231877, -4.424439826782116, -4.480781420596663]
+  raw origin one cm: [17.491866299370525, -4.459429213176528, -4.480781420595014]
+  raw origin two cm: [17.49186629937055, -4.459429213176525, -4.4807814205950125]
   raw axis: [0.8627248477603072, 0.24095513144977881, 0.4445744725970812]
   selected candidate: geometry_one_transform
   candidate error cm: 1.3059545463329982e-13
@@ -725,7 +645,7 @@ joints:
   selected link frame transform cm: [1.0, 0.0, 0.0, 8.314998701292179, 0.0, 1.0, 0.0, -6.018647873953997, 0.0, 0.0, 1.0, -14.458948708716871, 0.0, 0.0, 0.0, 1.0]
   final URDF origin xyz/rpy: [0.010549, -0.006561, -0.026553] / [0.0, -0.0, 0.0]
   exported axis: [0.862725, 0.240955, 0.444574]
-  origin candidates: geometry_one_transform=[0.49123925129880625, -0.11995763852422628, 0.8627248477603013, 8.314998701292179, -0.19079626610708852, 0.9515972937474642, 0.24095513144977646, -6.018647873953997, -0.8498710389364321, -0.2829712980004997, 0.44457447259707744, -14.458948708716871, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[-0.4912392512988198, 0.11995763852423097, 0.8627248477603072, 8.31499870129225, 0.19079626610709516, -0.951597293747493, 0.24095513144977881, -6.018647873954034, 0.8498710389364516, 0.282971298000499, 0.4445744725970812, -14.458948708716974, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[0.9838219819072231, -0.15120609523083084, -0.0960782216795949, 17.967592036710485, -0.0026140643831616154, 0.5241303820315694, -0.8516340230983914, -12.662099411460993, 0.1791297702322483, 0.8381074271216489, 0.5152557287600279, -3.6868604963417777, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[0.9838219814468525, -0.15121310436054936, -0.09606719466917729, 17.96758333596435, -0.002614062787546844, 0.5240682749506173, -0.8516722432168282, -12.662054622235466, 0.1791297727841319, 0.8381449995435925, 0.5151946081262476, -3.686812048929189, 0.0, 0.0, 0.0, 1.0]
+  origin candidates: geometry_one_transform=[0.49123925129880625, -0.11995763852422628, 0.8627248477603013, 8.314998701292179, -0.19079626610708852, 0.9515972937474642, 0.24095513144977646, -6.018647873953997, -0.8498710389364321, -0.2829712980004997, 0.44457447259707744, -14.458948708716871, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[-0.4912392512988198, 0.11995763852423097, 0.8627248477603072, 8.31499870129225, 0.19079626610709516, -0.951597293747493, 0.24095513144977881, -6.018647873954034, 0.8498710389364516, 0.282971298000499, 0.4445744725970812, -14.458948708716974, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[0.9838219819072231, -0.15120609523083084, -0.0960782216795949, 17.97287220305146, -0.0026140643831616154, 0.5241303820315694, -0.8516340230983914, -12.680438384175035, 0.1791297702322483, 0.8381074271216489, 0.5152557287600279, -3.716187262207055, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[0.9838219814468525, -0.15121310436054936, -0.09606719466917729, 17.97286374755048, -0.002614062787546844, 0.5240682749506173, -0.8516722432168282, -12.680391421860872, 0.1791297727841319, 0.8381449995435925, 0.5151946081262476, -3.716140129430479, 0.0, 0.0, 0.0, 1.0]
   selection reason: selected Fusion joint translation; link frame axes stay aligned with base_link
   warning: 
 
@@ -736,8 +656,8 @@ joints:
   type: revolute
   occurrenceOne: mmhand-thumb:1+finger:7+distal_phalanx:1
   occurrenceTwo: mmhand-thumb:1+finger:7+proximal_phalanx:1
-  raw origin one cm: [14.591879468869825, -3.9959398213403268, -4.480265915535778]
-  raw origin two cm: [14.591879468869815, -3.9959398213403206, -4.480265915535776]
+  raw origin one cm: [14.591868855008503, -4.030929207734745, -4.480265915534129]
+  raw origin two cm: [14.5918688550085, -4.030929207734741, -4.480265915534127]
   raw axis: [0.8627248444074264, 0.24095513147915953, 0.4445744790876357]
   selected candidate: geometry_one_transform
   candidate error cm: 1.3113612640358866e-06
@@ -745,7 +665,7 @@ joints:
   selected link frame transform cm: [1.0, 0.0, 0.0, 7.260145549349764, 0.0, 1.0, 0.0, -5.362580472939344, 0.0, 0.0, 1.0, -11.80367883714499, 0.0, 0.0, 0.0, 1.0]
   final URDF origin xyz/rpy: [0.019099, -0.007442, -0.033335] / [0.0, -0.0, 0.0]
   exported axis: [0.862725, 0.240955, 0.444574]
-  origin candidates: geometry_one_transform=[0.4912392573613639, -0.11995763731083715, 0.8627248444769848, 7.260145549349764, -0.19079626441385414, 0.9515972940863884, 0.24095513145215328, -5.362580472939344, -0.8498710358123358, -0.2829712973752198, 0.44457447896728874, -11.80367883714499, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[-0.49123925748352903, 0.11995763731082824, 0.8627248444074264, 7.260144902614913, 0.19079626437973382, -0.9515972940863917, 0.24095513147915953, -5.362580220672413, 0.8498710357493813, 0.28297129737521476, 0.4445744790876357, -11.803677724596657, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[0.9838219814468525, -0.15121310436054936, -0.09606719466917729, 15.049657764894867, -0.002614062787546844, 0.5240682749506173, -0.8516722432168282, -12.430349629515563, 0.1791297727841319, 0.8381449995435925, 0.5151946081262476, -3.846877209919059, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[0.983821980882335, -0.15121310806417654, -0.09606719462073646, 15.049656477923875, -0.0026140608310683943, 0.5240682746875467, -0.8516722433847115, -12.430349633768992, 0.17912977591313778, 0.8381449990398975, 0.5151946078577524, -3.846877462088136, 0.0, 0.0, 0.0, 1.0]
+  origin candidates: geometry_one_transform=[0.4912392573613639, -0.11995763731083715, 0.8627248444769848, 7.260145549349764, -0.19079626441385414, 0.9515972940863884, 0.24095513145215328, -5.362580472939344, -0.8498710358123358, -0.2829712973752198, 0.44457447896728874, -11.80367883714499, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[-0.49123925748352903, 0.11995763731082824, 0.8627248444074264, 7.260144902614913, 0.19079626437973382, -0.9515972940863917, 0.24095513147915953, -5.362580220672413, 0.8498710357493813, 0.28297129737521476, 0.4445744790876357, -11.803677724596657, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[0.9838219814468525, -0.15121310436054936, -0.09606719466917729, 15.054938176481004, -0.002614062787546844, 0.5240682749506173, -0.8516722432168282, -12.448686429140972, 0.1791297727841319, 0.8381449995435925, 0.5151946081262476, -3.8762052904203568, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[0.983821980882335, -0.15121310806417654, -0.09606719462073646, 15.054936889639611, -0.0026140608310683943, 0.5240682746875467, -0.8516722433847115, -12.448686433385218, 0.17912977591313778, 0.8381449990398975, 0.5151946078577524, -3.876205542571843, 0.0, 0.0, 0.0, 1.0]
   selection reason: selected Fusion joint translation; link frame axes stay aligned with base_link
   warning: 
 
@@ -756,16 +676,16 @@ joints:
   type: revolute
   occurrenceOne: finger:1+fingertip:1
   occurrenceTwo: finger:1+distal_phalanx:1
-  raw origin one cm: [17.49187691323186, -4.424439826782116, -4.4807814205966645]
-  raw origin two cm: [17.491876913231877, -4.424439826782116, -4.480781420596663]
-  raw axis: [7.155754961262805e-09, 1.000000000000006, -1.449220031084219e-09]
+  raw origin one cm: [17.491866299370525, -4.459429213176528, -4.480781420595014]
+  raw origin two cm: [17.49186629937055, -4.459429213176525, -4.4807814205950125]
+  raw axis: [7.155752363043799e-09, 1.0000000000000064, -1.449219392882162e-09]
   selected candidate: geometry_one_transform
-  candidate error cm: 2.1408600746742135e-14
-  joint frame transform cm: [0.9999999999999788, 2.1510657336795924e-15, 7.155754978859172e-09, 17.491876913231856, -7.155754822034497e-09, -1.4492197173890777e-09, 1.0000000000000024, -4.424439826782117, 8.581098500693315e-16, -0.9999999999999784, -1.4492199854445123e-09, -4.4807814205966645, 0.0, 0.0, 0.0, 1.0]
-  selected link frame transform cm: [1.0, 0.0, 0.0, 17.491876913231856, 0.0, 1.0, 0.0, -4.424439826782117, 0.0, 0.0, 1.0, -4.4807814205966645, 0.0, 0.0, 0.0, 1.0]
+  candidate error cm: 2.1463801355982377e-14
+  joint frame transform cm: [0.9999999999999789, 2.028595256222122e-15, 7.155752380640162e-09, 17.49186629937053, -7.155752223815479e-09, -1.4492190791599163e-09, 1.0000000000000029, -4.459429213176528, 7.356393642790667e-16, -0.9999999999999786, -1.4492193472289035e-09, -4.480781420595014, 0.0, 0.0, 0.0, 1.0]
+  selected link frame transform cm: [1.0, 0.0, 0.0, 17.49186629937053, 0.0, 1.0, 0.0, -4.459429213176528, 0.0, 0.0, 1.0, -4.480781420595014, 0.0, 0.0, 0.0, 1.0]
   final URDF origin xyz/rpy: [0.029, -0.004285, -5e-06] / [0.0, -0.0, 0.0]
   exported axis: [0.0, 1.0, -0.0]
-  origin candidates: geometry_one_transform=[0.9999999999999788, 2.1510657336795924e-15, 7.155754978859172e-09, 17.491876913231856, -7.155754822034497e-09, -1.4492197173890777e-09, 1.0000000000000024, -4.424439826782117, 8.581098500693315e-16, -0.9999999999999784, -1.4492199854445123e-09, -4.4807814205966645, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[-1.0000000000000049, -2.23372671261735e-16, 7.155754961262805e-09, 17.491876913231877, 7.1557562672446236e-09, 1.4492197045360602e-09, 1.000000000000006, -4.424439826782116, -8.505985291393006e-16, 1.0000000000000135, -1.449220031084219e-09, -4.480781420596663, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[0.9999999999999786, 1.735126342592898e-08, 1.2631710280870927e-12, 17.497998923811902, -1.7351263315083804e-08, 0.9999999973409477, 7.292536602056303e-05, -4.4020659027559805, 8.728853847393975e-16, -7.292536602082935e-05, 0.9999999973409238, -4.427565191769053, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[1.0000000000000049, 1.4306591207744613e-08, -2.4364199948901514e-16, 17.49799892511959, -1.430659251372644e-08, 1.000000000000006, 3.243719268880563e-11, -4.402000508520393, 8.609616642667051e-16, -3.243751923694745e-11, 1.0000000000000135, -4.427577541807227, 0.0, 0.0, 0.0, 1.0]
+  origin candidates: geometry_one_transform=[0.9999999999999789, 2.028595256222122e-15, 7.155752380640162e-09, 17.49186629937053, -7.155752223815479e-09, -1.4492190791599163e-09, 1.0000000000000029, -4.459429213176528, 7.356393642790667e-16, -0.9999999999999786, -1.4492193472289035e-09, -4.480781420595014, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[-1.0000000000000047, -1.0090219380405876e-16, 7.155752363043799e-09, 17.49186629937055, 7.155753669025599e-09, 1.4492190663068994e-09, 1.0000000000000064, -4.459429213176526, -7.28128043348933e-16, 1.0000000000000138, -1.449219392882162e-09, -4.4807814205950125, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[0.9999999999999787, 1.735126082770105e-08, 1.2632933090919178e-12, 17.49797769548213, -1.735126071686479e-08, 0.9999999973409481, 7.292536601992484e-05, -4.4720446754515795, 7.504148924422612e-16, -7.292536602019115e-05, 0.999999997340924, -4.427562640151942, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[1.0000000000000047, 1.4306588609525605e-08, -1.2117151835022765e-16, 17.497977696896353, -1.4306589915507418e-08, 1.0000000000000064, 3.2436554459644266e-11, -4.4719792813090615, 7.384911739126591e-16, -3.2436881034891146e-11, 1.0000000000000138, -4.427577541802792, 0.0, 0.0, 0.0, 1.0]
   selection reason: selected Fusion joint translation; link frame axes stay aligned with base_link
   warning: 
 
@@ -776,16 +696,16 @@ joints:
   type: revolute
   occurrenceOne: finger:1+distal_phalanx:1
   occurrenceTwo: finger:1+proximal_phalanx:1
-  raw origin one cm: [14.591879468869825, -3.9959398213403268, -4.480265915535778]
-  raw origin two cm: [14.591879468869815, -3.9959398213403206, -4.480265915535776]
-  raw axis: [1.2855022744171162e-10, 1.0000000000000078, -4.275328894950436e-11]
+  raw origin one cm: [14.591868855008503, -4.030929207734745, -4.480265915534129]
+  raw origin two cm: [14.5918688550085, -4.030929207734741, -4.480265915534127]
+  raw axis: [1.2854762922270176e-10, 1.0000000000000082, -4.2752650720341705e-11]
   selected candidate: geometry_one_transform
-  candidate error cm: 1.0695084443661336e-14
-  joint frame transform cm: [1.000000000000005, 2.434941521752556e-16, 1.2855024421252043e-10, 14.591879468869832, -1.2855155019433204e-10, -4.275296240396227e-11, 1.0000000000000062, -3.9959398213403268, 8.603552425711648e-16, -1.0000000000000135, -4.275328895211639e-11, -4.480265915535779, 0.0, 0.0, 0.0, 1.0]
-  selected link frame transform cm: [1.0, 0.0, 0.0, 14.591879468869832, 0.0, 1.0, 0.0, -3.9959398213403268, 0.0, 0.0, 1.0, -4.480265915535779, 0.0, 0.0, 0.0, 1.0]
+  candidate error cm: 6.705600017716362e-15
+  joint frame transform cm: [1.0000000000000049, 1.2102367106327073e-16, 1.2854764599351556e-10, 14.5918688550085, -1.28548951975304e-10, -4.275232417480092e-11, 1.0000000000000067, -4.030929207734746, 7.378847612655737e-16, -1.0000000000000138, -4.2752650750058343e-11, -4.480265915534129, 0.0, 0.0, 0.0, 1.0]
+  selected link frame transform cm: [1.0, 0.0, 0.0, 14.5918688550085, 0.0, 1.0, 0.0, -4.030929207734746, 0.0, 0.0, 1.0, -4.480265915534129, 0.0, 0.0, 0.0, 1.0]
   final URDF origin xyz/rpy: [0.039132, -0.000136, -6e-05] / [0.0, -0.0, 0.0]
   exported axis: [0.0, 1.0, -0.0]
-  origin candidates: geometry_one_transform=[1.000000000000005, 2.434941521752556e-16, 1.2855024421252043e-10, 14.591879468869832, -1.2855155019433204e-10, -4.275296240396227e-11, 1.0000000000000062, -3.9959398213403268, 8.603552425711648e-16, -1.0000000000000135, -4.275328895211639e-11, -4.480265915535779, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[-1.0000000000000078, -5.555264241804073e-16, 1.2855022744171162e-10, 14.591879468869823, 1.2854838749303146e-10, 4.2753014321084504e-11, 1.0000000000000078, -3.9959398213403214, -8.56867383817274e-16, 1.0000000000000089, -4.275328894950436e-11, -4.480265915535776, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[1.0000000000000049, 1.4306591207744613e-08, -2.4364199948901514e-16, 14.5980014868879, -1.430659251372644e-08, 1.000000000000006, 3.243719268880563e-11, -3.9735004615895018, 8.609616642667051e-16, -3.243751923694745e-11, 1.0000000000000135, -4.427062036760245, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[1.0000000000000075, 1.0714944172405505e-08, -5.590693217611509e-16, 14.59800148693659, -1.0714942332456825e-08, 1.0000000000000075, -2.8789710608437095e-10, -3.973500478008187, 8.573199869765363e-16, 2.8789683145596066e-10, 1.0000000000000089, -4.4270620366001046, 0.0, 0.0, 0.0, 1.0]
+  origin candidates: geometry_one_transform=[1.0000000000000049, 1.2102367106327073e-16, 1.2854764599351556e-10, 14.5918688550085, -1.28548951975304e-10, -4.275232417480092e-11, 1.0000000000000067, -4.030929207734746, 7.378847612655737e-16, -1.0000000000000138, -4.2752650750058343e-11, -4.480265915534129, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[-1.0000000000000078, -4.3305594306869384e-16, 1.2854762922270176e-10, 14.591868855008498, 1.2854578927400508e-10, 4.27523760919233e-11, 1.0000000000000082, -4.03092920773474, -7.343969025119381e-16, 1.000000000000009, -4.2752650720341705e-11, -4.480265915534127, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[1.0000000000000047, 1.4306588609525605e-08, -1.2117151835022765e-16, 14.597980258664668, -1.4306589915507418e-08, 1.0000000000000064, 3.2436554459644266e-11, -4.043479234378188, 7.384911739126591e-16, -3.2436881034891146e-11, 1.0000000000000138, -4.42706203675581, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[1.0000000000000075, 1.0714941574186495e-08, -4.36598839790336e-16, 14.597980258839039, -1.0714939734237804e-08, 1.000000000000008, -2.878977443135323e-10, -4.043479250796912, 7.34849498914655e-16, 2.87897469685122e-10, 1.000000000000009, -4.427062036606879, 0.0, 0.0, 0.0, 1.0]
   selection reason: selected Fusion joint translation; link frame axes stay aligned with base_link
   warning: 
 
@@ -796,16 +716,16 @@ joints:
   type: revolute
   occurrenceOne: finger:2+fingertip:1
   occurrenceTwo: finger:2+distal_phalanx:1
-  raw origin one cm: [17.49187691323186, -4.424439826782116, -4.4807814205966645]
-  raw origin two cm: [17.491876913231877, -4.424439826782116, -4.480781420596663]
-  raw axis: [7.2973553084163765e-09, 1.0000000000000087, -1.4504015927639065e-09]
+  raw origin one cm: [17.491866299370525, -4.459429213176528, -4.480781420595014]
+  raw origin two cm: [17.49186629937055, -4.459429213176525, -4.4807814205950125]
+  raw axis: [2.1411157451752363e-08, 1.000000000000009, -1.5164222693033098e-09]
   selected candidate: geometry_one_transform
-  candidate error cm: 4.032173515190666e-14
-  joint frame transform cm: [0.9999999999999936, -5.616464982578369e-10, 7.297354432423568e-09, 17.521867611246716, -7.297354302484337e-09, -1.4504025994691245e-09, 1.0000000000000087, -2.059429211108659, -5.616499162716252e-10, -0.9999999999999971, -1.4504015815388098e-09, -4.480781423729421, 0.0, 0.0, 0.0, 1.0]
-  selected link frame transform cm: [1.0, 0.0, 0.0, 17.521867611246716, 0.0, 1.0, 0.0, -2.059429211108659, 0.0, 0.0, 1.0, -4.480781423729421, 0.0, 0.0, 0.0, 1.0]
+  candidate error cm: 5.498283554013218e-14
+  joint frame transform cm: [0.9999999999999953, -5.616275204561906e-10, 2.1411156575717497e-08, 17.521867619806283, -2.141115644585724e-08, -1.516423268029042e-09, 1.0000000000000098, -2.059429355473548, -5.616312708520222e-10, -0.9999999999999979, -1.5164222581082708e-09, -4.480781423712459, 0.0, 0.0, 0.0, 1.0]
+  selected link frame transform cm: [1.0, 0.0, 0.0, 17.521867619806283, 0.0, 1.0, 0.0, -2.059429355473548, 0.0, 0.0, 1.0, -4.480781423712459, 0.0, 0.0, 0.0, 1.0]
   final URDF origin xyz/rpy: [0.029, -0.004285, -5e-06] / [0.0, -0.0, 0.0]
   exported axis: [0.0, 1.0, -0.0]
-  origin candidates: geometry_one_transform=[0.9999999999999936, -5.616464982578369e-10, 7.297354432423568e-09, 17.521867611246716, -7.297354302484337e-09, -1.4504025994691245e-09, 1.0000000000000087, -2.059429211108659, -5.616499162716252e-10, -0.9999999999999971, -1.4504015815388098e-09, -4.480781423729421, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[-1.0000000000000009, 5.616474021733965e-10, 7.2973553084163765e-09, 17.52186761124675, 7.297356188313929e-09, 1.4504026108751343e-09, 1.0000000000000087, -2.059429211108676, 5.616499162793657e-10, 1.0000000000000002, -1.4504015927639065e-09, -4.480781423729412, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[0.9999999999999933, 1.7492821921497648e-08, 5.629221448454178e-10, 17.527989621824336, -1.7492862795533707e-08, 0.9999999973409537, 7.292536720344557e-05, -4.437055287018105, -5.616499014836592e-10, -7.292536720243256e-05, 0.9999999973409426, -4.427565193687956, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[1.0000000000000009, 1.4448191555693888e-08, 5.616473817038359e-10, 17.52798962313204, -1.4448192434795764e-08, 1.0000000000000087, 3.3620099041428535e-11, -4.436989892782536, -5.61649905907397e-10, -3.3619084946479015e-11, 1.0000000000000002, -4.427577543726126, 0.0, 0.0, 0.0, 1.0]
+  origin candidates: geometry_one_transform=[0.9999999999999953, -5.616275204561906e-10, 2.1411156575717497e-08, 17.521867619806283, -2.141115644585724e-08, -1.516423268029042e-09, 1.0000000000000098, -2.059429355473548, -5.616312708520222e-10, -0.9999999999999979, -1.5164222581082708e-09, -4.480781423712459, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[-1.0000000000000027, 5.616294917450443e-10, 2.1411157451752363e-08, 17.52186761980623, 2.141115833168697e-08, 1.5164232795088817e-09, 1.000000000000009, -2.0594293554735583, 5.616312662350134e-10, 1.000000000000002, -1.5164222693033098e-09, -4.48078142371245, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[-0.9999999999999943, 1.0991816544861485e-08, -5.608348645728491e-10, 3.8892864957899747, 1.0991775747331208e-08, 0.9999999973409625, 7.292523399198938e-05, -4.472044527282718, 5.616408427527862e-10, 7.29252339909606e-05, -0.999999997340953, -4.521059756391415, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[-1.0000000000000016, 1.4036446987096627e-08, -5.616384205722713e-10, 3.8892864943776893, 1.4036446108069328e-08, 1.0000000000000067, -9.959135735058913e-11, -4.471979133140208, 5.6164084214619e-10, -9.959238745109863e-11, -1.000000000000002, -4.5210448547405795, 0.0, 0.0, 0.0, 1.0]
   selection reason: selected Fusion joint translation; link frame axes stay aligned with base_link
   warning: 
 
@@ -816,16 +736,16 @@ joints:
   type: revolute
   occurrenceOne: finger:2+distal_phalanx:1
   occurrenceTwo: finger:2+proximal_phalanx:1
-  raw origin one cm: [14.591879468869825, -3.9959398213403268, -4.480265915535778]
-  raw origin two cm: [14.591879468869815, -3.9959398213403206, -4.480265915535776]
-  raw axis: [1.2854582991454322e-10, 1.0000000000000064, -4.392300655560546e-11]
+  raw origin one cm: [14.591868855008503, -4.030929207734745, -4.480265915534129]
+  raw origin two cm: [14.5918688550085, -4.030929207734741, -4.480265915534127]
+  raw axis: [1.4242347973250414e-08, 1.0000000000000064, -1.099436831086639e-10]
   selected candidate: geometry_one_transform
-  candidate error cm: 1.3113611809258204e-06
-  joint frame transform cm: [1.000000000000001, -5.616473818527595e-10, 2.701505921560579e-10, 14.62187016694568, -2.7015147126361855e-10, -4.3935868743032684e-11, 1.0000000000000089, -1.6309292052562476, -5.616499065309554e-10, -1.0000000000000002, -4.393484668498771e-11, -4.480265917040249, 0.0, 0.0, 0.0, 1.0]
-  selected link frame transform cm: [1.0, 0.0, 0.0, 14.62187016694568, 0.0, 1.0, 0.0, -1.6309292052562476, 0.0, 0.0, 1.0, -4.480265917040249, 0.0, 0.0, 0.0, 1.0]
-  final URDF origin xyz/rpy: [0.039132, -0.000135, -6e-05] / [0.0, -0.0, 0.0]
+  candidate error cm: 1.3113611400399864e-06
+  joint frame transform cm: [1.0000000000000029, -5.616294515738139e-10, 1.4383952735492009e-08, 14.621870181552918, -1.4383953614636658e-08, -1.0995653737677975e-10, 1.0000000000000093, -1.6309293086911052, -5.616312569505439e-10, -1.000000000000002, -1.0995552322451964e-10, -4.480265917051631, 0.0, 0.0, 0.0, 1.0]
+  selected link frame transform cm: [1.0, 0.0, 0.0, 14.621870181552918, 0.0, 1.0, 0.0, -1.6309293086911052, 0.0, 0.0, 1.0, -4.480265917051631, 0.0, 0.0, 0.0, 1.0]
+  final URDF origin xyz/rpy: [0.039132, -0.000136, -6e-05] / [0.0, -0.0, 0.0]
   exported axis: [0.0, 1.0, -0.0]
-  origin candidates: geometry_one_transform=[1.000000000000001, -5.616473818527595e-10, 2.701505921560579e-10, 14.62187016694568, -2.7015147126361855e-10, -4.3935868743032684e-11, 1.0000000000000089, -1.6309292052562476, -5.616499065309554e-10, -1.0000000000000002, -4.393484668498771e-11, -4.480265917040249, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[-1.0000000000000047, 5.616473830285208e-10, 1.2854582991454322e-10, 14.621868855590023, 1.2854573823840058e-10, 4.3924028778360943e-11, 1.0000000000000064, -1.630929207814828, 5.616499065356257e-10, 1.0000000000000004, -4.392300655560546e-11, -4.480265919858313, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[1.0000000000000009, 1.4448191555693888e-08, 5.616473817038359e-10, 14.627992184961325, -1.4448192434795764e-08, 1.0000000000000087, 3.3620099041428535e-11, -4.008489845441005, -5.61649905907397e-10, -3.3619084946479015e-11, 1.0000000000000002, -4.427062037050864, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[1.0000000000000044, 1.0714939775064013e-08, 5.616473794860091e-10, 14.62799087365119, -1.0714939683202181e-08, 1.0000000000000062, -2.8672609161354157e-10, -4.0084898644174105, -5.61649906070255e-10, 2.8672710789044795e-10, 1.0000000000000004, -4.4270620397087885, 0.0, 0.0, 0.0, 1.0]
+  origin candidates: geometry_one_transform=[1.0000000000000029, -5.616294515738139e-10, 1.4383952735492009e-08, 14.621870181552918, -1.4383953614636658e-08, -1.0995653737677975e-10, 1.0000000000000093, -1.6309293086911052, -5.616312569505439e-10, -1.000000000000002, -1.0995552322451964e-10, -4.480265917051631, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[-1.000000000000007, 5.616294594885376e-10, 1.4242347973250414e-08, 14.621868870197302, 1.4242347881611505e-08, 1.0994469738500563e-10, 1.0000000000000064, -1.6309293112496674, 5.616312149218698e-10, 1.000000000000002, -1.099436831086639e-10, -4.480265919869698, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[-1.0000000000000016, 1.4036446987096627e-08, -5.616384205722713e-10, 6.789283944754068, 1.4036446108069328e-08, 1.0000000000000067, -9.959135735058913e-11, -4.043479168404135, 5.6164084214619e-10, -9.959238745109863e-11, -1.000000000000002, -4.521560361472895, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[-1.000000000000006, 1.776969876772646e-08, -5.616384342185195e-10, 6.78928525593353, 1.7769698859663022e-08, 1.000000000000004, -4.1993754803266056e-10, -4.043479187380621, 5.616407997690426e-10, -4.1993858027446833e-10, -1.000000000000002, -4.52156035880376, 0.0, 0.0, 0.0, 1.0]
   selection reason: selected Fusion joint translation; link frame axes stay aligned with base_link
   warning: 
 
@@ -836,8 +756,8 @@ joints:
   type: revolute
   occurrenceOne: finger:3+fingertip:1
   occurrenceTwo: finger:3+distal_phalanx:1
-  raw origin one cm: [17.49187691323186, -4.424439826782116, -4.4807814205966645]
-  raw origin two cm: [17.491876913231877, -4.424439826782116, -4.480781420596663]
+  raw origin one cm: [17.491866299370525, -4.459429213176528, -4.480781420595014]
+  raw origin two cm: [17.49186629937055, -4.459429213176525, -4.4807814205950125]
   raw axis: [7.297339431969385e-09, 1.0000000000000098, -1.4492243083305544e-09]
   selected candidate: geometry_one_transform
   candidate error cm: 1.5813068321390264e-13
@@ -845,7 +765,7 @@ joints:
   selected link frame transform cm: [1.0, 0.0, 0.0, 17.491867603904076, 0.0, 1.0, 0.0, 0.34057078889378545, 0.0, 0.0, 1.0, -4.480781425194323, 0.0, 0.0, 0.0, 1.0]
   final URDF origin xyz/rpy: [0.029, -0.004285, -5e-06] / [0.0, -0.0, 0.0]
   exported axis: [0.0, 1.0, -0.0]
-  origin candidates: geometry_one_transform=[0.9999999999999937, -6.290760387458017e-10, 7.297338899434226e-09, 17.491867603904076, -7.297333316534568e-09, -1.4492227602024748e-09, 1.0000000000000078, 0.34057078889378545, -6.290746452575726e-10, -1.0000000000000013, -1.4492219115296717e-09, -4.480781425194323, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[-0.9999999999999984, 6.290766034001656e-10, 7.297339431969385e-09, 17.49186760390422, 7.297336094012048e-09, 1.449222815898145e-09, 1.0000000000000098, 0.34057078889371706, 6.290754765028148e-10, 1.000000000000003, -1.4492243083305544e-09, -4.480781425194334, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[0.9999999999999934, 1.7492801471282146e-08, 6.303516840213645e-10, 17.497989614485277, -1.749284180958393e-08, 0.9999999973409529, 7.292536602360624e-05, -4.437055287107464, -6.290746304816338e-10, -7.292536602276354e-05, 0.9999999973409469, -4.427565195084842, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[0.9999999999999983, 1.4448175679342411e-08, 6.290765829306274e-10, 17.497989615793085, -1.444817234049389e-08, 1.0000000000000098, 3.244030406443759e-11, -4.436989892871946, -6.290754661392646e-10, -3.2441800995272074e-11, 1.000000000000003, -4.427577545123032, 0.0, 0.0, 0.0, 1.0]
+  origin candidates: geometry_one_transform=[0.9999999999999937, -6.290760387458017e-10, 7.297338899434226e-09, 17.491867603904076, -7.297333316534568e-09, -1.4492227602024748e-09, 1.0000000000000078, 0.34057078889378545, -6.290746452575726e-10, -1.0000000000000013, -1.4492219115296717e-09, -4.480781425194323, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[-0.9999999999999984, 6.290766034001656e-10, 7.297339431969385e-09, 17.49186760390422, 7.297336094012048e-09, 1.449222815898145e-09, 1.0000000000000098, 0.34057078889371706, 6.290754765028148e-10, 1.000000000000003, -1.4492243083305544e-09, -4.480781425194334, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[0.9999999999999934, 1.7492801471282146e-08, 6.303516840213645e-10, 17.497979000011878, -1.749284180958393e-08, 0.9999999973409529, 7.292536602360624e-05, -4.472044673408652, -6.290746304816338e-10, -7.292536602276354e-05, 0.9999999973409469, -4.427562643469376, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[0.9999999999999983, 1.4448175679342411e-08, 6.290765829306274e-10, 17.497979001426227, -1.444817234049389e-08, 1.0000000000000098, 3.244030406443759e-11, -4.471979279266202, -6.290754661392646e-10, -3.2441800995272074e-11, 1.000000000000003, -4.42757754512024, 0.0, 0.0, 0.0, 1.0]
   selection reason: selected Fusion joint translation; link frame axes stay aligned with base_link
   warning: 
 
@@ -856,8 +776,8 @@ joints:
   type: revolute
   occurrenceOne: finger:3+distal_phalanx:1
   occurrenceTwo: finger:3+proximal_phalanx:1
-  raw origin one cm: [14.591879468869825, -3.9959398213403268, -4.480265915535778]
-  raw origin two cm: [14.591879468869815, -3.9959398213403206, -4.480265915535776]
+  raw origin one cm: [14.591868855008503, -4.030929207734745, -4.480265915534129]
+  raw origin two cm: [14.5918688550085, -4.030929207734741, -4.480265915534127]
   raw axis: [1.2853146972759818e-10, 1.0000000000000082, -4.274500779438761e-11]
   selected candidate: geometry_one_transform
   candidate error cm: 1.3113612360878223e-06
@@ -865,7 +785,7 @@ joints:
   selected link frame transform cm: [1.0, 0.0, 0.0, 14.591870159603184, 0.0, 1.0, 0.0, 0.7690707947460877, 0.0, 0.0, 1.0, -4.480265918309133, 0.0, 0.0, 0.0, 1.0]
   final URDF origin xyz/rpy: [0.039132, -0.000135, -6e-05] / [0.0, -0.0, 0.0]
   exported axis: [0.0, 1.0, -0.0]
-  origin candidates: geometry_one_transform=[0.9999999999999986, -6.290765830795509e-10, 2.701347158039216e-10, 14.591870159603184, -2.701313769617285e-10, -4.2756073766041746e-11, 1.00000000000001, 0.7690707947460877, -6.290754667461315e-10, -1.000000000000003, -4.275756177781845e-11, -4.480265918309133, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[-1.0000000000000004, 6.290785237239982e-10, 1.2853146972759818e-10, 14.591868848247472, 1.2852817663286157e-10, 4.274466673685057e-11, 1.0000000000000082, 0.7690707921874722, 6.29076390568008e-10, 1.0000000000000029, -4.274500779438761e-11, -4.480265921127209, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[0.9999999999999983, 1.4448175679342411e-08, 6.290765829306274e-10, 14.597992177622409, -1.444817234049389e-08, 1.0000000000000098, 3.244030406443759e-11, -4.008489845530473, -6.290754661392646e-10, -3.2441800995272074e-11, 1.000000000000003, -4.427062038251732, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[1.0000000000000002, 1.071492541489932e-08, 6.290785201814913e-10, 14.597990866312218, -1.071492212159666e-08, 1.000000000000008, -2.879054536550525e-10, -4.008489864506914, -6.29076390115108e-10, 2.879051059378633e-10, 1.0000000000000029, -4.42706204090967, 0.0, 0.0, 0.0, 1.0]
+  origin candidates: geometry_one_transform=[0.9999999999999986, -6.290765830795509e-10, 2.701347158039216e-10, 14.591870159603184, -2.701313769617285e-10, -4.2756073766041746e-11, 1.00000000000001, 0.7690707947460877, -6.290754667461315e-10, -1.000000000000003, -4.275756177781845e-11, -4.480265918309133, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[-1.0000000000000004, 6.290785237239982e-10, 1.2853146972759818e-10, 14.591868848247472, 1.2852817663286157e-10, 4.274466673685057e-11, 1.0000000000000082, 0.7690707921874722, 6.29076390568008e-10, 1.0000000000000029, -4.274500779438761e-11, -4.480265921127209, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[0.9999999999999983, 1.4448175679342411e-08, 6.290765829306274e-10, 14.597981563255553, -1.444817234049389e-08, 1.0000000000000098, 3.244030406443759e-11, -4.043479231924739, -6.290754661392646e-10, -3.2441800995272074e-11, 1.000000000000003, -4.42706203824894, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[1.0000000000000002, 1.071492541489932e-08, 6.290785201814913e-10, 14.597980252075994, -1.071492212159666e-08, 1.000000000000008, -2.879054536550525e-10, -4.043479250901221, -6.29076390115108e-10, 2.879051059378633e-10, 1.0000000000000029, -4.427062040918087, 0.0, 0.0, 0.0, 1.0]
   selection reason: selected Fusion joint translation; link frame axes stay aligned with base_link
   warning: 
 
@@ -876,8 +796,8 @@ joints:
   type: revolute
   occurrenceOne: finger:4+fingertip:1
   occurrenceTwo: finger:4+distal_phalanx:1
-  raw origin one cm: [17.49187691323186, -4.424439826782116, -4.4807814205966645]
-  raw origin two cm: [17.491876913231877, -4.424439826782116, -4.480781420596663]
+  raw origin one cm: [17.491866299370525, -4.459429213176528, -4.480781420595014]
+  raw origin two cm: [17.49186629937055, -4.459429213176525, -4.4807814205950125]
   raw axis: [7.168802782100051e-09, 1.0000000000000193, -1.4492263501497297e-09]
   selected candidate: geometry_one_transform
   candidate error cm: 5.603976502167767e-14
@@ -885,7 +805,7 @@ joints:
   selected link frame transform cm: [1.0, 0.0, 0.0, 15.917512305178759, 0.0, 1.0, 0.0, 2.72965310252071, 0.0, 0.0, 1.0, -4.4840149790351695, 0.0, 0.0, 0.0, 1.0]
   final URDF origin xyz/rpy: [0.029, -0.004285, -5e-06] / [0.0, -0.0, 0.0]
   exported axis: [0.0, 1.0, -0.0]
-  origin candidates: geometry_one_transform=[0.9999999999999943, -3.4921805133521924e-10, 7.168803113512281e-09, 15.917512305178759, -7.1688015993220345e-09, -1.4492291995502277e-09, 1.0000000000000102, 2.72965310252071, -3.492219276610526e-10, -1.0000000000000122, -1.4492259427695319e-09, -4.4840149790351695, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[-1.000000000000011, 3.49220767049005e-10, 7.168802782100051e-09, 15.91751230517881, 7.16880171226437e-09, 1.4492284768429616e-09, 1.0000000000000193, 2.729653102520693, 3.4922141286332517e-10, 1.0000000000000153, -1.4492263501497297e-09, -4.484014979035155, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[0.9999999999999941, 1.736428609404257e-08, 3.5048432402195167e-10, 17.473634315742025, -1.736431009237142e-08, 0.9999999973409555, 7.292536603004577e-05, -4.4479729734799385, -3.492219128850727e-10, -7.292536602679273e-05, 0.9999999973409578, -4.430798748923315, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[1.000000000000011, 1.4319639029076673e-08, 3.492207467615753e-10, 17.473634317049736, -1.4319637958746282e-08, 1.0000000000000193, 3.244596500924078e-11, -4.447907579244369, -3.4922140249976043e-10, -3.2443840813239375e-11, 1.0000000000000153, -4.430811098961478, 0.0, 0.0, 0.0, 1.0]
+  origin candidates: geometry_one_transform=[0.9999999999999943, -3.4921805133521924e-10, 7.168803113512281e-09, 15.917512305178759, -7.1688015993220345e-09, -1.4492291995502277e-09, 1.0000000000000102, 2.72965310252071, -3.492219276610526e-10, -1.0000000000000122, -1.4492259427695319e-09, -4.4840149790351695, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[-1.000000000000011, 3.49220767049005e-10, 7.168802782100051e-09, 15.91751230517881, 7.16880171226437e-09, 1.4492284768429616e-09, 1.0000000000000193, 2.729653102520693, 3.4922141286332517e-10, 1.0000000000000153, -1.4492263501497297e-09, -4.484014979035155, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[0.9999999999999941, 1.736428609404257e-08, 3.5048432402195167e-10, 17.47362370127312, -1.736431009237142e-08, 0.9999999973409555, 7.292536603004577e-05, -4.482962359781129, -3.492219128850727e-10, -7.292536602679273e-05, 0.9999999973409578, -4.430796197307851, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[1.000000000000011, 1.4319639029076673e-08, 3.492207467615753e-10, 17.473623702687373, -1.4319637958746282e-08, 1.0000000000000193, 3.244596500924078e-11, -4.482896965638627, -3.4922140249976043e-10, -3.2443840813239375e-11, 1.0000000000000153, -4.4308110989586895, 0.0, 0.0, 0.0, 1.0]
   selection reason: selected Fusion joint translation; link frame axes stay aligned with base_link
   warning: 
 
@@ -896,8 +816,8 @@ joints:
   type: revolute
   occurrenceOne: finger:4+distal_phalanx:1
   occurrenceTwo: finger:4+proximal_phalanx:1
-  raw origin one cm: [14.591879468869825, -3.9959398213403268, -4.480265915535778]
-  raw origin two cm: [14.591879468869815, -3.9959398213403206, -4.480265915535776]
+  raw origin one cm: [14.591868855008503, -4.030929207734745, -4.480265915534129]
+  raw origin two cm: [14.5918688550085, -4.030929207734741, -4.480265915534127]
   raw axis: [-8.622154338522103e-15, 1.0000000000000107, -4.2747860582456966e-11]
   selected candidate: geometry_one_transform
   candidate error cm: 1.3113612289016069e-06
@@ -905,7 +825,7 @@ joints:
   selected link frame transform cm: [1.0, 0.0, 0.0, 13.017514860822514, 0.0, 1.0, 0.0, 3.1581531080003193, 0.0, 0.0, 1.0, -4.4834994729615305, 0.0, 0.0, 0.0, 1.0]
   final URDF origin xyz/rpy: [0.039132, -0.000135, -6e-05] / [0.0, -0.0, 0.0]
   exported axis: [-0.0, 1.0, -0.0]
-  origin candidates: geometry_one_transform=[1.0000000000000113, -3.4922074690917273e-10, 1.4159806554089037e-10, 13.017514860822514, -1.4159699521398373e-10, -4.276173471084505e-11, 1.0000000000000195, 3.1581531080003193, -3.4922140310665623e-10, -1.0000000000000153, -4.275960556356827e-11, -4.4834994729615305, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[-1.0000000000000115, 3.492208002169023e-10, -8.622154338522103e-15, 13.017513549466809, -8.14800515811733e-15, 4.274966877133679e-11, 1.0000000000000107, 3.15815310544172, 3.4922159157380837e-10, 1.0000000000000204, -4.2747860582456966e-11, -4.483499475779584, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[1.000000000000011, 1.4319639029076673e-08, 3.492207467615753e-10, 14.573636878823796, -1.4319637958746282e-08, 1.0000000000000193, 3.244596500924078e-11, -4.0194075322756415, -3.4922140249976043e-10, -3.2443840813239375e-11, 1.0000000000000153, -4.4302955929017545, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[1.0000000000000113, 1.0586385322924965e-08, 3.4922079671689715e-10, 14.573635567513612, -1.0586385796958667e-08, 1.0000000000000104, -2.879004516205671e-10, -4.0194075512520655, -3.492215911208782e-10, 2.879022561124529e-10, 1.0000000000000204, -4.430295595559668, 0.0, 0.0, 0.0, 1.0]
+  origin candidates: geometry_one_transform=[1.0000000000000113, -3.4922074690917273e-10, 1.4159806554089037e-10, 13.017514860822514, -1.4159699521398373e-10, -4.276173471084505e-11, 1.0000000000000195, 3.1581531080003193, -3.4922140310665623e-10, -1.0000000000000153, -4.275960556356827e-11, -4.4834994729615305, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[-1.0000000000000115, 3.492208002169023e-10, -8.622154338522103e-15, 13.017513549466809, -8.14800515811733e-15, 4.274966877133679e-11, 1.0000000000000107, 3.15815310544172, 3.4922159157380837e-10, 1.0000000000000204, -4.2747860582456966e-11, -4.483499475779584, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[1.000000000000011, 1.4319639029076673e-08, 3.492207467615753e-10, 14.573626264461438, -1.4319637958746282e-08, 1.0000000000000193, 3.244596500924078e-11, -4.054396918669909, -3.4922140249976043e-10, -3.2443840813239375e-11, 1.0000000000000153, -4.4302955928989665, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[1.0000000000000113, 1.0586385322924965e-08, 3.4922079671689715e-10, 14.573624953281886, -1.0586385796958667e-08, 1.0000000000000104, -2.879004516205671e-10, -4.054396937646374, -3.492215911208782e-10, 2.879022561124529e-10, 1.0000000000000204, -4.430295595568089, 0.0, 0.0, 0.0, 1.0]
   selection reason: selected Fusion joint translation; link frame axes stay aligned with base_link
   warning: 
 
@@ -941,11 +861,31 @@ joints:
   raw axis: 
   selected candidate: assembly_parent_translation
   candidate error cm: 
-  joint frame transform cm: [1.0, 0.0, 0.0, -0.490034953920059, 0.0, 1.0, 0.0, 0.0007724281061749494, 0.0, 0.0, 1.0, -0.9845752651247088, 0.0, 0.0, 0.0, 1.0]
-  selected link frame transform cm: [1.0, 0.0, 0.0, -0.490034953920059, 0.0, 1.0, 0.0, 0.0007724281061749494, 0.0, 0.0, 1.0, -0.9845752651247088, 0.0, 0.0, 0.0, 1.0]
+  joint frame transform cm: [1.0, 0.0, 0.0, -0.49004556752990425, 0.0, 1.0, 0.0, 0.0007830417117480337, 0.0, 0.0, 1.0, -0.9845752651241821, 0.0, 0.0, 0.0, 1.0]
+  selected link frame transform cm: [1.0, 0.0, 0.0, -0.49004556752990425, 0.0, 1.0, 0.0, 0.0007830417117480337, 0.0, 0.0, 1.0, -0.9845752651241821, 0.0, 0.0, 0.0, 1.0]
   final URDF origin xyz/rpy: [-0.1039, 0.040332, 0.023697] / [0.0, -0.0, 0.0]
   exported axis: [0.0, 0.0, 0.0]
-  origin candidates: occurrence_transform=[1.2852250844411514e-10, -1.0000000000000004, 4.524850004232472e-16, -0.490034953920059, 1.0000000000000056, 1.2852394570664254e-10, -1.0810037760766718e-15, 0.0007724281061749494, -1.3552527156586495e-20, -2.220581574646727e-16, 1.0000000000000033, -0.9845752651247088, 0.0, 0.0, 0.0, 1.0]
+  origin candidates: occurrence_transform=[1.2852250844411514e-10, -1.0000000000000004, 4.524850004232472e-16, -0.49004556752990425, 1.0000000000000056, 1.2852394570664254e-10, -1.0810037760766718e-15, 0.0007830417117480337, -1.3552527156586495e-20, -2.220581574646727e-16, 1.0000000000000033, -0.9845752651241821, 0.0, 0.0, 0.0, 1.0]
+  selection reason: preserve Fusion occurrence hierarchy using base-aligned link axes
+  warning: 
+
+- joint: palm_1_abduction_adduction_link_1_fixed_joint
+  source: implicit_fixed_joint
+  parent link: palm_1
+  child link: palm_1_abduction_adduction_link_1
+  type: fixed
+  occurrenceOne: None
+  occurrenceTwo: None
+  raw origin one cm: 
+  raw origin two cm: 
+  raw axis: 
+  selected candidate: assembly_parent_translation
+  candidate error cm: 
+  joint frame transform cm: [1.0, 0.0, 0.0, 0.7786353696010231, 0.0, 1.0, 0.0, -0.012500009385806088, 0.0, 0.0, 1.0, -1.1200000000669719, 0.0, 0.0, 0.0, 1.0]
+  selected link frame transform cm: [1.0, 0.0, 0.0, 0.7786353696010231, 0.0, 1.0, 0.0, -0.012500009385806088, 0.0, 0.0, 1.0, -1.1200000000669719, 0.0, 0.0, 0.0, 1.0]
+  final URDF origin xyz/rpy: [-0.091214, 0.040199, 0.022343] / [0.0, -0.0, 0.0]
+  exported axis: [0.0, 0.0, 0.0]
+  origin candidates: occurrence_transform=[1.0000000000000024, -4.224811606821951e-16, -1.2852519485179583e-10, 0.7786353696010231, -1.2852402064227866e-10, 3.9167132483783827e-16, -1.0000000000000089, -0.012500009385806088, 7.345062368968672e-16, 1.0000000000000058, 1.4156731716960857e-15, -1.1200000000669719, 0.0, 0.0, 0.0, 1.0]
   selection reason: preserve Fusion occurrence hierarchy using base-aligned link axes
   warning: 
 
@@ -961,11 +901,11 @@ joints:
   raw axis: 
   selected candidate: assembly_parent_translation
   candidate error cm: 
-  joint frame transform cm: [1.0, 0.0, 0.0, -0.46004556693686816, 0.0, 1.0, 0.0, 2.4007830416329825, 0.0, 0.0, 1.0, -0.984575266538426, 0.0, 0.0, 0.0, 1.0]
-  selected link frame transform cm: [1.0, 0.0, 0.0, -0.46004556693686816, 0.0, 1.0, 0.0, 2.4007830416329825, 0.0, 0.0, 1.0, -0.984575266538426, 0.0, 0.0, 0.0, 1.0]
+  joint frame transform cm: [1.0, 0.0, 0.0, -0.460045552338741, 0.0, 1.0, 0.0, 2.4007830113428614, 0.0, 0.0, 1.0, -0.9845752665496028, 0.0, 0.0, 0.0, 1.0]
+  selected link frame transform cm: [1.0, 0.0, 0.0, -0.460045552338741, 0.0, 1.0, 0.0, 2.4007830113428614, 0.0, 0.0, 1.0, -0.9845752665496028, 0.0, 0.0, 0.0, 1.0]
   final URDF origin xyz/rpy: [-0.1036, 0.064332, 0.023697] / [0.0, -0.0, 0.0]
   exported axis: [0.0, 0.0, 0.0]
-  origin candidates: occurrence_transform=[1.2851826147330048e-10, -1.0000000000000002, 6.290767781298441e-10, -0.46004556693686816, 1.0000000000000098, 1.2852349543541484e-10, -1.2272219916595301e-15, 2.4007830416329825, -1.2246063538223861e-16, 6.290794263410839e-10, 0.9999999999999963, -0.984575266538426, 0.0, 0.0, 0.0, 1.0]
+  origin candidates: occurrence_transform=[1.4242322277311443e-08, -1.0000000000000013, 6.290676451969901e-10, -0.460045552338741, 1.0000000000000082, 1.4242327511315706e-08, 6.71929594619644e-11, 2.4007830113428614, -6.719431807570683e-11, 6.290704068767624e-10, 0.9999999999999971, -0.9845752665496028, 0.0, 0.0, 0.0, 1.0]
   selection reason: preserve Fusion occurrence hierarchy using base-aligned link axes
   warning: 
 
@@ -1006,6 +946,66 @@ joints:
   final URDF origin xyz/rpy: [-0.119644, 0.112222, 0.023665] / [0.0, -0.0, 0.0]
   exported axis: [0.0, 0.0, 0.0]
   origin candidates: occurrence_transform=[-3.4389991748563e-14, -1.0000000000000016, 3.492201865004051e-10, -2.064400873022281, 1.0000000000000073, -3.570246220128695e-14, -1.2910950521033605e-15, 7.189865354222096, -1.2244708285508136e-16, 3.492229914946908e-10, 1.0000000000000022, -0.9878088235601834, 0.0, 0.0, 0.0, 1.0]
+  selection reason: preserve Fusion occurrence hierarchy using base-aligned link axes
+  warning: 
+
+- joint: palm_1_abduction_adduction_link_2_fixed_joint
+  source: implicit_fixed_joint
+  parent link: palm_1
+  child link: palm_1_abduction_adduction_link_2
+  type: fixed
+  occurrenceOne: None
+  occurrenceTwo: None
+  raw origin one cm: 
+  raw origin two cm: 
+  raw axis: 
+  selected candidate: assembly_parent_translation
+  candidate error cm: 
+  joint frame transform cm: [1.0, 0.0, 0.0, 0.8086353845963892, 0.0, 1.0, 0.0, 2.3874999423302983, 0.0, 0.0, 1.0, -1.1200000022037817, 0.0, 0.0, 0.0, 1.0]
+  selected link frame transform cm: [1.0, 0.0, 0.0, 0.8086353845963892, 0.0, 1.0, 0.0, 2.3874999423302983, 0.0, 0.0, 1.0, -1.1200000022037817, 0.0, 0.0, 0.0, 1.0]
+  final URDF origin xyz/rpy: [-0.090914, 0.064199, 0.022343] / [0.0, -0.0, 0.0]
+  exported axis: [0.0, 0.0, 0.0]
+  origin candidates: occurrence_transform=[1.0000000000000044, 5.616382359185933e-10, -1.4242322249469915e-08, 0.8086353845963892, -1.4242323742703396e-08, 6.719443213707784e-11, -1.0000000000000053, 2.3874999423302983, -5.616406090370699e-10, 1.0000000000000013, 6.719180975017737e-11, -1.1200000022037817, 0.0, 0.0, 0.0, 1.0]
+  selection reason: preserve Fusion occurrence hierarchy using base-aligned link axes
+  warning: 
+
+- joint: palm_1_abduction_adduction_link_3_fixed_joint
+  source: implicit_fixed_joint
+  parent link: palm_1
+  child link: palm_1_abduction_adduction_link_3
+  type: fixed
+  occurrenceOne: None
+  occurrenceTwo: None
+  raw origin one cm: 
+  raw origin two cm: 
+  raw axis: 
+  selected candidate: assembly_parent_translation
+  candidate error cm: 
+  joint frame transform cm: [1.0, 0.0, 0.0, 0.7786353691362926, 0.0, 1.0, 0.0, 4.787499990536356, 0.0, 0.0, 1.0, -1.1200000023032959, 0.0, 0.0, 0.0, 1.0]
+  selected link frame transform cm: [1.0, 0.0, 0.0, 0.7786353691362926, 0.0, 1.0, 0.0, 4.787499990536356, 0.0, 0.0, 1.0, -1.1200000023032959, 0.0, 0.0, 0.0, 1.0]
+  final URDF origin xyz/rpy: [-0.091214, 0.088199, 0.022343] / [0.0, -0.0, 0.0]
+  exported axis: [0.0, 0.0, 0.0]
+  origin candidates: occurrence_transform=[0.9999999999999989, 6.290774365142775e-10, -1.2850538041006458e-10, 0.7786353691362926, -1.2850035964603744e-10, 8.32328455193933e-16, -0.9999999999999993, 4.787499990536356, -6.29076465476707e-10, 1.000000000000002, 1.1816312902104825e-15, -1.1200000023032959, 0.0, 0.0, 0.0, 1.0]
+  selection reason: preserve Fusion occurrence hierarchy using base-aligned link axes
+  warning: 
+
+- joint: palm_1_abduction_adduction_link_4_fixed_joint
+  source: implicit_fixed_joint
+  parent link: palm_1
+  child link: palm_1_abduction_adduction_link_4
+  type: fixed
+  occurrenceOne: None
+  occurrenceTwo: None
+  raw origin one cm: 
+  raw origin two cm: 
+  raw axis: 
+  selected candidate: assembly_parent_translation
+  candidate error cm: 
+  joint frame transform cm: [1.0, 0.0, 0.0, -0.7957199359369493, 0.0, 1.0, 0.0, 7.176582303287646, 0.0, 0.0, 1.0, -1.1232335589460472, 0.0, 0.0, 0.0, 1.0]
+  selected link frame transform cm: [1.0, 0.0, 0.0, -0.7957199359369493, 0.0, 1.0, 0.0, 7.176582303287646, 0.0, 0.0, 1.0, -1.1232335589460472, 0.0, 0.0, 0.0, 1.0]
+  final URDF origin xyz/rpy: [-0.106957, 0.11209, 0.022311] / [0.0, -0.0, 0.0]
+  exported axis: [0.0, 0.0, 0.0]
+  origin candidates: occurrence_transform=[0.999999999999996, 3.492193027101624e-10, 3.1934492320223704e-14, -0.7957199359369493, 3.749983135325162e-14, 1.8176649416388404e-16, -0.9999999999999967, 7.176582303287646, -3.4922167012065536e-10, 1.0000000000000275, -1.8784209214126042e-15, -1.1232335589460472, 0.0, 0.0, 0.0, 1.0]
   selection reason: preserve Fusion occurrence hierarchy using base-aligned link axes
   warning: 
 
