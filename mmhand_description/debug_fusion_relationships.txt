@@ -1,0 +1,171 @@
+Fusion relationship inventory
+Collected from flattened root-component API collections.
+
+- record: 1
+  source: fusion_joint
+  name: Thumb_CMC
+  object type: adsk::fusion::Joint
+  joint type enum: 1
+  rotation value rad: 0.0
+  slide value cm: None
+
+- record: 2
+  source: fusion_joint
+  name: Ring_MCP_FE
+  object type: adsk::fusion::Joint
+  joint type enum: 1
+  rotation value rad: 0.0
+  slide value cm: None
+
+- record: 3
+  source: fusion_joint
+  name: Little_MCP_FE
+  object type: adsk::fusion::Joint
+  joint type enum: 1
+  rotation value rad: 0.0
+  slide value cm: None
+
+- record: 4
+  source: fusion_joint
+  name: Index_MCP_FE
+  object type: adsk::fusion::Joint
+  joint type enum: 1
+  rotation value rad: 0.0
+  slide value cm: None
+
+- record: 5
+  source: fusion_joint
+  name: Middle_MCP_FE
+  object type: adsk::fusion::Joint
+  joint type enum: 1
+  rotation value rad: 0.0
+  slide value cm: None
+
+- record: 6
+  source: fusion_joint
+  name: Ring_MCP_AA
+  object type: adsk::fusion::Joint
+  joint type enum: 1
+  rotation value rad: 0.0
+  slide value cm: None
+
+- record: 7
+  source: fusion_joint
+  name: Middle_MCP_AA
+  object type: adsk::fusion::Joint
+  joint type enum: 1
+  rotation value rad: 0.0
+  slide value cm: None
+
+- record: 8
+  source: fusion_joint
+  name: Index_MCP_AA
+  object type: adsk::fusion::Joint
+  joint type enum: 1
+  rotation value rad: 0.0
+  slide value cm: None
+
+- record: 9
+  source: fusion_joint
+  name: Little_MCP_AA
+  object type: adsk::fusion::Joint
+  joint type enum: 1
+  rotation value rad: 0.0
+  slide value cm: None
+
+- record: 10
+  source: fusion_joint
+  name: DIP_Joint
+  object type: adsk::fusion::Joint
+  joint type enum: 1
+  rotation value rad: 0.0
+  slide value cm: None
+
+- record: 11
+  source: fusion_joint
+  name: PIP_Joint
+  object type: adsk::fusion::Joint
+  joint type enum: 1
+  rotation value rad: 0.0
+  slide value cm: None
+
+- record: 12
+  source: fusion_joint
+  name: Thumb_MCP_AA
+  object type: adsk::fusion::Joint
+  joint type enum: 1
+  rotation value rad: 0.0
+  slide value cm: None
+
+- record: 13
+  source: fusion_joint
+  name: Thumb_MCP_FE
+  object type: adsk::fusion::Joint
+  joint type enum: 1
+  rotation value rad: 0.0
+  slide value cm: None
+
+- record: 14
+  source: fusion_joint
+  name: DIP_Joint
+  object type: adsk::fusion::Joint
+  joint type enum: 1
+  rotation value rad: 0.0
+  slide value cm: None
+
+- record: 15
+  source: fusion_joint
+  name: PIP_Joint
+  object type: adsk::fusion::Joint
+  joint type enum: 1
+  rotation value rad: 0.0
+  slide value cm: None
+
+- record: 16
+  source: fusion_joint
+  name: DIP_Joint
+  object type: adsk::fusion::Joint
+  joint type enum: 1
+  rotation value rad: 0.0
+  slide value cm: None
+
+- record: 17
+  source: fusion_joint
+  name: PIP_Joint
+  object type: adsk::fusion::Joint
+  joint type enum: 1
+  rotation value rad: 0.0
+  slide value cm: None
+
+- record: 18
+  source: fusion_joint
+  name: DIP_Joint
+  object type: adsk::fusion::Joint
+  joint type enum: 1
+  rotation value rad: 0.0
+  slide value cm: None
+
+- record: 19
+  source: fusion_joint
+  name: PIP_Joint
+  object type: adsk::fusion::Joint
+  joint type enum: 1
+  rotation value rad: 0.0
+  slide value cm: None
+
+- record: 20
+  source: fusion_joint
+  name: DIP_Joint
+  object type: adsk::fusion::Joint
+  joint type enum: 1
+  rotation value rad: 0.0
+  slide value cm: None
+
+- record: 21
+  source: fusion_joint
+  name: PIP_Joint
+  object type: adsk::fusion::Joint
+  joint type enum: 1
+  rotation value rad: 0.0
+  slide value cm: None
+
