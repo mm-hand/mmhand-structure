@@ -1,5 +1,5 @@
 Fusion relationship inventory
-Collected from flattened root-component API collections.
+Collected by merging flattened and component-local API collections.
 
 - record: 1
   source: fusion_joint
@@ -19,7 +19,7 @@ Collected from flattened root-component API collections.
 
 - record: 3
   source: fusion_joint
-  name: Little_MCP_FE
+  name: Index_MCP_FE
   object type: adsk::fusion::Joint
   joint type enum: 1
   rotation value rad: 0.0
@@ -27,7 +27,7 @@ Collected from flattened root-component API collections.
 
 - record: 4
   source: fusion_joint
-  name: Index_MCP_FE
+  name: Middle_MCP_FE
   object type: adsk::fusion::Joint
   joint type enum: 1
   rotation value rad: 0.0
@@ -35,7 +35,7 @@ Collected from flattened root-component API collections.
 
 - record: 5
   source: fusion_joint
-  name: Middle_MCP_FE
+  name: Little_MCP_FE
   object type: adsk::fusion::Joint
   joint type enum: 1
   rotation value rad: 0.0
@@ -43,7 +43,7 @@ Collected from flattened root-component API collections.
 
 - record: 6
   source: fusion_joint
-  name: Ring_MCP_AA
+  name: Index_MCP_AA
   object type: adsk::fusion::Joint
   joint type enum: 1
   rotation value rad: 0.0
@@ -59,7 +59,7 @@ Collected from flattened root-component API collections.
 
 - record: 8
   source: fusion_joint
-  name: Index_MCP_AA
+  name: Ring_MCP_AA
   object type: adsk::fusion::Joint
   joint type enum: 1
   rotation value rad: 0.0
@@ -91,7 +91,7 @@ Collected from flattened root-component API collections.
 
 - record: 12
   source: fusion_joint
-  name: Thumb_MCP_AA
+  name: Thumb_MCP_FE
   object type: adsk::fusion::Joint
   joint type enum: 1
   rotation value rad: 0.0
@@ -99,7 +99,7 @@ Collected from flattened root-component API collections.
 
 - record: 13
   source: fusion_joint
-  name: Thumb_MCP_FE
+  name: Thumb_MCP_AA
   object type: adsk::fusion::Joint
   joint type enum: 1
   rotation value rad: 0.0
