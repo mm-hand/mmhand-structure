@@ -7,9 +7,9 @@
 
 <link name="base_link">
   <inertial>
-    <origin xyz="0.00787 0.009308 -0.025597" rpy="0.0 0.0 0.0"/>
-    <mass value="0.02667303815154173"/>
-    <inertia ixx="3.5e-05" iyy="2e-05" izz="1.5e-05" ixy="-0.0" iyz="6e-06" ixz="-0.0"/>
+    <origin xyz="0.008496 -0.002203 -0.009951" rpy="0.0 0.0 0.0"/>
+    <mass value="0.019420819791017757"/>
+    <inertia ixx="1.7e-05" iyy="6e-06" izz="1.1e-05" ixy="0.0" iyz="-0.0" ixz="0.0"/>
   </inertial>
   <visual>
     <origin xyz="-0.0 -0.0 -0.0" rpy="0.0 0.0 0.0"/>
@@ -28,9 +28,9 @@
 
 <link name="palm_1">
   <inertial>
-    <origin xyz="-0.047741 0.041263 -0.02446" rpy="0.0 0.0 0.0"/>
-    <mass value="0.6381817099619256"/>
-    <inertia ixx="0.000511" iyy="0.000397" izz="0.000743" ixy="0.000105" iyz="5.6e-05" ixz="1.1e-05"/>
+    <origin xyz="-0.04773 0.041283 -0.024467" rpy="0.0 0.0 0.0"/>
+    <mass value="0.6378953328967193"/>
+    <inertia ixx="0.00051" iyy="0.000396" izz="0.000743" ixy="0.000106" iyz="5.6e-05" ixz="1.1e-05"/>
   </inertial>
   <visual>
     <origin xyz="-0.099 0.040324 0.033543" rpy="0.0 0.0 0.0"/>
@@ -217,9 +217,9 @@
 
 <link name="mmhand_thumb_1_thumb_base_1">
   <inertial>
-    <origin xyz="-2e-06 -9.2e-05 -0.021819" rpy="0.0 0.0 0.0"/>
-    <mass value="0.018547998189447235"/>
-    <inertia ixx="6e-06" iyy="6e-06" izz="1e-06" ixy="-0.0" iyz="-0.0" ixz="-0.0"/>
+    <origin xyz="-2.4e-05 -9.8e-05 -0.022113" rpy="0.0 0.0 0.0"/>
+    <mass value="0.01870899047965444"/>
+    <inertia ixx="6e-06" iyy="6e-06" izz="1e-06" ixy="-0.0" iyz="0.0" ixz="-0.0"/>
   </inertial>
   <visual>
     <origin xyz="-0.046902 0.041185 0.024743" rpy="0.0 0.0 0.0"/>
@@ -243,14 +243,14 @@
     <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="-0.0" iyz="0.0" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="-0.045036 0.04327 0.073758" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.045021 0.043287 0.073815" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_thumb_1_abduction_adduction_link_without_fin_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision name="collision_0">
-    <origin xyz="-0.045036 0.04327 0.073758" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.045021 0.043287 0.073815" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_thumb_1_abduction_adduction_link_without_fin_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -264,28 +264,28 @@
     <inertia ixx="2e-06" iyy="2e-06" izz="1e-06" ixy="0.0" iyz="-0.0" ixz="-0.0"/>
   </inertial>
   <visual>
-    <origin xyz="-0.042937 0.0457 0.08617" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.042922 0.045717 0.086226" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_thumb_1_finger_7_proximal_phalanx_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision name="collision_0">
-    <origin xyz="-0.003591229 -0.006671077 -0.016158211" rpy="0.176335584 -0.094963796 2.474669763"/>
+    <origin xyz="-0.003591314 -0.006671273 -0.016158878" rpy="0.176335592 -0.094963907 2.474669744"/>
     <geometry>
-      <cylinder radius="0.012455996" length="0.026438198"/>
+      <cylinder radius="0.012455995" length="0.026438201"/>
     </geometry>
   </collision>
   <collision name="collision_1">
-    <origin xyz="-0.005961106 -0.007714768 -0.028929647" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.005961191 -0.007714963 -0.028930316" rpy="0.0 0.0 0.0"/>
     <geometry>
-      <sphere radius="0.012455996"/>
+      <sphere radius="0.012455995"/>
     </geometry>
   </collision>
   <collision name="collision_2">
-    <origin xyz="-0.001221353 -0.005627387 -0.003386773" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.001221436 -0.005627583 -0.00338744" rpy="0.0 0.0 0.0"/>
     <geometry>
-      <sphere radius="0.012455996"/>
+      <sphere radius="0.012455995"/>
     </geometry>
   </collision>
 </link>
@@ -297,28 +297,28 @@
     <inertia ixx="1e-06" iyy="1e-06" izz="0.0" ixy="0.0" iyz="-0.0" ixz="-0.0"/>
   </inertial>
   <visual>
-    <origin xyz="-0.03557 0.053304 0.123843" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.035555 0.05332 0.1239" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_thumb_1_finger_7_distal_phalanx_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision name="collision_0">
-    <origin xyz="-0.002786514 -0.00195724 -0.013850803" rpy="0.188282533 -0.067993412 2.328154835"/>
+    <origin xyz="-0.002786439 -0.001957362 -0.013850588" rpy="0.188282555 -0.067993528 2.328154859"/>
     <geometry>
-      <cylinder radius="0.009881073" length="0.021379805"/>
+      <cylinder radius="0.009881072" length="0.02137981"/>
     </geometry>
   </collision>
   <collision name="collision_1">
-    <origin xyz="-0.004717368 -0.002807586 -0.024256316" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.004717294 -0.002807707 -0.024256103" rpy="0.0 0.0 0.0"/>
     <geometry>
-      <sphere radius="0.009881073"/>
+      <sphere radius="0.009881072"/>
     </geometry>
   </collision>
   <collision name="collision_2">
-    <origin xyz="-0.000855661 -0.001106895 -0.00344529" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.000855584 -0.001107017 -0.003445073" rpy="0.0 0.0 0.0"/>
     <geometry>
-      <sphere radius="0.009881073"/>
+      <sphere radius="0.009881072"/>
     </geometry>
   </collision>
 </link>
@@ -330,28 +330,28 @@
     <inertia ixx="1e-06" iyy="1e-06" izz="0.0" ixy="-0.0" iyz="-0.0" ixz="-0.0"/>
   </inertial>
   <visual>
-    <origin xyz="-0.026966 0.056177 0.151719" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.026952 0.056194 0.151776" rpy="0.0 0.0 0.0"/>
     <geometry>
       <mesh filename="../meshes/mmhand_thumb_1_finger_7_fingertip_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision name="collision_0">
-    <origin xyz="0.000344876 -0.001493642 -0.015464684" rpy="0.058406123 0.191439676 0.712990532"/>
+    <origin xyz="0.00034493 -0.00149377 -0.015464567" rpy="0.058406217 0.19143971 0.71299046"/>
     <geometry>
-      <cylinder radius="0.009322283" length="0.020724446"/>
+      <cylinder radius="0.009322284" length="0.020724444"/>
     </geometry>
   </collision>
   <collision name="collision_1">
-    <origin xyz="-0.001505798 -0.002308677 -0.025438105" rpy="0.0 0.0 0.0"/>
+    <origin xyz="-0.001505745 -0.002308804 -0.025437987" rpy="0.0 0.0 0.0"/>
     <geometry>
-      <sphere radius="0.009322283"/>
+      <sphere radius="0.009322284"/>
     </geometry>
   </collision>
   <collision name="collision_2">
-    <origin xyz="0.002195551 -0.000678607 -0.005491262" rpy="0.0 0.0 0.0"/>
+    <origin xyz="0.002195605 -0.000678736 -0.005491147" rpy="0.0 0.0 0.0"/>
     <geometry>
-      <sphere radius="0.009322283"/>
+      <sphere radius="0.009322284"/>
     </geometry>
   </collision>
 </link>
@@ -801,7 +801,7 @@
 </joint>
 
 <joint name="Thumb_MCP_AA" type="revolute">
-  <origin xyz="-0.001867 -0.002085 -0.049015" rpy="0.0 -0.0 0.0"/>
+  <origin xyz="-0.001882 -0.002102 -0.049072" rpy="0.0 -0.0 0.0"/>
   <parent link="mmhand_thumb_1_thumb_base_1"/>
   <child link="mmhand_thumb_1_abduction_adduction_link_without_fin_1"/>
   <axis xyz="0.618416 0.695622 -0.365612"/>

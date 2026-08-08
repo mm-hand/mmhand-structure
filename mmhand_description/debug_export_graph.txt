@@ -13,9 +13,9 @@ links:
   link frame transform cm: [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
   link frame source: occurrence_translation_world_aligned
   visual origin xyz/rpy: [-0.0, -0.0, -0.0] / [0.0, 0.0, 0.0]
-  inertial origin xyz/rpy: [0.00787, 0.009308, -0.025597] / [0.0, 0.0, 0.0]
+  inertial origin xyz/rpy: [0.008496, -0.002203, -0.009951] / [0.0, 0.0, 0.0]
   collision primitives: [axis=[0.0, 0.0, 0.0]; filename=../meshes/base_link.stl; note=; raw_axis=[0.0, 0.0, 0.0]; reason=visual mesh fallback; rpy=[0.0, 0.0, 0.0]; scale=0.001 0.001 0.001; size=(); smoothed_axis=; smoothing_group=; type=mesh; xyz=[0.0, 0.0, 0.0]]
-  expected mesh path: C:/Users/73547/structure\(Unsaved)_description/meshes\base_link.stl
+  expected mesh path: C:/Users/Win11/Documents/GitHub/structure\(Unsaved)_description/meshes\base_link.stl
   copied body count: 1
   exported mesh exists: True
   mesh export error: None
@@ -31,9 +31,9 @@ links:
   link frame transform cm: [1.0, 0.0, 0.0, 9.89999738629845, 0.0, 1.0, 0.0, -4.032379196934012, 0.0, 0.0, 1.0, -3.3543111966452326, 0.0, 0.0, 0.0, 1.0]
   link frame source: occurrence_translation_world_aligned
   visual origin xyz/rpy: [-0.099, 0.040324, 0.033543] / [0.0, 0.0, 0.0]
-  inertial origin xyz/rpy: [-0.047741, 0.041263, -0.02446] / [0.0, 0.0, 0.0]
+  inertial origin xyz/rpy: [-0.04773, 0.041283, -0.024467] / [0.0, 0.0, 0.0]
   collision primitives: [axis=[0.0, 0.0, 0.0]; filename=../meshes/palm_1.stl; note=; raw_axis=[0.0, 0.0, 0.0]; reason=visual mesh fallback; rpy=[0.0, 0.0, 0.0]; scale=0.001 0.001 0.001; size=(); smoothed_axis=; smoothing_group=; type=mesh; xyz=[-0.099, 0.040324, 0.033543]]
-  expected mesh path: C:/Users/73547/structure\(Unsaved)_description/meshes\palm_1.stl
+  expected mesh path: C:/Users/Win11/Documents/GitHub/structure\(Unsaved)_description/meshes\palm_1.stl
   copied body count: 13
   exported mesh exists: True
   mesh export error: None
@@ -51,7 +51,7 @@ links:
   visual origin xyz/rpy: [0.004901, -8e-06, 0.009846] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.085787, -0.041581, -0.032628] / [0.0, 0.0, 0.0]
   collision primitives: [axis=[0.0, 0.0, 0.0]; filename=../meshes/palm_1_finger_base_1.stl; note=; raw_axis=[0.0, 0.0, 0.0]; reason=visual mesh fallback; rpy=[0.0, 0.0, 0.0]; scale=0.001 0.001 0.001; size=(); smoothed_axis=; smoothing_group=; type=mesh; xyz=[0.004901, -8e-06, 0.009846]]
-  expected mesh path: C:/Users/73547/structure\(Unsaved)_description/meshes\palm_1_finger_base_1.stl
+  expected mesh path: C:/Users/Win11/Documents/GitHub/structure\(Unsaved)_description/meshes\palm_1_finger_base_1.stl
   copied body count: 3
   exported mesh exists: True
   mesh export error: None
@@ -69,7 +69,7 @@ links:
   visual origin xyz/rpy: [-0.09406, 0.040323, 0.043243] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.006272, -2.9e-05, -0.001144] / [0.0, 0.0, 0.0]
   collision primitives: [axis=[0.0, 0.0, 0.0]; filename=../meshes/palm_1_abduction_adduction_link_1.stl; note=; raw_axis=[0.0, 0.0, 0.0]; reason=visual mesh fallback; rpy=[0.0, 0.0, 0.0]; scale=0.001 0.001 0.001; size=(); smoothed_axis=; smoothing_group=; type=mesh; xyz=[-0.09406, 0.040323, 0.043243]]
-  expected mesh path: C:/Users/73547/structure\(Unsaved)_description/meshes\palm_1_abduction_adduction_link_1.stl
+  expected mesh path: C:/Users/Win11/Documents/GitHub/structure\(Unsaved)_description/meshes\palm_1_abduction_adduction_link_1.stl
   copied body count: 3
   exported mesh exists: True
   mesh export error: None
@@ -87,7 +87,7 @@ links:
   visual origin xyz/rpy: [0.004901, -0.024308, 0.009846] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.085787, -0.041581, -0.032628] / [0.0, 0.0, 0.0]
   collision primitives: [axis=[0.0, 0.0, 0.0]; filename=../meshes/palm_1_finger_base_2.stl; note=; raw_axis=[0.0, 0.0, 0.0]; reason=visual mesh fallback; rpy=[0.0, 0.0, 0.0]; scale=0.001 0.001 0.001; size=(); smoothed_axis=; smoothing_group=; type=mesh; xyz=[0.004901, -0.024308, 0.009846]]
-  expected mesh path: C:/Users/73547/structure\(Unsaved)_description/meshes\palm_1_finger_base_2.stl
+  expected mesh path: C:/Users/Win11/Documents/GitHub/structure\(Unsaved)_description/meshes\palm_1_finger_base_2.stl
   copied body count: 3
   exported mesh exists: True
   mesh export error: None
@@ -105,7 +105,7 @@ links:
   visual origin xyz/rpy: [0.004901, -0.048008, 0.009846] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.085787, -0.041581, -0.032628] / [0.0, 0.0, 0.0]
   collision primitives: [axis=[0.0, 0.0, 0.0]; filename=../meshes/palm_1_finger_base_3.stl; note=; raw_axis=[0.0, 0.0, 0.0]; reason=visual mesh fallback; rpy=[0.0, 0.0, 0.0]; scale=0.001 0.001 0.001; size=(); smoothed_axis=; smoothing_group=; type=mesh; xyz=[0.004901, -0.048008, 0.009846]]
-  expected mesh path: C:/Users/73547/structure\(Unsaved)_description/meshes\palm_1_finger_base_3.stl
+  expected mesh path: C:/Users/Win11/Documents/GitHub/structure\(Unsaved)_description/meshes\palm_1_finger_base_3.stl
   copied body count: 3
   exported mesh exists: True
   mesh export error: None
@@ -123,7 +123,7 @@ links:
   visual origin xyz/rpy: [-0.09406, 0.016023, 0.043243] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.006272, -2.9e-05, -0.001144] / [0.0, 0.0, 0.0]
   collision primitives: [axis=[0.0, 0.0, 0.0]; filename=../meshes/palm_1_abduction_adduction_link_2.stl; note=; raw_axis=[0.0, 0.0, 0.0]; reason=visual mesh fallback; rpy=[0.0, 0.0, 0.0]; scale=0.001 0.001 0.001; size=(); smoothed_axis=; smoothing_group=; type=mesh; xyz=[-0.09406, 0.016023, 0.043243]]
-  expected mesh path: C:/Users/73547/structure\(Unsaved)_description/meshes\palm_1_abduction_adduction_link_2.stl
+  expected mesh path: C:/Users/Win11/Documents/GitHub/structure\(Unsaved)_description/meshes\palm_1_abduction_adduction_link_2.stl
   copied body count: 3
   exported mesh exists: True
   mesh export error: None
@@ -141,7 +141,7 @@ links:
   visual origin xyz/rpy: [-0.09406, -0.007677, 0.043243] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.006272, -2.9e-05, -0.001144] / [0.0, 0.0, 0.0]
   collision primitives: [axis=[0.0, 0.0, 0.0]; filename=../meshes/palm_1_abduction_adduction_link_3.stl; note=; raw_axis=[0.0, 0.0, 0.0]; reason=visual mesh fallback; rpy=[0.0, 0.0, 0.0]; scale=0.001 0.001 0.001; size=(); smoothed_axis=; smoothing_group=; type=mesh; xyz=[-0.09406, -0.007677, 0.043243]]
-  expected mesh path: C:/Users/73547/structure\(Unsaved)_description/meshes\palm_1_abduction_adduction_link_3.stl
+  expected mesh path: C:/Users/Win11/Documents/GitHub/structure\(Unsaved)_description/meshes\palm_1_abduction_adduction_link_3.stl
   copied body count: 3
   exported mesh exists: True
   mesh export error: None
@@ -159,7 +159,7 @@ links:
   visual origin xyz/rpy: [0.018282, -0.07315, 0.009846] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.085946, -0.042728, -0.032628] / [0.0, 0.0, 0.0]
   collision primitives: [axis=[0.0, 0.0, 0.0]; filename=../meshes/palm_1_finger_base_5.stl; note=; raw_axis=[0.0, 0.0, 0.0]; reason=visual mesh fallback; rpy=[0.0, 0.0, 0.0]; scale=0.001 0.001 0.001; size=(); smoothed_axis=; smoothing_group=; type=mesh; xyz=[0.018282, -0.07315, 0.009846]]
-  expected mesh path: C:/Users/73547/structure\(Unsaved)_description/meshes\palm_1_finger_base_5.stl
+  expected mesh path: C:/Users/Win11/Documents/GitHub/structure\(Unsaved)_description/meshes\palm_1_finger_base_5.stl
   copied body count: 3
   exported mesh exists: True
   mesh export error: None
@@ -177,7 +177,7 @@ links:
   visual origin xyz/rpy: [-0.08068, -0.032815, 0.043243] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.006912, -0.000157, -0.000732] / [0.0, 0.0, 0.0]
   collision primitives: [axis=[0.0, 0.0, 0.0]; filename=../meshes/palm_1_abduction_adduction_link_without_fin_2.stl; note=; raw_axis=[0.0, 0.0, 0.0]; reason=visual mesh fallback; rpy=[0.0, 0.0, 0.0]; scale=0.001 0.001 0.001; size=(); smoothed_axis=; smoothing_group=; type=mesh; xyz=[-0.08068, -0.032815, 0.043243]]
-  expected mesh path: C:/Users/73547/structure\(Unsaved)_description/meshes\palm_1_abduction_adduction_link_without_fin_2.stl
+  expected mesh path: C:/Users/Win11/Documents/GitHub/structure\(Unsaved)_description/meshes\palm_1_abduction_adduction_link_without_fin_2.stl
   copied body count: 3
   exported mesh exists: True
   mesh export error: None
@@ -188,15 +188,15 @@ links:
   occurrence.name: thumb_base:1
   parent link: None
   has mesh: True
-  body count: 3
+  body count: 4
   occurrence transform cm: [0.20667638488022033, 0.4623904858265982, -0.862252811273982, -3.6503121748209972, -0.5605022162697111, -0.6663828736414167, -0.49170227910203723, -2.397649479255867, -0.8019489618981891, 0.5849178611860292, 0.12144528881754008, 1.6624195630760534, 0.0, 0.0, 0.0, 1.0]
   link frame transform cm: [1.0, 0.0, 0.0, 4.690238856280373, 0.0, 1.0, 0.0, -4.118478115293694, 0.0, 0.0, 1.0, -2.474311196645464, 0.0, 0.0, 0.0, 1.0]
   link frame source: explicit_joint:Thumb_CMC
   visual origin xyz/rpy: [-0.046902, 0.041185, 0.024743] / [0.0, 0.0, 0.0]
-  inertial origin xyz/rpy: [-2e-06, -9.2e-05, -0.021819] / [0.0, 0.0, 0.0]
+  inertial origin xyz/rpy: [-2.4e-05, -9.8e-05, -0.022113] / [0.0, 0.0, 0.0]
   collision primitives: [axis=[0.0, 0.0, 0.0]; filename=../meshes/mmhand_thumb_1_thumb_base_1.stl; note=; raw_axis=[0.0, 0.0, 0.0]; reason=visual mesh fallback; rpy=[0.0, 0.0, 0.0]; scale=0.001 0.001 0.001; size=(); smoothed_axis=; smoothing_group=; type=mesh; xyz=[-0.046902, 0.041185, 0.024743]]
-  expected mesh path: C:/Users/73547/structure\(Unsaved)_description/meshes\mmhand_thumb_1_thumb_base_1.stl
-  copied body count: 3
+  expected mesh path: C:/Users/Win11/Documents/GitHub/structure\(Unsaved)_description/meshes\mmhand_thumb_1_thumb_base_1.stl
+  copied body count: 4
   exported mesh exists: True
   mesh export error: None
 
@@ -207,13 +207,13 @@ links:
   parent link: None
   has mesh: True
   body count: 3
-  occurrence transform cm: [-0.2611816588703241, -0.9416591230474691, 0.2122786778071588, 2.860838349347315, -0.9542162344183722, 0.21865059625644814, -0.20411588553866203, -2.5853893571497015, 0.14579272630133758, -0.2558710861712107, -0.9556539479431709, 4.04275286140245, 0.0, 0.0, 0.0, 1.0]
-  link frame transform cm: [1.0, 0.0, 0.0, 4.503552014107191, 0.0, 1.0, 0.0, -4.327006878915345, 0.0, 0.0, 1.0, -7.375791493210592, 0.0, 0.0, 0.0, 1.0]
+  occurrence transform cm: [-0.2611816588767719, -0.941659123037603, 0.21227867784320337, 2.8642274727814456, -0.9542162344143073, 0.2186505962505281, -0.20411588556401367, -2.5876289901736205, 0.1457927263165671, -0.25587108621268734, -0.9556539479297692, 4.038202269802342, 0.0, 0.0, 0.0, 1.0]
+  link frame transform cm: [1.0, 0.0, 0.0, 4.502086668489896, 0.0, 1.0, 0.0, -4.328688281656865, 0.0, 0.0, 1.0, -7.3814691377056505, 0.0, 0.0, 0.0, 1.0]
   link frame source: explicit_joint:Thumb_MCP_AA
-  visual origin xyz/rpy: [-0.045036, 0.04327, 0.073758] / [0.0, 0.0, 0.0]
+  visual origin xyz/rpy: [-0.045021, 0.043287, 0.073815] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [-0.001328, -0.001289, -0.006701] / [0.0, 0.0, 0.0]
-  collision primitives: [axis=[0.0, 0.0, 0.0]; filename=../meshes/mmhand_thumb_1_abduction_adduction_link_without_fin_1.stl; note=; raw_axis=[0.0, 0.0, 0.0]; reason=visual mesh fallback; rpy=[0.0, 0.0, 0.0]; scale=0.001 0.001 0.001; size=(); smoothed_axis=; smoothing_group=; type=mesh; xyz=[-0.045036, 0.04327, 0.073758]]
-  expected mesh path: C:/Users/73547/structure\(Unsaved)_description/meshes\mmhand_thumb_1_abduction_adduction_link_without_fin_1.stl
+  collision primitives: [axis=[0.0, 0.0, 0.0]; filename=../meshes/mmhand_thumb_1_abduction_adduction_link_without_fin_1.stl; note=; raw_axis=[0.0, 0.0, 0.0]; reason=visual mesh fallback; rpy=[0.0, 0.0, 0.0]; scale=0.001 0.001 0.001; size=(); smoothed_axis=; smoothing_group=; type=mesh; xyz=[-0.045021, 0.043287, 0.073815]]
+  expected mesh path: C:/Users/Win11/Documents/GitHub/structure\(Unsaved)_description/meshes\mmhand_thumb_1_abduction_adduction_link_without_fin_1.stl
   copied body count: 3
   exported mesh exists: True
   mesh export error: None
@@ -225,13 +225,13 @@ links:
   parent link: None
   has mesh: True
   body count: 8
-  occurrence transform cm: [0.8580069903502114, 0.34995926190004323, -0.3759687746619574, 1.5113355690534602, -0.24481533440812833, -0.3648466546876686, -0.8983052769531764, -15.6221548193368, -0.4515412013858088, 0.8627951283901325, -0.22736558639664295, 1.6727401711519683, 0.0, 0.0, 0.0, 1.0]
-  link frame transform cm: [1.0, 0.0, 0.0, 4.293702969964004, 0.0, 1.0, 0.0, -4.56997181166858, 0.0, 0.0, 1.0, -8.616959763716626, 0.0, 0.0, 0.0, 1.0]
+  occurrence transform cm: [0.8580069903663687, 0.34995926186235315, -0.37596877466024003, 1.5163418240770326, -0.24481533442469663, -0.3648466546722639, -0.898305276954926, -15.624208732603627, -0.45154120134613634, 0.8627951284119466, -0.22736558639278437, 1.6699243500306036, 0.0, 0.0, 0.0, 1.0]
+  link frame transform cm: [1.0, 0.0, 0.0, 4.2922376243908245, 0.0, 1.0, 0.0, -4.571653214448851, 0.0, 0.0, 1.0, -8.622637408211576, 0.0, 0.0, 0.0, 1.0]
   link frame source: explicit_joint:Thumb_MCP_FE
-  visual origin xyz/rpy: [-0.042937, 0.0457, 0.08617] / [0.0, 0.0, 0.0]
+  visual origin xyz/rpy: [-0.042922, 0.045717, 0.086226] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [-0.002473, -0.004698, -0.017624] / [0.0, 0.0, 0.0]
-  collision primitives: [axis=[0.18186008, 0.080090954, 0.98005732]; note=axis and centerline smoothed in base frame; raw_axis=[0.333334579, 0.016307594, 0.942667556]; reason=elongated round section; rpy=[0.176335584, -0.094963796, 2.474669763]; size=(0.012455996, 0.026438198); smoothed_axis=0.18186008 0.080090954 0.98005732; smoothing_group=chain_1; type=cylinder; xyz=[-0.003591229, -0.006671077, -0.016158211], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.012455996,); smoothed_axis=0.18186008 0.080090954 0.98005732; smoothing_group=chain_1; type=sphere; xyz=[-0.005961106, -0.007714768, -0.028929647], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.012455996,); smoothed_axis=0.18186008 0.080090954 0.98005732; smoothing_group=chain_1; type=sphere; xyz=[-0.001221353, -0.005627387, -0.003386773]]
-  expected mesh path: C:/Users/73547/structure\(Unsaved)_description/meshes\mmhand_thumb_1_finger_7_proximal_phalanx_1.stl
+  collision primitives: [axis=[0.181860172, 0.08009089, 0.980057308]; note=axis and centerline smoothed in base frame; raw_axis=[0.333334551, 0.01630761, 0.942667565]; reason=elongated round section; rpy=[0.176335592, -0.094963907, 2.474669744]; size=(0.012455995, 0.026438201); smoothed_axis=0.181860172 0.08009089 0.980057308; smoothing_group=chain_1; type=cylinder; xyz=[-0.003591314, -0.006671273, -0.016158878], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.012455995,); smoothed_axis=0.181860172 0.08009089 0.980057308; smoothing_group=chain_1; type=sphere; xyz=[-0.005961191, -0.007714963, -0.028930316], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.012455995,); smoothed_axis=0.181860172 0.08009089 0.980057308; smoothing_group=chain_1; type=sphere; xyz=[-0.001221436, -0.005627583, -0.00338744]]
+  expected mesh path: C:/Users/Win11/Documents/GitHub/structure\(Unsaved)_description/meshes\mmhand_thumb_1_finger_7_proximal_phalanx_1.stl
   copied body count: 8
   exported mesh exists: True
   mesh export error: None
@@ -243,13 +243,13 @@ links:
   parent link: None
   has mesh: True
   body count: 6
-  occurrence transform cm: [0.858006989093271, 0.34995926510214026, -0.3759687745498608, 1.5113356064564996, -0.24481533309772932, -0.3648466552792138, -0.8983052770700585, -15.62215484717994, -0.4515412044846581, 0.862795126841215, -0.22736558612026125, 1.6727402256431763, 0.0, 0.0, 0.0, 1.0]
-  link frame transform cm: [1.0, 0.0, 0.0, 3.556982054484371, 0.0, 1.0, 0.0, -5.330366907102591, 0.0, 0.0, 1.0, -12.384276768731489, 0.0, 0.0, 0.0, 1.0]
+  occurrence transform cm: [0.8580069891094335, 0.3499592650644539, -0.37596877454814526, 1.5163418614800563, -0.24481533311430242, -0.3648466552638087, -0.8983052770718091, -15.62420876044677, -0.45154120444498597, 0.8627951268630291, -0.22736558611640334, 1.6699244045218151, 0.0, 0.0, 0.0, 1.0]
+  link frame transform cm: [1.0, 0.0, 0.0, 3.5555167090454995, 0.0, 1.0, 0.0, -5.332048310002305, 0.0, 0.0, 1.0, -12.389954413228683, 0.0, 0.0, 0.0, 1.0]
   link frame source: explicit_joint:PIP_Joint
-  visual origin xyz/rpy: [-0.03557, 0.053304, 0.123843] / [0.0, 0.0, 0.0]
+  visual origin xyz/rpy: [-0.035555, 0.05332, 0.1239] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [-0.001793, -0.003582, -0.014127] / [0.0, 0.0, 0.0]
-  collision primitives: [axis=[0.18186008, 0.080090954, 0.98005732]; note=axis and centerline smoothed in base frame; raw_axis=[0.204400877, 0.192661069, 0.959740587]; reason=elongated round section; rpy=[0.188282533, -0.067993412, 2.328154835]; size=(0.009881073, 0.021379805); smoothed_axis=0.18186008 0.080090954 0.98005732; smoothing_group=chain_1; type=cylinder; xyz=[-0.002786514, -0.00195724, -0.013850803], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009881073,); smoothed_axis=0.18186008 0.080090954 0.98005732; smoothing_group=chain_1; type=sphere; xyz=[-0.004717368, -0.002807586, -0.024256316], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009881073,); smoothed_axis=0.18186008 0.080090954 0.98005732; smoothing_group=chain_1; type=sphere; xyz=[-0.000855661, -0.001106895, -0.00344529]]
-  expected mesh path: C:/Users/73547/structure\(Unsaved)_description/meshes\mmhand_thumb_1_finger_7_distal_phalanx_1.stl
+  collision primitives: [axis=[0.181860172, 0.08009089, 0.980057308]; note=axis and centerline smoothed in base frame; raw_axis=[0.20440118, 0.192660861, 0.959740564]; reason=elongated round section; rpy=[0.188282555, -0.067993528, 2.328154859]; size=(0.009881072, 0.02137981); smoothed_axis=0.181860172 0.08009089 0.980057308; smoothing_group=chain_1; type=cylinder; xyz=[-0.002786439, -0.001957362, -0.013850588], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009881072,); smoothed_axis=0.181860172 0.08009089 0.980057308; smoothing_group=chain_1; type=sphere; xyz=[-0.004717294, -0.002807707, -0.024256103], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009881072,); smoothed_axis=0.181860172 0.08009089 0.980057308; smoothing_group=chain_1; type=sphere; xyz=[-0.000855584, -0.001107017, -0.003445073]]
+  expected mesh path: C:/Users/Win11/Documents/GitHub/structure\(Unsaved)_description/meshes\mmhand_thumb_1_finger_7_distal_phalanx_1.stl
   copied body count: 6
   exported mesh exists: True
   mesh export error: None
@@ -261,13 +261,13 @@ links:
   parent link: None
   has mesh: True
   body count: 2
-  occurrence transform cm: [0.858006988027711, 0.3499866844322021, -0.37594325265374756, 1.5115437686399007, -0.24481533198686403, -0.3647811458424166, -0.8983318812454213, -15.621971466461138, -0.45154120711155565, 0.8628117038833154, -0.22730266589332118, 1.673036318291114, 0.0, 0.0, 0.0, 1.0]
-  link frame transform cm: [1.0, 0.0, 0.0, 2.6966237465190526, 0.0, 1.0, 0.0, -5.6177214094116765, 0.0, 0.0, 1.0, -15.171893792217453, 0.0, 0.0, 0.0, 1.0]
+  occurrence transform cm: [0.8580069880438534, 0.3499866843945059, -0.37594325265201933, 1.5165500236634366, -0.24481533200342895, -0.3647811458270007, -0.8983318812471527, -15.624025379727952, -0.4515412070718736, 0.8628117039051124, -0.22730266588945788, 1.6702204971697583, 0.0, 0.0, 0.0, 1.0]
+  link frame transform cm: [1.0, 0.0, 0.0, 2.695158401174973, 0.0, 1.0, 0.0, -5.619402812405072, 0.0, 0.0, 1.0, -15.177571436733816, 0.0, 0.0, 0.0, 1.0]
   link frame source: explicit_joint:DIP_Joint
-  visual origin xyz/rpy: [-0.026966, 0.056177, 0.151719] / [0.0, 0.0, 0.0]
+  visual origin xyz/rpy: [-0.026952, 0.056194, 0.151776] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.00084, -0.005591, -0.014512] / [0.0, 0.0, 0.0]
-  collision primitives: [axis=[0.18186008, 0.080090954, 0.98005732]; note=axis and centerline smoothed in base frame; raw_axis=[0.00076353, 0.028185622, 0.999602415]; reason=elongated round section; rpy=[0.058406123, 0.191439676, 0.712990532]; size=(0.009322283, 0.020724446); smoothed_axis=0.18186008 0.080090954 0.98005732; smoothing_group=chain_1; type=cylinder; xyz=[0.000344876, -0.001493642, -0.015464684], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009322283,); smoothed_axis=0.18186008 0.080090954 0.98005732; smoothing_group=chain_1; type=sphere; xyz=[-0.001505798, -0.002308677, -0.025438105], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009322283,); smoothed_axis=0.18186008 0.080090954 0.98005732; smoothing_group=chain_1; type=sphere; xyz=[0.002195551, -0.000678607, -0.005491262]]
-  expected mesh path: C:/Users/73547/structure\(Unsaved)_description/meshes\mmhand_thumb_1_finger_7_fingertip_1.stl
+  collision primitives: [axis=[0.181860172, 0.08009089, 0.980057308]; note=axis and centerline smoothed in base frame; raw_axis=[0.00076353, 0.028185627, 0.999602415]; reason=elongated round section; rpy=[0.058406217, 0.19143971, 0.71299046]; size=(0.009322284, 0.020724444); smoothed_axis=0.181860172 0.08009089 0.980057308; smoothing_group=chain_1; type=cylinder; xyz=[0.00034493, -0.00149377, -0.015464567], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009322284,); smoothed_axis=0.181860172 0.08009089 0.980057308; smoothing_group=chain_1; type=sphere; xyz=[-0.001505745, -0.002308804, -0.025437987], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009322284,); smoothed_axis=0.181860172 0.08009089 0.980057308; smoothing_group=chain_1; type=sphere; xyz=[0.002195605, -0.000678736, -0.005491147]]
+  expected mesh path: C:/Users/Win11/Documents/GitHub/structure\(Unsaved)_description/meshes\mmhand_thumb_1_finger_7_fingertip_1.stl
   copied body count: 2
   exported mesh exists: True
   mesh export error: None
@@ -285,7 +285,7 @@ links:
   visual origin xyz/rpy: [-0.106786, 0.040173, 0.044793] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.01835, 0.001422, 0.000169] / [0.0, 0.0, 0.0]
   collision primitives: [axis=[0.0, 0.0, 0.0]; filename=../meshes/finger_1_proximal_phalanx_1.stl; note=; raw_axis=[0.0, 0.0, 0.0]; reason=visual mesh fallback; rpy=[0.0, 0.0, 0.0]; scale=0.001 0.001 0.001; size=(); smoothed_axis=; smoothing_group=; type=mesh; xyz=[-0.106786, 0.040173, 0.044793]]
-  expected mesh path: C:/Users/73547/structure\(Unsaved)_description/meshes\finger_1_proximal_phalanx_1.stl
+  expected mesh path: C:/Users/Win11/Documents/GitHub/structure\(Unsaved)_description/meshes\finger_1_proximal_phalanx_1.stl
   copied body count: 8
   exported mesh exists: True
   mesh export error: None
@@ -303,7 +303,7 @@ links:
   visual origin xyz/rpy: [-0.145918, 0.040309, 0.044853] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.014638, 0.001159, -0.000118] / [0.0, 0.0, 0.0]
   collision primitives: [axis=[0.992575635, 0.005155737, -0.121519657]; note=axis and centerline smoothed in base frame; raw_axis=[0.999823526, -0.016796687, 0.008413596]; reason=elongated round section; rpy=[1.693025283, -0.081547883, 1.565984565]; size=(0.009827442, 0.021671968); smoothed_axis=0.992575635 0.005155737 -0.121519657; smoothing_group=chain_2; type=cylinder; xyz=[0.014502499, 6.6633e-05, 0.000987086], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009827442,); smoothed_axis=0.992575635 0.005155737 -0.121519657; smoothing_group=chain_2; type=sphere; xyz=[0.00384063, 1.1252e-05, 0.002292404], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009827442,); smoothed_axis=0.992575635 0.005155737 -0.121519657; smoothing_group=chain_2; type=sphere; xyz=[0.025164367, 0.000122014, -0.000318232]]
-  expected mesh path: C:/Users/73547/structure\(Unsaved)_description/meshes\finger_1_distal_phalanx_1.stl
+  expected mesh path: C:/Users/Win11/Documents/GitHub/structure\(Unsaved)_description/meshes\finger_1_distal_phalanx_1.stl
   copied body count: 6
   exported mesh exists: True
   mesh export error: None
@@ -321,7 +321,7 @@ links:
   visual origin xyz/rpy: [-0.174918, 0.044594, 0.044858] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.014914, 0.004464, -0.000464] / [0.0, 0.0, 0.0]
   collision primitives: [axis=[-0.992575635, -0.005155737, 0.121519657]; note=axis and centerline smoothed in base frame; raw_axis=[-0.968039964, -0.027018363, 0.24933639]; reason=elongated round section; rpy=[-1.023483424, 1.3351058, 2.110925855]; size=(0.009239617, 0.020808113); smoothed_axis=-0.992575635 -0.005155737 0.121519657; smoothing_group=chain_2; type=cylinder; xyz=[0.015349901, 0.004506669, -0.002661931], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009239617,); smoothed_axis=-0.992575635 -0.005155737 0.121519657; smoothing_group=chain_2; type=sphere; xyz=[0.025586782, 0.004559842, -0.003915218], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009239617,); smoothed_axis=-0.992575635 -0.005155737 0.121519657; smoothing_group=chain_2; type=sphere; xyz=[0.005113019, 0.004453496, -0.001408644]]
-  expected mesh path: C:/Users/73547/structure\(Unsaved)_description/meshes\finger_1_fingertip_1.stl
+  expected mesh path: C:/Users/Win11/Documents/GitHub/structure\(Unsaved)_description/meshes\finger_1_fingertip_1.stl
   copied body count: 2
   exported mesh exists: True
   mesh export error: None
@@ -339,7 +339,7 @@ links:
   visual origin xyz/rpy: [-0.106786, 0.015873, 0.044793] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.01835, 0.001422, 0.000169] / [0.0, 0.0, 0.0]
   collision primitives: [axis=[0.0, 0.0, 0.0]; filename=../meshes/finger_2_proximal_phalanx_1.stl; note=; raw_axis=[0.0, 0.0, 0.0]; reason=visual mesh fallback; rpy=[0.0, 0.0, 0.0]; scale=0.001 0.001 0.001; size=(); smoothed_axis=; smoothing_group=; type=mesh; xyz=[-0.106786, 0.015873, 0.044793]]
-  expected mesh path: C:/Users/73547/structure\(Unsaved)_description/meshes\finger_2_proximal_phalanx_1.stl
+  expected mesh path: C:/Users/Win11/Documents/GitHub/structure\(Unsaved)_description/meshes\finger_2_proximal_phalanx_1.stl
   copied body count: 8
   exported mesh exists: True
   mesh export error: None
@@ -357,7 +357,7 @@ links:
   visual origin xyz/rpy: [-0.145918, 0.016009, 0.044853] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.014638, 0.001159, -0.000118] / [0.0, 0.0, 0.0]
   collision primitives: [axis=[0.992575639, 0.005155728, -0.121519629]; note=axis and centerline smoothed in base frame; raw_axis=[0.999823525, -0.016796698, 0.008413651]; reason=elongated round section; rpy=[1.693025256, -0.081547938, 1.565984552]; size=(0.009827442, 0.021671967); smoothed_axis=0.992575639 0.005155728 -0.121519629; smoothing_group=chain_3; type=cylinder; xyz=[0.014502514, 6.6633e-05, 0.000987086], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009827442,); smoothed_axis=0.992575639 0.005155728 -0.121519629; smoothing_group=chain_3; type=sphere; xyz=[0.003840645, 1.1252e-05, 0.002292403], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009827442,); smoothed_axis=0.992575639 0.005155728 -0.121519629; smoothing_group=chain_3; type=sphere; xyz=[0.025164381, 0.000122014, -0.000318231]]
-  expected mesh path: C:/Users/73547/structure\(Unsaved)_description/meshes\finger_2_distal_phalanx_1.stl
+  expected mesh path: C:/Users/Win11/Documents/GitHub/structure\(Unsaved)_description/meshes\finger_2_distal_phalanx_1.stl
   copied body count: 6
   exported mesh exists: True
   mesh export error: None
@@ -375,7 +375,7 @@ links:
   visual origin xyz/rpy: [-0.174918, 0.020294, 0.044858] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.014914, 0.004464, -0.000464] / [0.0, 0.0, 0.0]
   collision primitives: [axis=[-0.992575639, -0.005155728, 0.121519629]; note=axis and centerline smoothed in base frame; raw_axis=[-0.968039965, -0.027018356, 0.249336389]; reason=elongated round section; rpy=[-1.023483663, 1.335105761, 2.110925607]; size=(0.009239615, 0.020808115); smoothed_axis=-0.992575639 -0.005155728 0.121519629; smoothing_group=chain_3; type=cylinder; xyz=[0.015349916, 0.004506669, -0.002661932], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009239615,); smoothed_axis=-0.992575639 -0.005155728 0.121519629; smoothing_group=chain_3; type=sphere; xyz=[0.025586798, 0.004559842, -0.003915219], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009239615,); smoothed_axis=-0.992575639 -0.005155728 0.121519629; smoothing_group=chain_3; type=sphere; xyz=[0.005113033, 0.004453496, -0.001408645]]
-  expected mesh path: C:/Users/73547/structure\(Unsaved)_description/meshes\finger_2_fingertip_1.stl
+  expected mesh path: C:/Users/Win11/Documents/GitHub/structure\(Unsaved)_description/meshes\finger_2_fingertip_1.stl
   copied body count: 2
   exported mesh exists: True
   mesh export error: None
@@ -393,7 +393,7 @@ links:
   visual origin xyz/rpy: [-0.106786, -0.007827, 0.044793] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.01835, 0.001422, 0.000169] / [0.0, 0.0, 0.0]
   collision primitives: [axis=[0.0, 0.0, 0.0]; filename=../meshes/finger_3_proximal_phalanx_1.stl; note=; raw_axis=[0.0, 0.0, 0.0]; reason=visual mesh fallback; rpy=[0.0, 0.0, 0.0]; scale=0.001 0.001 0.001; size=(); smoothed_axis=; smoothing_group=; type=mesh; xyz=[-0.106786, -0.007827, 0.044793]]
-  expected mesh path: C:/Users/73547/structure\(Unsaved)_description/meshes\finger_3_proximal_phalanx_1.stl
+  expected mesh path: C:/Users/Win11/Documents/GitHub/structure\(Unsaved)_description/meshes\finger_3_proximal_phalanx_1.stl
   copied body count: 8
   exported mesh exists: True
   mesh export error: None
@@ -411,7 +411,7 @@ links:
   visual origin xyz/rpy: [-0.145918, -0.007691, 0.044853] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.014638, 0.001159, -0.000118] / [0.0, 0.0, 0.0]
   collision primitives: [axis=[0.992575631, 0.005155742, -0.121519694]; note=axis and centerline smoothed in base frame; raw_axis=[0.999823527, -0.016796672, 0.008413522]; reason=elongated round section; rpy=[1.693025324, -0.081548156, 1.565984534]; size=(0.009827442, 0.021671968); smoothed_axis=0.992575631 0.005155742 -0.121519694; smoothing_group=chain_4; type=cylinder; xyz=[0.014502498, 6.6633e-05, 0.000987087], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009827442,); smoothed_axis=0.992575631 0.005155742 -0.121519694; smoothing_group=chain_4; type=sphere; xyz=[0.003840631, 1.1252e-05, 0.002292405], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009827442,); smoothed_axis=0.992575631 0.005155742 -0.121519694; smoothing_group=chain_4; type=sphere; xyz=[0.025164367, 0.000122014, -0.000318231]]
-  expected mesh path: C:/Users/73547/structure\(Unsaved)_description/meshes\finger_3_distal_phalanx_1.stl
+  expected mesh path: C:/Users/Win11/Documents/GitHub/structure\(Unsaved)_description/meshes\finger_3_distal_phalanx_1.stl
   copied body count: 6
   exported mesh exists: True
   mesh export error: None
@@ -429,7 +429,7 @@ links:
   visual origin xyz/rpy: [-0.174918, -0.003406, 0.044858] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.014914, 0.004464, -0.000464] / [0.0, 0.0, 0.0]
   collision primitives: [axis=[-0.992575631, -0.005155742, 0.121519694]; note=axis and centerline smoothed in base frame; raw_axis=[-0.968039964, -0.027018359, 0.249336391]; reason=elongated round section; rpy=[-1.023483383, 1.335105742, 2.110925896]; size=(0.009239617, 0.020808112); smoothed_axis=-0.992575631 -0.005155742 0.121519694; smoothing_group=chain_4; type=cylinder; xyz=[0.0153499, 0.004506669, -0.002661932], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009239617,); smoothed_axis=-0.992575631 -0.005155742 0.121519694; smoothing_group=chain_4; type=sphere; xyz=[0.025586782, 0.004559842, -0.00391522], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009239617,); smoothed_axis=-0.992575631 -0.005155742 0.121519694; smoothing_group=chain_4; type=sphere; xyz=[0.005113019, 0.004453495, -0.001408645]]
-  expected mesh path: C:/Users/73547/structure\(Unsaved)_description/meshes\finger_3_fingertip_1.stl
+  expected mesh path: C:/Users/Win11/Documents/GitHub/structure\(Unsaved)_description/meshes\finger_3_fingertip_1.stl
   copied body count: 2
   exported mesh exists: True
   mesh export error: None
@@ -447,7 +447,7 @@ links:
   visual origin xyz/rpy: [-0.093406, -0.032823, 0.044336] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.018366, 0.001218, -4.7e-05] / [0.0, 0.0, 0.0]
   collision primitives: [axis=[0.0, 0.0, 0.0]; filename=../meshes/finger_4_proximal_phalanx_1.stl; note=; raw_axis=[0.0, 0.0, 0.0]; reason=visual mesh fallback; rpy=[0.0, 0.0, 0.0]; scale=0.001 0.001 0.001; size=(); smoothed_axis=; smoothing_group=; type=mesh; xyz=[-0.093406, -0.032823, 0.044336]]
-  expected mesh path: C:/Users/73547/structure\(Unsaved)_description/meshes\finger_4_proximal_phalanx_1.stl
+  expected mesh path: C:/Users/Win11/Documents/GitHub/structure\(Unsaved)_description/meshes\finger_4_proximal_phalanx_1.stl
   copied body count: 8
   exported mesh exists: True
   mesh export error: None
@@ -465,7 +465,7 @@ links:
   visual origin xyz/rpy: [-0.132531, -0.032253, 0.044856] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.014647, 0.000996, -0.00029] / [0.0, 0.0, 0.0]
   collision primitives: [axis=[-0.991044113, 0.005724029, 0.13341215]; note=axis and centerline smoothed in base frame; raw_axis=[-0.999613903, 0.027539281, 0.003692336]; reason=elongated round section; rpy=[1.436527679, 0.082329799, -1.587680225]; size=(0.009838488, 0.021653373); smoothed_axis=-0.991044113 0.005724029 0.13341215; smoothing_group=chain_5; type=cylinder; xyz=[0.014536663, -9.0659e-05, 0.00081769], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009838488,); smoothed_axis=-0.991044113 0.005724029 0.13341215; smoothing_group=chain_5; type=sphere; xyz=[0.025173164, -0.000152093, -0.000614172], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009838488,); smoothed_axis=-0.991044113 0.005724029 0.13341215; smoothing_group=chain_5; type=sphere; xyz=[0.003900162, -2.9225e-05, 0.002249552]]
-  expected mesh path: C:/Users/73547/structure\(Unsaved)_description/meshes\finger_4_distal_phalanx_1.stl
+  expected mesh path: C:/Users/Win11/Documents/GitHub/structure\(Unsaved)_description/meshes\finger_4_distal_phalanx_1.stl
   copied body count: 6
   exported mesh exists: True
   mesh export error: None
@@ -483,7 +483,7 @@ links:
   visual origin xyz/rpy: [-0.16148, -0.027645, 0.045202] / [0.0, 0.0, 0.0]
   inertial origin xyz/rpy: [0.014956, 0.004298, -0.000639] / [0.0, 0.0, 0.0]
   collision primitives: [axis=[-0.991044113, 0.005724029, 0.13341215]; note=axis and centerline smoothed in base frame; raw_axis=[-0.965253369, -0.016190687, 0.260813717]; reason=elongated round section; rpy=[-0.97156069, 1.331991477, 2.150919538]; size=(0.009245108, 0.020796943); smoothed_axis=-0.991044113 0.005724029 0.13341215; smoothing_group=chain_5; type=cylinder; xyz=[0.015365705, 0.004344612, -0.002844543], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009245108,); smoothed_axis=-0.991044113 0.005724029 0.13341215; smoothing_group=chain_5; type=sphere; xyz=[0.025581513, 0.004285608, -0.004219773], axis=[0.0, 0.0, 0.0]; note=sphere center projected to smoothed base-frame capsule centerline; raw_axis=[0.0, 0.0, 0.0]; reason=capsule end; rpy=[0.0, 0.0, 0.0]; size=(0.009245108,); smoothed_axis=-0.991044113 0.005724029 0.13341215; smoothing_group=chain_5; type=sphere; xyz=[0.005149897, 0.004403616, -0.001469314]]
-  expected mesh path: C:/Users/73547/structure\(Unsaved)_description/meshes\finger_4_fingertip_1.stl
+  expected mesh path: C:/Users/Win11/Documents/GitHub/structure\(Unsaved)_description/meshes\finger_4_fingertip_1.stl
   copied body count: 2
   exported mesh exists: True
   mesh export error: None
@@ -587,7 +587,7 @@ joints:
   occurrenceOne: finger:4+proximal_phalanx:1
   occurrenceTwo: palm:1+abduction_adduction_link_without_fin:2
   raw origin one cm: [10.678572340989957, -4.01731879722264, -4.479311199081198]
-  raw origin two cm: [4.265412141910268, -4.601794617538394, -8.600234026977212]
+  raw origin two cm: [4.263946796337068, -4.60347602031872, -8.605911671472157]
   raw axis: [0.01112231811826353, 0.9999381451069077, -1.0962411534087835e-13]
   selected candidate: geometry_one_transform
   candidate error cm: 6.217248937900877e-15
@@ -595,7 +595,7 @@ joints:
   selected link frame transform cm: [1.0, 0.0, 0.0, 9.340609218351881, 0.0, 1.0, 0.0, 3.2823453830815357, 0.0, 0.0, 1.0, -4.433563934568478, 0.0, 0.0, 0.0, 1.0]
   final URDF origin xyz/rpy: [0.012726, 8e-06, -0.001093] / [0.0, -0.0, 0.0]
   exported axis: [0.011122, 0.999938, -0.0]
-  origin candidates: geometry_one_transform=[-0.09886409109542729, -0.9950387859433193, 0.011122318118285453, 9.340609218351881, 0.001099665891228442, 0.011067822516296734, 0.9999381451068272, 3.2823453830815357, -0.9951003377684297, 0.09887020670150216, -1.242746153097957e-13, -4.433563934568478, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[-0.09886409109543877, -0.9950387859433792, 0.01112231811826353, 9.340609218351883, 0.0010996658913438456, 0.01106782251628935, 0.9999381451069077, 3.2823453830815303, -0.9951003377685566, 0.09887020670164268, -1.0962411534087835e-13, -4.433563934568475, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[0.9998689362036197, 0.011122321651110831, 0.011764538925743261, 10.897087603395338, -0.011121551836980733, 0.9999381450675315, -0.000130857358809703, -3.930217040631814, -0.011765266668618463, 2.786503214041949e-10, 0.9999307868548987, -4.385434582996836, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[0.09623413988953582, -0.41202812344056655, 0.906074950439472, -10.953334927333671, 0.3591506994906182, -0.8346022209870673, -0.41767200981035457, 20.408012979948666, 0.9283047804333072, 0.3656117588614322, 0.06766296185682975, 2.6014926800770173, 0.0, 0.0, 0.0, 1.0]
+  origin candidates: geometry_one_transform=[-0.09886409109542729, -0.9950387859433193, 0.011122318118285453, 9.340609218351881, 0.001099665891228442, 0.011067822516296734, 0.9999381451068272, 3.2823453830815357, -0.9951003377684297, 0.09887020670150216, -1.242746153097957e-13, -4.433563934568478, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[-0.09886409109543877, -0.9950387859433792, 0.01112231811826353, 9.340609218351883, 0.0010996658913438456, 0.01106782251628935, 0.9999381451069077, 3.2823453830815303, -0.9951003377685566, 0.09887020670164268, -1.0962411534087835e-13, -4.433563934568475, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[0.9998689362036197, 0.011122321651110831, 0.011764538925743261, 10.897087603395338, -0.011121551836980733, 0.9999381450675315, -0.000130857358809703, -3.930217040631814, -0.011765266668618463, 2.786503214041949e-10, 0.9999307868548987, -4.385434582996836, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[0.09623413988953582, -0.41202812344056655, 0.906074950439472, -10.957927529826595, 0.3591506994906182, -0.8346022209870673, -0.41767200981035457, 20.41126139574308, 0.9283047804333072, 0.3656117588614322, 0.06766296185682975, 2.5991334859056616, 0.0, 0.0, 0.0, 1.0]
   selection reason: selected Fusion joint translation; link frame axes stay aligned with base_link
   warning: 
 
@@ -674,7 +674,7 @@ joints:
   type: revolute
   occurrenceOne: palm:1+abduction_adduction_link_without_fin:2
   occurrenceTwo: palm:1+finger_base:5
-  raw origin one cm: [4.5035520141071546, -4.327006878915249, -7.3757914932104764]
+  raw origin one cm: [4.502086668489827, -4.328688281656719, -7.381469137705489]
   raw origin two cm: [9.406048370553664, -4.032318787984209, -4.324311197376676]
   raw axis: [3.873306752394604e-15, 9.995379223528183e-17, -0.9999999999999988]
   selected candidate: geometry_one_transform
@@ -683,7 +683,7 @@ joints:
   selected link frame transform cm: [1.0, 0.0, 0.0, 8.067997123968796, 0.0, 1.0, 0.0, 3.2814997273283186, 0.0, 0.0, 1.0, -4.324311197209038, 0.0, 0.0, 0.0, 1.0]
   final URDF origin xyz/rpy: [0.098962, -0.040335, -0.033397] / [0.0, -0.0, 0.0]
   exported axis: [0.0, 0.0, -1.0]
-  origin candidates: geometry_one_transform=[-0.08715574274770432, 0.9961946980918043, 3.7143899067615394e-14, 8.067997123968796, 0.9961946980918286, 0.08715574274766996, 1.272940086671781e-14, 3.2814997273283186, -7.532863222081687e-14, -9.200279427190594e-14, -1.0000000000001603, -4.324311197209038, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[-0.08715574274769673, 0.9961946980917367, 3.873306752394604e-15, 8.067997123968803, 0.9961946980917381, 0.08715574274769018, 9.995379223528183e-17, 3.2814997273283217, 7.300724298687961e-16, 4.052747720659873e-16, -0.9999999999999988, -4.324311197209041, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[0.09623413988953582, -0.41202812344056655, 0.906074950439472, -9.934201309750096, 0.3591506994906182, -0.8346022209870673, -0.41767200981035457, 19.752787250694254, 0.9283047804333072, 0.3656117588614322, 0.06766296185682975, 3.005874098738866, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[-0.0871557427476967, -0.9961946980917367, -3.70536934468646e-15, 1.3689433718072719, 0.9961946980917377, -0.08715574274768999, 5.466547353671916e-16, 17.03668918505432, -1.0038676648868082e-17, -1.7194453917299354e-16, 0.9999999999999983, -5.308886462337709, 0.0, 0.0, 0.0, 1.0]
+  origin candidates: geometry_one_transform=[-0.08715574274770432, 0.9961946980918043, 3.7143899067615394e-14, 8.067997123968796, 0.9961946980918286, 0.08715574274766996, 1.272940086671781e-14, 3.2814997273283186, -7.532863222081687e-14, -9.200279427190594e-14, -1.0000000000001603, -4.324311197209038, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[-0.08715574274769673, 0.9961946980917367, 3.873306752394604e-15, 8.067997123968803, 0.9961946980917381, 0.08715574274769018, 9.995379223528183e-17, 3.2814997273283217, 7.300724298687961e-16, 4.052747720659873e-16, -0.9999999999999988, -4.324311197209041, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[0.09623413988953582, -0.41202812344056655, 0.906074950439472, -9.938793912263336, 0.3591506994906182, -0.8346022209870673, -0.41767200981035457, 19.75603566644042, 0.9283047804333072, 0.3656117588614322, 0.06766296185682975, 3.003514904540748, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[-0.0871557427476967, -0.9961946980917367, -3.70536934468646e-15, 1.3689433718072719, 0.9961946980917377, -0.08715574274768999, 5.466547353671916e-16, 17.03668918505432, -1.0038676648868082e-17, -1.7194453917299354e-16, 0.9999999999999983, -5.308886462337709, 0.0, 0.0, 0.0, 1.0]
   selection reason: selected Fusion joint translation; link frame axes stay aligned with base_link
   warning: 
 
@@ -698,14 +698,14 @@ joints:
   occurrenceTwo: mmhand-thumb:1+finger:7+distal_phalanx:1
   raw origin one cm: [17.491805890263205, -4.45936880406639, -4.485781421341353]
   raw origin two cm: [17.491805890263162, -4.4593688040663135, -4.485781421341385]
-  raw axis: [0.7453529914296705, -0.6666265918558362, -0.007609546486054957]
+  raw axis: [0.7453529914412202, -0.6666265918434308, -0.007609546443088166]
   selected candidate: geometry_one_transform
-  candidate error cm: 1.0585395214090862e-12
-  joint frame transform cm: [-0.18665688479786402, 0.6400063480345988, 0.745352991429588, 2.6966237465190526, -0.1977155106828178, 0.7186915637921951, -0.6666265918557593, -5.6177214094116765, -0.9623241575441038, -0.2717982902988375, -0.007609546486064776, -15.171893792217453, 0.0, 0.0, 0.0, 1.0]
-  selected link frame transform cm: [1.0, 0.0, 0.0, 2.6966237465190526, 0.0, 1.0, 0.0, -5.6177214094116765, 0.0, 0.0, 1.0, -15.171893792217453, 0.0, 0.0, 0.0, 1.0]
+  candidate error cm: 1.4851172501452646e-12
+  joint frame transform cm: [-0.1866568847634923, 0.6400063480312413, 0.7453529914411235, 2.695158401174973, -0.19771551071328206, 0.718691563795294, -0.6666265918433372, -5.619402812405072, -0.9623241575444987, -0.2717982902986508, -0.0076095464430952445, -15.177571436733816, 0.0, 0.0, 0.0, 1.0]
+  selected link frame transform cm: [1.0, 0.0, 0.0, 2.695158401174973, 0.0, 1.0, 0.0, -5.619402812405072, 0.0, 0.0, 1.0, -15.177571436733816, 0.0, 0.0, 0.0, 1.0]
   final URDF origin xyz/rpy: [-0.008604, -0.002874, -0.027876] / [0.0, -0.0, 0.0]
   exported axis: [0.745353, -0.666627, -0.00761]
-  origin candidates: geometry_one_transform=[-0.18665688479786402, 0.6400063480345988, 0.745352991429588, 2.6966237465190526, -0.1977155106828178, 0.7186915637921951, -0.6666265918557593, -5.6177214094116765, -0.9623241575441038, -0.2717982902988375, -0.007609546486064776, -15.171893792217453, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[0.18665688479788364, -0.6400063480346714, 0.7453529914296705, 2.6966237465185667, 0.19771551068283946, -0.7186915637922684, -0.6666265918558362, -5.61772140941132, 0.9623241575441602, 0.27179829029887936, -0.007609546486054957, -15.171893792218324, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[0.858006988027711, 0.3499866844322021, -0.37594325265374756, 16.645315011547236, -0.24481533198686403, -0.3647811458424166, -0.8983318812454213, -14.247819607365106, -0.45154120711155565, 0.8628117038833154, -0.22730266589332118, -9.053200348354357, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[0.858006989093271, 0.34995926510214026, -0.3759687745498608, 16.645343626554933, -0.24481533309772932, -0.3648466552792138, -0.8983052770700585, -14.247830217291686, -0.4515412044846581, 0.862795126841215, -0.22736558612026125, -9.05314022552358, 0.0, 0.0, 0.0, 1.0]
+  origin candidates: geometry_one_transform=[-0.1866568847634923, 0.6400063480312413, 0.7453529914411235, 2.695158401174973, -0.19771551071328206, 0.718691563795294, -0.6666265918433372, -5.619402812405072, -0.9623241575444987, -0.2717982902986508, -0.0076095464430952445, -15.177571436733816, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[0.1866568847635166, -0.6400063480313287, 0.7453529914412202, 2.6951584011744085, 0.19771551071331078, -0.7186915637953809, -0.6666265918434308, -5.619402812404717, 0.9623241575445775, 0.27179829029870584, -0.007609546443088166, -15.177571436735143, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[0.8580069880438534, 0.3499866843945059, -0.37594325265201933, 16.65032126701348, -0.24481533200342895, -0.3647811458270007, -0.8983318812471527, -14.249873520982648, -0.4515412070718736, 0.8628117039051124, -0.22730266588945788, -9.056016168896134, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[0.8580069891094335, 0.3499592650644539, -0.37596877454814526, 16.650349882021565, -0.24481533311430242, -0.3648466552638087, -0.8983052770718091, -14.249884130909251, -0.45154120444498597, 0.8627951268630291, -0.22736558611640334, -9.055956046065585, 0.0, 0.0, 0.0, 1.0]
   selection reason: selected Fusion joint translation; link frame axes stay aligned with base_link
   warning: 
 
@@ -720,14 +720,14 @@ joints:
   occurrenceTwo: mmhand-thumb:1+finger:7+proximal_phalanx:1
   raw origin one cm: [14.591808445939735, -3.7304504292652982, -4.485265916288152]
   raw origin two cm: [14.591808445901252, -4.03086879862448, -4.485265916275323]
-  raw axis: [0.7453529918411798, -0.6666265914772436, -0.007609539341337617]
+  raw axis: [0.7453529918527282, -0.666626591464838, -0.00760953929836738]
   selected candidate: geometry_one_transform
-  candidate error cm: 6.825262530156903e-14
-  joint frame transform cm: [-0.18665687956013557, 0.6400063490829856, 0.7453529918411991, 3.556982054484371, -0.19771551536736098, 0.7186915628546802, -0.6666265914772646, -5.330366907102591, -0.962324157597634, -0.27179829030958197, -0.007609539341330842, -12.384276768731489, 0.0, 0.0, 0.0, 1.0]
-  selected link frame transform cm: [1.0, 0.0, 0.0, 3.556982054484371, 0.0, 1.0, 0.0, -5.330366907102591, 0.0, 0.0, 1.0, -12.384276768731489, 0.0, 0.0, 0.0, 1.0]
+  candidate error cm: 1.509615934300172e-13
+  joint frame transform cm: [-0.18665687952576854, 0.6400063490796429, 0.7453529918527488, 3.5555167090454995, -0.1977155153978323, 0.7186915628577927, -0.6666265914648591, -5.332048310002305, -0.9623241575980512, -0.27179829030940844, -0.007609539298364052, -12.389954413228683, 0.0, 0.0, 0.0, 1.0]
+  selected link frame transform cm: [1.0, 0.0, 0.0, 3.5555167090454995, 0.0, 1.0, 0.0, -5.332048310002305, 0.0, 0.0, 1.0, -12.389954413228683, 0.0, 0.0, 0.0, 1.0]
   final URDF origin xyz/rpy: [-0.007367, -0.007604, -0.037673] / [0.0, -0.0, 0.0]
   exported axis: [0.745353, -0.666627, -0.00761]
-  origin candidates: geometry_one_transform=[-0.18665687956013557, 0.6400063490829856, 0.7453529918411991, 3.556982054484371, -0.19771551536736098, 0.7186915628546802, -0.6666265914772646, -5.330366907102591, -0.962324157597634, -0.27179829030958197, -0.007609539341330842, -12.384276768731489, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[0.18665687956013702, -0.6400063490829787, 0.7453529918411798, 3.556982054484343, 0.19771551536735904, -0.718691562854673, -0.6666265914772436, -5.330366907102549, 0.9623241575976459, 0.2717982903095755, -0.007609539341337617, -12.384276768731443, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[0.858006989093271, 0.34995926510214026, -0.3759687745498608, 14.41202347593448, -0.24481533309772932, -0.3648466552792138, -0.8983052770700585, -13.804272888904467, -0.4515412044846581, 0.862795126841215, -0.22736558612026125, -7.114881872976591, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[0.8580069903502114, 0.34995926190004323, -0.3759687746619574, 14.30688927848053, -0.24481533440812833, -0.3648466546876686, -0.8983052769531764, -13.694666245848076, -0.4515412013858088, 0.8627951283901325, -0.22736558639664295, -7.374081392336048, 0.0, 0.0, 0.0, 1.0]
+  origin candidates: geometry_one_transform=[-0.18665687952576854, 0.6400063490796429, 0.7453529918527488, 3.5555167090454995, -0.1977155153978323, 0.7186915628577927, -0.6666265914648591, -5.332048310002305, -0.9623241575980512, -0.27179829030940844, -0.007609539298364052, -12.389954413228683, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[0.18665687952576984, -0.6400063490796345, 0.7453529918527282, 3.555516709045474, 0.19771551539782534, -0.7186915628577849, -0.666626591464838, -5.332048310002191, 0.9623241575980582, 0.27179829030940045, -0.00760953929836738, -12.389954413228587, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[0.8580069891094335, 0.3499592650644539, -0.37596877454814526, 14.41702973132677, -0.24481533311430242, -0.3648466552638087, -0.8983052770718091, -13.806326802462744, -0.45154120444498597, 0.8627951268630291, -0.22736558611640334, -7.1176976936177425, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[0.8580069903663687, 0.34995926186235315, -0.37596877466024003, 14.311895533884085, -0.24481533442469663, -0.3648466546722639, -0.898305276954926, -13.696720159410912, -0.45154120134613634, 0.8627951284119466, -0.22736558639278437, -7.376897212983755, 0.0, 0.0, 0.0, 1.0]
   selection reason: selected Fusion joint translation; link frame axes stay aligned with base_link
   warning: 
 
@@ -741,15 +741,15 @@ joints:
   occurrenceOne: mmhand-thumb:1+finger:7+proximal_phalanx:1
   occurrenceTwo: mmhand-thumb:1+abduction_adduction_link_without_fin:1
   raw origin one cm: [10.678572347282609, -4.01731879722264, -4.4793111981859495]
-  raw origin two cm: [4.293702969963961, -4.569971811668622, -8.616959763716572]
-  raw axis: [0.7453529905173613, -0.6666265928799103, -0.007609546129522915]
+  raw origin two cm: [4.292237624390761, -4.571653214448943, -8.622637408211512]
+  raw axis: [0.7453529905289102, -0.6666265928675046, -0.007609546086552621]
   selected candidate: geometry_one_transform
-  candidate error cm: 5.207786278400678e-14
-  joint frame transform cm: [-0.6400063490906764, -0.18665688481999948, 0.7453529905173558, 4.293702969964004, -0.7186915628477883, -0.19771551066305892, -0.6666265928799194, -4.56997181166858, 0.27179829030965413, -0.9623241575439463, -0.007609546129531322, -8.616959763716626, 0.0, 0.0, 0.0, 1.0]
-  selected link frame transform cm: [1.0, 0.0, 0.0, 4.293702969964004, 0.0, 1.0, 0.0, -4.56997181166858, 0.0, 0.0, 1.0, -8.616959763716626, 0.0, 0.0, 0.0, 1.0]
+  candidate error cm: 6.207725446574327e-14
+  joint frame transform cm: [-0.6400063490873322, -0.1866568847856323, 0.7453529905289042, 4.2922376243908245, -0.7186915628509003, -0.19771551069352522, -0.6666265928675139, -4.571653214448851, 0.2717982903094791, -0.9623241575443586, -0.007609546086561085, -8.622637408211576, 0.0, 0.0, 0.0, 1.0]
+  selected link frame transform cm: [1.0, 0.0, 0.0, 4.2922376243908245, 0.0, 1.0, 0.0, -4.571653214448851, 0.0, 0.0, 1.0, -8.622637408211576, 0.0, 0.0, 0.0, 1.0]
   final URDF origin xyz/rpy: [-0.002098, -0.00243, -0.012412] / [0.0, -0.0, 0.0]
   exported axis: [0.745353, -0.666627, -0.00761]
-  origin candidates: geometry_one_transform=[-0.6400063490906764, -0.18665688481999948, 0.7453529905173558, 4.293702969964004, -0.7186915628477883, -0.19771551066305892, -0.6666265928799194, -4.56997181166858, 0.27179829030965413, -0.9623241575439463, -0.007609546129531322, -8.616959763716626, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[-0.6400063490906862, -0.1866568848200011, 0.7453529905173613, 4.293702969963998, -0.7186915628478135, -0.19771551066307544, -0.6666265928799103, -4.569971811668576, 0.27179829030965946, -0.9623241575439616, -0.007609546129522915, -8.616959763716574, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[0.8580069903502114, 0.34995926190004323, -0.3759687746619574, 10.951808511400756, -0.24481533440812833, -0.3648466546876686, -0.8983052769531764, -12.74693886911172, -0.4515412013858088, 0.8627951283901325, -0.22736558639664295, -5.596757085830499, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[-0.2611816588703241, -0.9416591230474691, 0.2122786778071588, 4.2135607081239765, -0.9542162344183722, 0.21865059625644814, -0.20411588553866203, -5.922879125534171, 0.14579272630133758, -0.2558710861712107, -0.9556539479431709, 14.072898792008306, 0.0, 0.0, 0.0, 1.0]
+  origin candidates: geometry_one_transform=[-0.6400063490873322, -0.1866568847856323, 0.7453529905289042, 4.2922376243908245, -0.7186915628509003, -0.19771551069352522, -0.6666265928675139, -4.571653214448851, 0.2717982903094791, -0.9623241575443586, -0.007609546086561085, -8.622637408211576, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[-0.6400063490873427, -0.18665688478563502, 0.7453529905289102, 4.2922376243908245, -0.7186915628509266, -0.19771551069354568, -0.6666265928675046, -4.5716532144488715, 0.2717982903094869, -0.9623241575443777, -0.007609546086552621, -8.622637408211517, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[0.8580069903663687, 0.34995926186235315, -0.37596877466024003, 10.956814766740585, -0.24481533442469663, -0.3648466546722639, -0.898305276954926, -12.748992782609523, -0.45154120134613634, 0.8627951284119466, -0.22736558639278437, -5.599572906633138, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[-0.2611816588767719, -0.941659123037603, 0.21227867784320337, 4.217710617963317, -0.9542162344143073, 0.2186505962505281, -0.20411588556401367, -5.922929244046605, 0.1457927263165671, -0.25587108621268734, -0.9556539479297692, 14.073990649553835, 0.0, 0.0, 0.0, 1.0]
   selection reason: selected Fusion joint translation; link frame axes stay aligned with base_link
   warning: 
 
@@ -762,16 +762,16 @@ joints:
   type: revolute
   occurrenceOne: mmhand-thumb:1+abduction_adduction_link_without_fin:1
   occurrenceTwo: mmhand-thumb:1+thumb_base:1
-  raw origin one cm: [4.5035520141071546, -4.327006878915249, -7.3757914932104764]
-  raw origin two cm: [4.503552014107196, -4.327006878915351, -7.375791493210604]
-  raw axis: [0.6184157293940449, 0.695622043512446, -0.3656117588611917]
+  raw origin one cm: [4.502086668489827, -4.328688281656719, -7.381469137705489]
+  raw origin two cm: [4.5020866684898975, -4.3286882816568575, -7.381469137705642]
+  raw axis: [0.6184157293940566, 0.6956220435124509, -0.3656117588611622]
   selected candidate: geometry_one_transform
-  candidate error cm: 6.466036496704424e-15
-  joint frame transform cm: [0.36695957216752556, 0.6949119786223512, 0.6184157293941234, 4.503552014107191, 0.15578678458300826, -0.7013133752673104, 0.6956220435125176, -4.327006878915345, 0.9170993131302956, -0.15892416945977847, -0.3656117588613724, -7.375791493210592, 0.0, 0.0, 0.0, 1.0]
-  selected link frame transform cm: [1.0, 0.0, 0.0, 4.503552014107191, 0.0, 1.0, 0.0, -4.327006878915345, 0.0, 0.0, 1.0, -7.375791493210592, 0.0, 0.0, 0.0, 1.0]
-  final URDF origin xyz/rpy: [-0.001867, -0.002085, -0.049015] / [0.0, -0.0, 0.0]
+  candidate error cm: 3.076740298213702e-15
+  joint frame transform cm: [0.36695957213533625, 0.6949119786393636, 0.6184157293941939, 4.502086668489896, 0.15578678461524714, -0.7013133752600528, 0.695622043512603, -4.328688281656865, 0.9170993131377114, -0.15892416941745086, -0.3656117588612418, -7.3814691377056505, 0.0, 0.0, 0.0, 1.0]
+  selected link frame transform cm: [1.0, 0.0, 0.0, 4.502086668489896, 0.0, 1.0, 0.0, -4.328688281656865, 0.0, 0.0, 1.0, -7.3814691377056505, 0.0, 0.0, 0.0, 1.0]
+  final URDF origin xyz/rpy: [-0.001882, -0.002102, -0.049072] / [0.0, -0.0, 0.0]
   exported axis: [0.618416, 0.695622, -0.365612]
-  origin candidates: geometry_one_transform=[0.36695957216752556, 0.6949119786223512, 0.6184157293941234, 4.503552014107191, 0.15578678458300826, -0.7013133752673104, 0.6956220435125176, -4.327006878915345, 0.9170993131302956, -0.15892416945977847, -0.3656117588613724, -7.375791493210592, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[0.3669595721674833, 0.6949119786222276, 0.6184157293940449, 4.503552014107196, 0.15578678458297945, -0.7013133752673146, 0.695622043512446, -4.327006878915346, 0.9170993131302382, -0.158924169459767, -0.3656117588611917, -7.3757914932105955, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[-0.2611816588703241, -0.9416591230474691, 0.2122786778071588, 4.1934354005537084, -0.9542162344183722, 0.21865059625644814, -0.20411588553866203, -6.323338223453691, 0.14579272630133758, -0.2558710861712107, -0.9556539479431709, 12.855198197249605, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[0.20667638488022033, 0.4623904858265982, -0.862252811273982, 1.6394958120495762, -0.5605022162697111, -0.6663828736414167, -0.49170227910203723, 1.58823640138199, -0.8019489618981891, 0.5849178611860292, 0.12144528881754008, -5.375898036595031, 0.0, 0.0, 0.0, 1.0]
+  origin candidates: geometry_one_transform=[0.36695957213533625, 0.6949119786393636, 0.6184157293941939, 4.502086668489896, 0.15578678461524714, -0.7013133752600528, 0.695622043512603, -4.328688281656865, 0.9170993131377114, -0.15892416941745086, -0.3656117588612418, -7.3814691377056505, 0.0, 0.0, 0.0, 1.0]; geometry_two_transform=[0.36695957213538855, 0.6949119786391653, 0.6184157293940566, 4.502086668489894, 0.1557867846153277, -0.7013133752601242, 0.6956220435124509, -4.328688281656863, 0.9170993131375853, -0.15892416941743642, -0.3656117588611622, -7.381469137705652, 0.0, 0.0, 0.0, 1.0]; occurrence_one_origin_transform=[-0.2611816588767719, -0.941659123037603, 0.21227867784320337, 4.197585310413756, -0.9542162344143073, 0.2186505962505281, -0.20411588556401367, -6.32338834194756, 0.1457927263165671, -0.25587108621268734, -0.9556539479297692, 12.85629005478858, 0.0, 0.0, 0.0, 1.0]; occurrence_two_origin_transform=[0.20667638488022033, 0.4623904858265982, -0.862252811273982, 1.6433110600115386, -0.5605022162697111, -0.6663828736414167, -0.49170227910203723, 1.5929698995768615, -0.8019489618981891, 0.5849178611860292, 0.12144528881754008, -5.376395909869274, 0.0, 0.0, 0.0, 1.0]
   selection reason: selected Fusion joint translation; link frame axes stay aligned with base_link
   warning: 
 
