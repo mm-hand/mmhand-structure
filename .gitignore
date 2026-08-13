@@ -1,3 +1,2 @@
-# COACD decomposition intermediates
+# COACD decomposition temporary directories
 **/.coacd_collision_*/
-**/collision_coacd/
